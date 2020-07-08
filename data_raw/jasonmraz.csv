@@ -1,0 +1,178 @@
+id,name,popularity,album.id,album.name,album.total_tracks,track_number,duration_ms,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+05Ysei8K5zQxvLRzHcEhhe,Look For The Good,54,1PuBipBX8qqeUN3FOPIexs,Look For The Good,12,1,309666,0.781,0.653,0,-7.999,1,0.0878,0.0247,0,0.262,0.789,90.069,4
+0FQJrnW7nH6P2LJsPk4aqX,Make Love,62,1PuBipBX8qqeUN3FOPIexs,Look For The Good,12,2,335773,0.83,0.698,4,-8.347,0,0.0612,0.0154,1.78e-6,0.155,0.886,81.998,4
+2BH2Qjvf22poDqGnlb9KXE,My Kind,49,1PuBipBX8qqeUN3FOPIexs,Look For The Good,12,3,296533,0.869,0.532,0,-7.467,0,0.12,0.109,0,0.117,0.788,112.939,4
+3ne0Sqo7td2CJLTcoL7nkj,Good Old Daze,48,1PuBipBX8qqeUN3FOPIexs,Look For The Good,12,4,251666,0.756,0.66,7,-7.614,1,0.0902,0.114,0,0.106,0.64,82.045,4
+6xiV47yRH51aQ9NArkAhRo,You Do You (feat. Tiffany Haddish),48,1PuBipBX8qqeUN3FOPIexs,Look For The Good,12,5,276120,0.792,0.718,2,-7.201,0,0.108,0.0628,0,0.304,0.814,84.032,4
+6uvF15oBfR7kQBzF27vCtS,Wise Woman,53,1PuBipBX8qqeUN3FOPIexs,Look For The Good,12,6,281546,0.716,0.614,6,-9.3,1,0.0462,0.065,2.99e-5,0.0914,0.679,93.012,4
+3d98fbYTncFxls9tTS9okZ,Take The Music,48,1PuBipBX8qqeUN3FOPIexs,Look For The Good,12,7,348106,0.852,0.667,4,-8.269,0,0.209,0.117,0,0.0397,0.703,138.014,4
+5If6DqwTCqU0TCXlDFZ8LZ,Time Out (feat. Sister Carol),47,1PuBipBX8qqeUN3FOPIexs,Look For The Good,12,8,310653,0.832,0.641,11,-8.502,0,0.0875,0.042,2.36e-6,0.244,0.912,143.901,4
+4qd5HRN3NkQNCGaDNjLN9D,DJ FM AM JJASON,46,1PuBipBX8qqeUN3FOPIexs,Look For The Good,12,9,265306,0.802,0.753,9,-7.489,0,0.0575,0.0396,0,0.0838,0.855,153.992,4
+6J9jvzKzgtuGDWwAGI1xlj,Hearing Double,46,1PuBipBX8qqeUN3FOPIexs,Look For The Good,12,10,184573,0.946,0.636,7,-7.978,1,0.0506,0.238,4.02e-5,0.0443,0.818,107.933,4
+7ocadgGlaAqR51viZ1PCvl,The Minute I Heard of Love,46,1PuBipBX8qqeUN3FOPIexs,Look For The Good,12,11,288373,0.811,0.599,9,-8.546,0,0.0581,0.0916,0.00116,0.0545,0.813,144.009,4
+0ovCdJZ9BUs16x84hmXmV3,Gratitude,46,1PuBipBX8qqeUN3FOPIexs,Look For The Good,12,12,417693,0.732,0.423,6,-10.562,1,0.095,0.185,3.69e-6,0.125,0.283,86.074,4
+3dglCYsVMjPbDlU2CC9Vq7,Let's See What The Night Can Do,61,7dwIWyB2jdJgL3P2JEgRKm,Know.,10,1,245186,0.392,0.423,7,-7.813,1,0.0348,0.27,0,0.117,0.288,113.537,4
+7BXW1QCg56yzEBV8pW8pah,Have It All,66,7dwIWyB2jdJgL3P2JEgRKm,Know.,10,2,226106,0.643,0.638,1,-4.947,0,0.0407,0.204,0,0.0707,0.6,82.001,4
+03VNgdCL9t8aPyvwZecglI,More Than Friends (feat. Meghan Trainor),59,7dwIWyB2jdJgL3P2JEgRKm,Know.,10,3,181360,0.451,0.528,2,-6.984,1,0.0364,0.366,0,0.0811,0.527,139.28,5
+7Igc6JB0xPDcn5yRkkVGQX,Unlonely,56,7dwIWyB2jdJgL3P2JEgRKm,Know.,10,4,231266,0.795,0.667,5,-4.831,0,0.0392,0.379,0,0.221,0.754,97.987,4
+2x7h2ABCBEifwpDgNOGHGm,Better With You,53,7dwIWyB2jdJgL3P2JEgRKm,Know.,10,5,161173,0.653,0.576,0,-7.993,1,0.0438,0.428,0,0.0889,0.417,99.042,4
+4Akic5cb5RHJrTdQZY7AfX,No Plans,51,7dwIWyB2jdJgL3P2JEgRKm,Know.,10,6,148000,0.491,0.304,9,-9.379,1,0.0291,0.5,0,0.0975,0.459,149.288,4
+1hdPZivB5TgYcBpgGcZfBR,Sleeping To Dream,51,7dwIWyB2jdJgL3P2JEgRKm,Know.,10,7,222040,0.566,0.559,2,-8.413,1,0.037,0.0537,0,0.119,0.486,81.997,4
+0nbrLkHXitxgkiJHjLjBIk,Making It Up,45,7dwIWyB2jdJgL3P2JEgRKm,Know.,10,8,172560,0.655,0.746,11,-5.598,0,0.0581,0.581,0,0.307,0.711,80.001,4
+0yZcjdT4KwNiWrjOAHLHtS,Might As Well Dance,50,7dwIWyB2jdJgL3P2JEgRKm,Know.,10,9,236013,0.561,0.775,2,-5.805,1,0.0372,0.428,7.97e-5,0.105,0.917,83.624,4
+6tfr6QF7ALjl7wRNCzNvJr,Love Is Still The Answer,51,7dwIWyB2jdJgL3P2JEgRKm,Know.,10,10,366453,0.252,0.461,2,-7.234,1,0.0332,0.0418,0.00623,0.119,0.122,177.508,3
+1jjb7XWqw42y8DRcE4NJva,Intro - Live from Spotify Sessions,0,22MrOvzmcn6WeE4v6Ua6dj,Spotify Sessions,6,1,18738,0.671,0.565,4,-16.323,0,0.927,0.684,0,0.918,0.969,60.015,4
+58zeyAW9ZLBq5yKJaF1mxj,Long Drive - Live from Spotify Sessions,31,22MrOvzmcn6WeE4v6Ua6dj,Spotify Sessions,6,2,389532,0.51,0.445,7,-11.21,1,0.523,0.596,0,0.26,0.317,66.04,4
+4AYIzS2zLYO3Wx6Zp9SCcP,Hello - Live from Spotify Sessions,30,22MrOvzmcn6WeE4v6Ua6dj,Spotify Sessions,6,3,458708,0.58,0.406,2,-12.147,0,0.653,0.655,0,0.636,0.245,134.579,4
+3LEb6ei46iIQ5zYIPFOAR4,Love Someone - Live from Spotify Sessions,32,22MrOvzmcn6WeE4v6Ua6dj,Spotify Sessions,6,4,421260,0.541,0.457,2,-11.906,1,0.468,0.486,0,0.27,0.342,97.07,4
+4hbGPfz03P8Nnh75mFIAoH,Lucky - Live from Spotify Sessions,43,22MrOvzmcn6WeE4v6Ua6dj,Spotify Sessions,6,5,391404,0.519,0.62,9,-8.156,0,0.151,0.657,0,0.679,0.285,100.137,4
+1j5cGcXWdHKTPQ2XgXODJI,I'm Yours - Live on HSN Live,56,22MrOvzmcn6WeE4v6Ua6dj,Spotify Sessions,6,6,243941,0.428,0.694,11,-8.455,1,0.0978,0.697,0,0.764,0.574,145.353,4
+1rDdFUQnX3fu7LFrrBgTOv,Rise,37,2bqksLEQxw80lhxXp6Xtcz,YES!,14,1,89013,0.0775,0.0145,2,-28.959,1,0.041,0.878,0.988,0.0955,0.0338,172.793,5
+4Bo6FwC7Oe9zywSZc6q7hO,Love Someone,60,2bqksLEQxw80lhxXp6Xtcz,YES!,14,2,256973,0.579,0.363,7,-14.185,1,0.0308,0.306,0.00692,0.111,0.0754,97.955,4
+6MLsEJgVs8sF7EHee5QqaM,"Hello, You Beautiful Thing",47,2bqksLEQxw80lhxXp6Xtcz,YES!,14,3,212586,0.708,0.457,2,-10.124,0,0.0376,0.542,0,0.0984,0.268,138.072,4
+28WClWvliFajAplluwtX2J,Long Drive,47,2bqksLEQxw80lhxXp6Xtcz,YES!,14,4,230746,0.53,0.578,7,-8.649,1,0.0342,0.199,3.12e-5,0.102,0.401,74.01,4
+7k0LaQRIj7D55B0qeWHOBW,Everywhere,36,2bqksLEQxw80lhxXp6Xtcz,YES!,14,5,204733,0.648,0.673,0,-9.447,1,0.0344,0.0463,5.7e-6,0.127,0.631,143.069,4
+2Ua5Nq3gQRPAJqnK8Nb8AQ,Best Friend,48,2bqksLEQxw80lhxXp6Xtcz,YES!,14,6,199640,0.6,0.434,7,-7.57,0,0.038,0.407,2.13e-5,0.113,0.637,170.193,4
+75pOOR8GRCA5vTNglnJGsH,Quiet,48,2bqksLEQxw80lhxXp6Xtcz,YES!,14,7,258720,0.596,0.408,0,-11.103,1,0.0404,0.641,0,0.0973,0.359,76.97,4
+44IHpoVtYEAPbolJGi5tn6,Out of My Hands,37,2bqksLEQxw80lhxXp6Xtcz,YES!,14,8,205026,0.661,0.679,10,-5.642,1,0.0274,0.327,2.35e-5,0.0713,0.67,144.112,4
+5flETcE0vCaNcbgcMy5AYY,It's So Hard to Say Goodbye to Yesterday,44,2bqksLEQxw80lhxXp6Xtcz,YES!,14,9,178600,0.355,0.194,4,-14.157,1,0.0374,0.774,0,0.11,0.116,73.955,3
+1As4s2KM4m0zT5dr9YT2lb,3 Things,47,2bqksLEQxw80lhxXp6Xtcz,YES!,14,10,174160,0.645,0.604,0,-8.749,1,0.0365,0.217,0,0.286,0.71,100.026,4
+6eWDAW2zeXjpYa14W7ADId,You Can Rely on Me,41,2bqksLEQxw80lhxXp6Xtcz,YES!,14,11,222386,0.603,0.544,7,-9.122,1,0.0385,0.439,2.84e-6,0.0819,0.411,147.997,4
+2BM8Bhx205sUOg8UwI55Sa,Back to the Earth,38,2bqksLEQxw80lhxXp6Xtcz,YES!,14,12,224853,0.606,0.607,7,-9.431,1,0.0466,0.418,0,0.082,0.64,152.105,4
+47rBFtvlQfdAgPrJJIuvGa,A World with You,36,2bqksLEQxw80lhxXp6Xtcz,YES!,14,13,279080,0.489,0.306,2,-13.233,1,0.034,0.875,3.12e-4,0.125,0.212,117.289,3
+0w9YwCZUh9boXADGk1tbu3,Shine,33,2bqksLEQxw80lhxXp6Xtcz,YES!,14,14,364400,0.6,0.502,7,-10.988,1,0.0353,0.451,0.0908,0.112,0.0712,140.082,4
+0cXfUG7uyPgW9PD1WsfOD8,The Freedom Song,45,7oD9oCCtFhg5RoLtMR5TKl,Love Is a Four Letter Word,13,1,239986,0.661,0.693,6,-7.562,0,0.058,0.0867,0,0.086,0.847,94.039,4
+395XDt5vt8DKguJDjGtYLU,Living in the Moment,50,7oD9oCCtFhg5RoLtMR5TKl,Love Is a Four Letter Word,13,2,235080,0.65,0.628,7,-7.16,1,0.0232,0.0482,0,0.119,0.699,84.14,4
+6Vn8lTVMjILXQCjZUXS8n4,The Woman I Love,49,7oD9oCCtFhg5RoLtMR5TKl,Love Is a Four Letter Word,13,3,190751,0.591,0.647,4,-8.34,1,0.0277,0.0682,6.72e-5,0.231,0.678,79.679,4
+5ivF4eQBqJiVL5IAE9jRyl,I Won't Give Up,69,7oD9oCCtFhg5RoLtMR5TKl,Love Is a Four Letter Word,13,4,240165,0.585,0.303,4,-10.058,1,0.0398,0.694,0,0.115,0.142,136.703,3
+3IEvXtg3l0ikYX0wzZmNHs,5/6,35,7oD9oCCtFhg5RoLtMR5TKl,Love Is a Four Letter Word,13,5,357213,0.467,0.614,5,-8.272,1,0.0404,0.161,1.9e-6,0.337,0.71,155.559,3
+0OShLqZ0kIrZeYA4M9Eelr,Everything Is Sound,40,7oD9oCCtFhg5RoLtMR5TKl,Love Is a Four Letter Word,13,6,285546,0.499,0.562,9,-8.238,1,0.0609,0.511,0,0.143,0.436,166.506,4
+38jy6kRlPt8z1GUS9WXeNh,93 Million Miles,66,7oD9oCCtFhg5RoLtMR5TKl,Love Is a Four Letter Word,13,7,216386,0.573,0.454,3,-10.286,1,0.0258,0.479,1.36e-5,0.0974,0.515,140.187,4
+1UJhSw5n44zThKBgWr7Es4,Frank D. Fixer,36,7oD9oCCtFhg5RoLtMR5TKl,Love Is a Four Letter Word,13,8,285160,0.662,0.667,7,-7.732,1,0.0293,0.108,1.05e-6,0.131,0.545,90.982,4
+10MItfqc2XgpchP0plPxOl,Who's Thinking About You Now?,36,7oD9oCCtFhg5RoLtMR5TKl,Love Is a Four Letter Word,13,9,287653,0.554,0.5,3,-10.572,0,0.0339,0.188,1.1e-5,0.113,0.301,144.229,4
+4eJg7tx4azOyQsSWCtkKB6,In Your Hands,35,7oD9oCCtFhg5RoLtMR5TKl,Love Is a Four Letter Word,13,10,291346,0.677,0.341,6,-14.562,1,0.035,0.77,6.17e-4,0.122,0.402,136.179,4
+5FLRDjcoOwVb6UocUoGhvj,Be Honest (feat. Inara George),48,7oD9oCCtFhg5RoLtMR5TKl,Love Is a Four Letter Word,13,11,205000,0.757,0.308,11,-13.66,0,0.0449,0.849,0,0.097,0.465,107.949,4
+6YQ5iUWQwGxetqHdJP1tNn,The World as I See It,45,7oD9oCCtFhg5RoLtMR5TKl,Love Is a Four Letter Word,13,12,239156,0.574,0.749,10,-7.011,1,0.0315,0.163,0,0.144,0.466,119.015,4
+3vaEUJwqNMJHuNJEeW3DGc,I'm Coming Over,34,7oD9oCCtFhg5RoLtMR5TKl,Love Is a Four Letter Word,13,13,269031,0.468,0.459,9,-12.188,1,0.029,0.349,0.0152,0.289,0.28,98.165,4
+6SDyzx5Jh8uMc8yTJ4DwSf,"Intro - Live at the Charter One Pavilion, Chicago, IL, 8/13/2009",0,3ZJCkMzqe5OzSkYMrCcuAs,Jason Mraz's Beautiful Mess: Live on Earth,16,1,5533,0,0.534,8,-6.306,1,0,0.553,0,0,0,0,0
+3OMt2ZECjauMe89NqByK8H,"Sunshine Song - Live at the Charter One Pavilion, Chicago, IL, 8/13/2009",33,3ZJCkMzqe5OzSkYMrCcuAs,Jason Mraz's Beautiful Mess: Live on Earth,16,2,310493,0.34,0.386,7,-10.146,1,0.0386,0.808,0,0.971,0.267,106.782,5
+43yC2ACkinYwJUVAhtfjdK,"Traveler / Make It Mine - Live at the Charter One Pavilion, Chicago, IL, 8/13/2009",44,3ZJCkMzqe5OzSkYMrCcuAs,Jason Mraz's Beautiful Mess: Live on Earth,16,3,274506,0.353,0.903,4,-3.087,0,0.11,0.0518,0,0.966,0.537,148.956,4
+1PJQS0VTLUdTlxNqGajqGM,"Anything You Want - Live at the Charter One Pavilion, Chicago, IL, 8/13/2009",31,3ZJCkMzqe5OzSkYMrCcuAs,Jason Mraz's Beautiful Mess: Live on Earth,16,4,264133,0.54,0.62,7,-5.79,1,0.0376,0.297,0,0.951,0.611,98.134,4
+3dNwY3KkwKnSeDvXnn4ySv,"Coyotes - Live at the Charter One Pavilion, Chicago, IL, 8/13/2009",30,3ZJCkMzqe5OzSkYMrCcuAs,Jason Mraz's Beautiful Mess: Live on Earth,16,5,250266,0.463,0.827,5,-4.07,0,0.0599,0.269,0,0.956,0.238,98.108,4
+1osY5Deh06ujI0oUNC0qjQ,"Live High - Live at the Charter One Pavilion, Chicago, IL, 8/13/2009",31,3ZJCkMzqe5OzSkYMrCcuAs,Jason Mraz's Beautiful Mess: Live on Earth,16,6,288693,0.382,0.728,9,-4.144,1,0.0492,0.118,0,0.991,0.353,77.73,4
+7cw2GaSOEg1VCwHlo6CYzk,"Only Human - Live at the Charter One Pavilion, Chicago, IL, 8/13/2009",28,3ZJCkMzqe5OzSkYMrCcuAs,Jason Mraz's Beautiful Mess: Live on Earth,16,7,290666,0.412,0.81,0,-3.521,1,0.0489,0.12,0,0.969,0.596,147.822,4
+6nRoGs2NWVeYO1pGSxoDLY,"The Remedy (I Won't Worry) - Live at the Charter One Pavilion, Chicago, IL, 8/13/2009",33,3ZJCkMzqe5OzSkYMrCcuAs,Jason Mraz's Beautiful Mess: Live on Earth,16,8,381640,0.497,0.882,7,-4.047,0,0.0658,0.0832,0,0.929,0.737,87.27,4
+1mqYfgGCRADYVJ7YzTKi8t,"The Dynamo of Volition - Live at the Charter One Pavilion, Chicago, IL, 8/13/2009",29,3ZJCkMzqe5OzSkYMrCcuAs,Jason Mraz's Beautiful Mess: Live on Earth,16,9,387426,0.479,0.947,11,-2.827,0,0.162,0.15,0,0.911,0.481,115.778,4
+5RFwH3iyUQKFWn6qF8kk5a,"A Beautiful Mess - Live at the Charter One Pavilion, Chicago, IL, 8/13/2009",33,3ZJCkMzqe5OzSkYMrCcuAs,Jason Mraz's Beautiful Mess: Live on Earth,16,10,510106,0.328,0.532,4,-5.329,1,0.0377,0.36,0,0.954,0.164,101.404,3
+3OGcceoTcTwRQjJmh1K5jF,"I'm Yours - Live at the Charter One Pavilion, Chicago, IL, 8/13/2009",49,3ZJCkMzqe5OzSkYMrCcuAs,Jason Mraz's Beautiful Mess: Live on Earth,16,11,312800,0.41,0.729,11,-4.464,1,0.0524,0.246,0,0.962,0.461,143.566,4
+7FMqPuhsyqfA65Mw0QgU1i,"Lucky (feat. Colbie Caillat) - Live at the Charter One Pavilion, Chicago, IL, 8/13/2009",37,3ZJCkMzqe5OzSkYMrCcuAs,Jason Mraz's Beautiful Mess: Live on Earth,16,12,200826,0.487,0.529,0,-6.74,1,0.0342,0.48,0,0.955,0.468,131.696,4
+5LNSYZlWrsOxwNRBb4tipL,"Copchase - Live at the Charter One Pavilion, Chicago, IL, 8/13/2009",28,3ZJCkMzqe5OzSkYMrCcuAs,Jason Mraz's Beautiful Mess: Live on Earth,16,13,296573,0.424,0.919,10,-3.421,0,0.096,0.0025,0.105,0.695,0.411,135.204,4
+7zV6lcEbkYnRIlztJR14hK,"All Night Long - Live at the Charter One Pavilion, Chicago, IL, 8/13/2009",35,3ZJCkMzqe5OzSkYMrCcuAs,Jason Mraz's Beautiful Mess: Live on Earth,16,14,298200,0.439,0.838,1,-4.014,1,0.0884,0.0987,0,0.921,0.593,108.515,4
+5OpLlRepZxc5LIS48Cfogg,"Butterfly - Live at the Charter One Pavilion, Chicago, IL, 8/13/2009",31,3ZJCkMzqe5OzSkYMrCcuAs,Jason Mraz's Beautiful Mess: Live on Earth,16,15,368933,0.42,0.917,10,-3.246,0,0.0972,0.122,0,0.972,0.562,109.591,4
+52BNavXSfm4ActDpFKTvl1,"The Boy's Gone - Live at the Charter One Pavilion, Chicago, IL, 8/13/2009",28,3ZJCkMzqe5OzSkYMrCcuAs,Jason Mraz's Beautiful Mess: Live on Earth,16,16,279066,0.639,0.203,4,-11.117,1,0.0322,0.733,0,0.098,0.233,113.805,4
+6UdhIn5jito25nOYZ5jWlA,Make It Mine,45,04G0YylSjvDQZrjOfE5jA5,We Sing. We Dance. We Steal Things.,12,1,187773,0.664,0.794,4,-5.198,0,0.0481,0.164,0,0.159,0.641,149.949,4
+1EzrEOXmMH3G43AXT1y7pA,I'm Yours,82,04G0YylSjvDQZrjOfE5jA5,We Sing. We Dance. We Steal Things.,12,2,242186,0.686,0.457,11,-8.322,1,0.0468,0.595,0,0.105,0.718,150.953,4
+0IktbUcnAGrvD03AWnz3Q8,Lucky,76,04G0YylSjvDQZrjOfE5jA5,We Sing. We Dance. We Steal Things.,12,3,191360,0.623,0.417,0,-8.699,1,0.0354,0.296,0,0.135,0.721,130.032,4
+7rrmHHc1kY9vkIZnXrcH7T,Butterfly,52,04G0YylSjvDQZrjOfE5jA5,We Sing. We Dance. We Steal Things.,12,4,299066,0.718,0.658,10,-7.207,0,0.0665,0.147,0,0.183,0.806,108.105,4
+0XIVmUXrwk0IjQEOWFnyn1,Live High,50,04G0YylSjvDQZrjOfE5jA5,We Sing. We Dance. We Steal Things.,12,5,254533,0.612,0.52,2,-9.665,1,0.0474,0.144,0,0.695,0.635,86.027,4
+5OJ5utPWQbBRmGOZ6HpxgO,Love for a Child,39,04G0YylSjvDQZrjOfE5jA5,We Sing. We Dance. We Steal Things.,12,6,244293,0.578,0.456,0,-8.865,0,0.0267,0.147,0,0.124,0.432,141.853,4
+7EvZucbeXRDEwT4cFpHEi8,Details in the Fabric (feat. James Morrison),51,04G0YylSjvDQZrjOfE5jA5,We Sing. We Dance. We Steal Things.,12,7,345706,0.538,0.338,3,-12.098,0,0.0282,0.755,5.68e-5,0.848,0.33,89.93,4
+6vPVvxt3QOORYL7EtoU80M,Coyotes,37,04G0YylSjvDQZrjOfE5jA5,We Sing. We Dance. We Steal Things.,12,8,218226,0.702,0.695,5,-8.782,0,0.0431,0.225,1.37e-4,0.0814,0.659,100.002,4
+0dJL53qS9Vc4hLONKPJ7tj,Only Human,37,04G0YylSjvDQZrjOfE5jA5,We Sing. We Dance. We Steal Things.,12,9,242693,0.714,0.42,0,-8.155,1,0.0667,0.323,1.49e-6,0.088,0.618,148.044,4
+2YFy7hG1A583BPZQ2SYdKd,The Dynamo of Volition,38,04G0YylSjvDQZrjOfE5jA5,We Sing. We Dance. We Steal Things.,12,10,216613,0.706,0.818,11,-7.844,0,0.0447,0.215,0,0.312,0.737,118.069,4
+5wfiaGgyuQcW2hvDy2NB5J,If It Kills Me,39,04G0YylSjvDQZrjOfE5jA5,We Sing. We Dance. We Steal Things.,12,11,273653,0.632,0.429,4,-6.784,0,0.0381,0.0448,0,0.132,0.521,143.795,4
+4HMVeqf1r9cH240Ann9sJ3,A Beautiful Mess,52,04G0YylSjvDQZrjOfE5jA5,We Sing. We Dance. We Steal Things.,12,12,337973,0.534,0.233,4,-12.055,1,0.0337,0.285,0,0.209,0.14,119.681,3
+5f6YuUUT5XI0e2Jh22Yrsy,Make It Mine,46,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,1,187773,0.664,0.794,4,-5.198,0,0.0481,0.164,0,0.159,0.641,149.949,4
+3S0OXQeoh0w6AY8WQVckRW,I'm Yours,72,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,2,242186,0.686,0.457,11,-8.322,1,0.0468,0.595,0,0.105,0.718,150.953,4
+2qLMf6TuEC3ruGJg4SMMN6,Lucky,66,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,3,191360,0.623,0.417,0,-8.699,1,0.0354,0.296,0,0.135,0.721,130.032,4
+095eK5hacN4Y9r7k8TyJ1B,Butterfly,45,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,4,299066,0.718,0.658,10,-7.207,0,0.0665,0.147,0,0.183,0.806,108.105,4
+7M2qyNIe1MQoZBkxNGg7Fh,Live High,41,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,5,254533,0.612,0.52,2,-9.665,1,0.0474,0.144,0,0.695,0.635,86.027,4
+1Qvuj9WloHBRn7FRoCXepE,Love for a Child,39,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,6,244293,0.578,0.456,0,-8.865,0,0.0267,0.147,0,0.124,0.432,141.853,4
+3tpa0xZodDk9jmEKiio1Jb,Details in the Fabric (feat. James Morrison),42,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,7,345706,0.538,0.338,3,-12.098,0,0.0282,0.755,5.68e-5,0.848,0.33,89.93,4
+1BWznhHZPGriEWStDgmjai,Coyotes,36,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,8,218226,0.702,0.695,5,-8.782,0,0.0431,0.225,1.37e-4,0.0814,0.659,100.002,4
+7Ajbt9UQ50yQ0fpFG5hj13,Only Human,35,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,9,242693,0.714,0.42,0,-8.155,1,0.0667,0.323,1.49e-6,0.088,0.618,148.044,4
+40kxsbln77BpIcTtEUCVQF,The Dynamo of Volition,36,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,10,216613,0.706,0.818,11,-7.844,0,0.0447,0.215,0,0.312,0.737,118.069,4
+4b3sAxlH3wN8fdfXERRGWj,If It Kills Me,37,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,11,273653,0.632,0.429,4,-6.784,0,0.0381,0.0448,0,0.132,0.521,143.795,4
+6MevqVHN7ZhPHza4dyW5XT,A Beautiful Mess,43,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,12,337973,0.534,0.233,4,-12.055,1,0.0337,0.285,0,0.209,0.14,119.681,3
+384ft9nYgu5fpnbeSMXkMo,I'm Yours - From the Casa Nova Sessions,48,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,13,287093,0.518,0.208,9,-10.253,1,0.0358,0.9,0,0.0963,0.517,140.99,4
+7aKiTB0GHIxQ6FzSd42cVp,A Beautiful Mess - From the Raining Jane Sessions,34,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,14,317133,0.678,0.218,4,-10.165,1,0.0369,0.65,0,0.202,0.239,119.785,3
+5EShFPc0rLTHE2NaXlDume,Live High - From the Avocado Salad Sessions,33,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,15,241813,0.79,0.314,9,-11.023,1,0.0918,0.772,0,0.318,0.831,86.069,4
+4oMM5SNyReTkWxkFS6CJBN,If It Kills Me - From the Casa Nova Sessions,34,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,16,300653,0.608,0.271,2,-7.186,1,0.0455,0.599,0,0.113,0.318,138.169,4
+6VOlbywGMxBZ7fIlIlNhVQ,Make It Mine - From the Casa Nova Sessions,33,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,17,203293,0.789,0.381,7,-8.754,1,0.0998,0.414,0,0.11,0.456,138.073,4
+4x3lPTB6wzpwA32liJXO67,Butterfly - From the Casa Nova Sessions,33,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,18,310653,0.682,0.395,5,-10.188,0,0.113,0.696,0,0.113,0.625,105.912,4
+3SilXXlKcKTxdIW1jSAfss,Only Human - From the Casa Nova Sessions,29,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,19,287000,0.637,0.41,9,-8.78,0,0.0326,0.625,1.91e-6,0.105,0.21,141.067,4
+2FiHYjZn3IMbkPCnhcyBqT,The Dynamo of Volition - From the All Night Sessions,29,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,20,263000,0.692,0.335,11,-12.709,0,0.0816,0.63,0,0.107,0.472,117.921,4
+4mAIfqhdsleDmcrA2FGZkj,Love for a Child - From the Casa Nova Sessions,29,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,21,233626,0.575,0.161,11,-12.284,0,0.0453,0.9,0,0.0906,0.515,137.513,4
+4bx7VFuRSNrH1f2x2zZal2,Coyotes - From For a Girl in New York Sessions,29,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,22,259986,0.726,0.432,5,-10.674,0,0.237,0.725,0,0.156,0.125,98.852,4
+2lxeD9NPeddR6LI5bmGfQw,Man Gave Names to All the Animals - From the Gospel Collection Sessions,30,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,23,258160,0.83,0.444,4,-12.578,1,0.116,0.249,0,0.0482,0.667,95.975,4
+6HsL3NT4niSrf4wvG0Mbwn,Mudhouse / Gypsy MC - Live in Amsterdam,30,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,24,419853,0.637,0.738,4,-9.479,0,0.182,0.555,0,0.838,0.664,102.415,4
+2eA84oI2fHVrddTBEcMYR9,Make It Mine - Live,29,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,25,210212,0.65,0.417,4,-12.79,0,0.391,0.779,0,0.777,0.588,150.36,4
+3Da88gQb83dmuNi5kdSlgy,Life Is Wonderful - Live in Amsterdam,33,1UwzOp5hn3lAbOqsAfXBw8,We Sing. We Dance. We Steal Things.,26,26,275330,0.361,0.312,11,-13.247,1,0.0402,0.836,0,0.957,0.495,182.948,4
+6gOxKOdSzyGiH2kvyppJ9i,Running,27,1xT5AJ90okXtEV70jLkXNY,Jason Mraz Live & Acoustic 2001,15,1,399093,0.584,0.251,6,-13.038,1,0.113,0.79,0,0.122,0.41,106.488,4
+4ZBVkrDINAd9aprURGHhav,Did I Fool Ya?,27,1xT5AJ90okXtEV70jLkXNY,Jason Mraz Live & Acoustic 2001,15,2,282706,0.711,0.485,5,-9.723,0,0.058,0.836,8.08e-4,0.486,0.805,98.673,4
+2OK0Jbl2kcEkDf221aWBWB,Little You & I,27,1xT5AJ90okXtEV70jLkXNY,Jason Mraz Live & Acoustic 2001,15,3,337466,0.613,0.353,7,-10.339,1,0.0797,0.747,7.65e-5,0.596,0.36,142.946,4
+70ihkWuXHvsWs1a2NByYJ8,You & I Both,42,1xT5AJ90okXtEV70jLkXNY,Jason Mraz Live & Acoustic 2001,15,4,213893,0.597,0.345,7,-10.405,1,0.0549,0.789,0,0.629,0.391,108.454,4
+4UYNHzyxCeOm2N6Yuq75yu,1000 Things,44,1xT5AJ90okXtEV70jLkXNY,Jason Mraz Live & Acoustic 2001,15,5,212773,0.638,0.494,7,-10.48,1,0.155,0.836,2.15e-4,0.687,0.467,108.244,4
+0XPSu5jU5KwV6tsyf63FJt,Unfold,44,1xT5AJ90okXtEV70jLkXNY,Jason Mraz Live & Acoustic 2001,15,6,215400,0.682,0.37,4,-9.832,1,0.0432,0.812,2.96e-6,0.455,0.477,112.13,4
+5Oo3keOfcfPcZ9XdbxEPjT,Dream Life of Rand McNally,28,1xT5AJ90okXtEV70jLkXNY,Jason Mraz Live & Acoustic 2001,15,7,555093,0.808,0.489,11,-10.792,1,0.0599,0.792,4.76e-5,0.694,0.685,112.568,4
+7jIOfVSTZWb2Qvr9KhA4r1,Halfway Home,28,1xT5AJ90okXtEV70jLkXNY,Jason Mraz Live & Acoustic 2001,15,8,286173,0.506,0.134,6,-12.107,0,0.0493,0.829,0,0.402,0.122,118.848,4
+44LLC68TBQfZ88u3FoRFYO,Bright Eyes,26,1xT5AJ90okXtEV70jLkXNY,Jason Mraz Live & Acoustic 2001,15,9,237293,0.521,0.107,0,-12.69,1,0.0417,0.864,0,0.367,0.334,96.658,4
+1jCNZGXATpwbQPmK4090x8,After an Afternoon,27,1xT5AJ90okXtEV70jLkXNY,Jason Mraz Live & Acoustic 2001,15,10,193373,0.554,0.141,9,-14.686,1,0.084,0.881,4.92e-6,0.65,0.296,137.632,5
+1kk0Zd9QipIB9kAlWt8LzU,Conversation With Myself,25,1xT5AJ90okXtEV70jLkXNY,Jason Mraz Live & Acoustic 2001,15,11,358266,0.677,0.418,6,-12.133,0,0.0612,0.797,4.53e-5,0.687,0.67,108.779,4
+4OjosZevoISsNKOEmD1Sj8,Common Pleasure,24,1xT5AJ90okXtEV70jLkXNY,Jason Mraz Live & Acoustic 2001,15,12,233066,0.638,0.551,5,-11.235,1,0.0621,0.834,6.17e-5,0.212,0.807,121.889,4
+67Bzf8n42MXKB6D5qvWDaX,Zero Percent,28,1xT5AJ90okXtEV70jLkXNY,Jason Mraz Live & Acoustic 2001,15,13,431293,0.775,0.453,5,-11.373,1,0.0739,0.75,0,0.633,0.813,113.63,4
+3CAE5IACqVRPQRCxsl1qFs,At Last/ Sleep All Day,27,1xT5AJ90okXtEV70jLkXNY,Jason Mraz Live & Acoustic 2001,15,14,425733,0.562,0.377,11,-11.475,0,0.0791,0.79,0,0.703,0.512,104.695,4
+6yyQumU5oO0m7mWIqU907u,Hey Love,28,1xT5AJ90okXtEV70jLkXNY,Jason Mraz Live & Acoustic 2001,15,15,285773,0.681,0.18,3,-16.575,0,0.0381,0.861,6.53e-4,0.0974,0.246,113.581,4
+09WJqO0Un8WjnfXYgvdKwA,Welcome to Schubas - Medley,20,1yN7lmtDbJYWkblSBLoAXA,Selections for Friends,14,1,2054800,0.479,0.374,6,-10.165,0,0.0439,0.809,0,0.982,0.416,98.41,4
+393tM6FFkxhkZOqJBGWr4H,"Did You Get My Message? - Audience Rehearsal; Live at Schubas Tavern, Chicago, IL, 2006",17,1yN7lmtDbJYWkblSBLoAXA,Selections for Friends,14,2,334680,0.496,0.527,11,-12.339,1,0.499,0.753,4.57e-6,0.844,0.409,89.186,4
+7H0pYa3WsOFj1SfePD6R5G,"Did You Get My Message? - Live at Schubas Tavern, Chicago, IL, 2006",20,1yN7lmtDbJYWkblSBLoAXA,Selections for Friends,14,3,336440,0.43,0.525,6,-9.533,1,0.163,0.781,0,0.479,0.704,86.805,4
+1GiFW1ghSjlhHZclCU23Hy,"Snakes in Schubas - Live at Schubas Tavern, Chicago, IL, 2006",15,1yN7lmtDbJYWkblSBLoAXA,Selections for Friends,14,4,79506,0.374,0.746,9,-12.893,1,0.9,0.721,3.34e-5,0.713,0.261,152.712,5
+4ndj87Tz0QE8ECxcqsovla,Childlike Wildlike - Live,21,1yN7lmtDbJYWkblSBLoAXA,Selections for Friends,14,5,312493,0.573,0.287,1,-12.07,0,0.0622,0.829,3.22e-6,0.699,0.658,116.952,4
+6ZXCYyeFEE41bxIXHxR8HR,"Older Lover Undercover - Live at Montalvo Arts Center, Saratoga, CA, 2006",19,1yN7lmtDbJYWkblSBLoAXA,Selections for Friends,14,6,316520,0.503,0.586,10,-10.59,1,0.115,0.754,3.48e-5,0.969,0.357,109.998,4
+5m69QONwsVBOYJAeQrjI2t,"Sleeping to Dream - Live at Montalvo Arts Center, Saratoga, CA, 2006",26,1yN7lmtDbJYWkblSBLoAXA,Selections for Friends,14,7,257000,0.504,0.286,2,-11.328,1,0.0318,0.771,0,0.757,0.224,81.434,4
+0PSpPABGFLN4D9Iqa46CQj,God Rests in Reason - Live,20,1yN7lmtDbJYWkblSBLoAXA,Selections for Friends,14,8,291066,0.331,0.28,2,-11.887,1,0.0299,0.813,5.97e-5,0.772,0.151,104.829,4
+5y4N2KP9c3amtXlfxplF1s,"Life Is Wonderful - Live at Montalvo Arts Center, Saratoga, CA, 2006",24,1yN7lmtDbJYWkblSBLoAXA,Selections for Friends,14,9,251640,0.538,0.319,8,-11.1,0,0.0292,0.644,0,0.708,0.198,89.119,4
+2U80PsQHnfb2svAHIXqWsE,"Did You Get My Message? - Live at Montalvo Arts Center, Saratoga, CA, 2006",18,1yN7lmtDbJYWkblSBLoAXA,Selections for Friends,14,10,266626,0.384,0.727,1,-8.361,1,0.0677,0.5,0,0.838,0.421,168.121,4
+14dkXCyDuMbZXmmWYoVITx,"Please Don't Tell Her - Live at Montalvo Arts Center, Saratoga, CA, 2006",22,1yN7lmtDbJYWkblSBLoAXA,Selections for Friends,14,11,324320,0.341,0.465,4,-8.987,1,0.0307,0.423,0,0.788,0.142,78.889,4
+3mEErzqUg8exSpHrSPYxgk,"Song for a Friend - Live at Montalvo Arts Center, Saratoga, CA, 2006",21,1yN7lmtDbJYWkblSBLoAXA,Selections for Friends,14,12,740480,0.336,0.512,11,-10.912,0,0.0641,0.527,2.24e-5,0.705,0.242,86.492,4
+3HqfbuwqUIrnI8u9PGQ3os,"10,000 Motherfuckers - Live at Montalvo Arts Center, Saratoga, CA, 2006",22,1yN7lmtDbJYWkblSBLoAXA,Selections for Friends,14,13,454066,0.462,0.149,2,-12.73,0,0.0327,0.843,0,0.709,0.156,126.848,4
+3YEP82U6YK6ZDZlvaZjINZ,The Beauty in Ugly - Ugly Betty Version,21,1yN7lmtDbJYWkblSBLoAXA,Selections for Friends,14,14,150372,0.602,0.726,9,-6.739,0,0.0979,0.114,0,0.178,0.764,87.437,4
+4MW6iAySicumcMCbScZPCG,Life Is Wonderful,49,0swM8EuQkgYV2knrZ8rFl2,Mr. A-Z,12,1,260466,0.611,0.409,8,-9.286,0,0.0318,0.156,0,0.0496,0.394,97.944,4
+3qBaCCsAJGkSJc8XBui6Mp,Wordplay,49,0swM8EuQkgYV2knrZ8rFl2,Mr. A-Z,12,2,186506,0.464,0.877,7,-3.793,1,0.0499,0.192,0,0.1,0.512,176.662,4
+2MMRWb4gn8mwpK5RLlPtl5,Geek in the Pink,50,0swM8EuQkgYV2knrZ8rFl2,Mr. A-Z,12,3,235506,0.665,0.749,10,-4.43,0,0.0776,0.374,0,0.0375,0.897,91.822,4
+4OI0mQIFAvlHFm2PPSOG0R,Did You Get My Message?,36,0swM8EuQkgYV2knrZ8rFl2,Mr. A-Z,12,4,240506,0.531,0.75,1,-4.985,1,0.0466,0.434,0,0.0924,0.652,170.366,4
+7MxhtoiYMmro4VyBzUFm0P,Mr. Curiosity,46,0swM8EuQkgYV2knrZ8rFl2,Mr. A-Z,12,5,235026,0.558,0.216,10,-12.373,1,0.0446,0.968,1.22e-6,0.0958,0.211,95.907,3
+2pcjTYxIwNWiwMiOB3nnal,Clockwatching,33,0swM8EuQkgYV2knrZ8rFl2,Mr. A-Z,12,6,263466,0.624,0.709,7,-6.564,1,0.0531,0.107,3.51e-6,0.113,0.674,145.993,4
+01pgHbtziFmLnaIdTbz3FK,Bella Luna,50,0swM8EuQkgYV2knrZ8rFl2,Mr. A-Z,12,7,302346,0.755,0.454,9,-9.609,0,0.0352,0.757,0,0.236,0.331,120.06,4
+5N2WULg6bU9oDNJHVwvZS1,Plane,45,0swM8EuQkgYV2knrZ8rFl2,Mr. A-Z,12,8,313946,0.608,0.448,6,-6.909,1,0.038,0.631,0,0.114,0.338,119.876,4
+0RTtWFIcKYOlT9Ad7bm1kR,O. Lover,31,0swM8EuQkgYV2knrZ8rFl2,Mr. A-Z,12,9,234760,0.722,0.867,11,-5.062,0,0.0499,0.234,0,0.245,0.676,124.957,4
+3ufmwOhsjryZnCIAc0ZEjC,Please Don't Tell Her,34,0swM8EuQkgYV2knrZ8rFl2,Mr. A-Z,12,10,277853,0.575,0.59,4,-6.909,1,0.0429,0.407,0,0.13,0.18,81.036,4
+6uhqrrrgiOrWL2jNoc2KV3,The Forecast,29,0swM8EuQkgYV2knrZ8rFl2,Mr. A-Z,12,11,225200,0.503,0.466,5,-11.358,1,0.0295,0.516,1.27e-4,0.105,0.44,128.094,5
+7CiEBRYU9Yv6MD1TPZQpWj,Song for a Friend,35,0swM8EuQkgYV2knrZ8rFl2,Mr. A-Z,12,12,488093,0.404,0.467,11,-8.392,0,0.0359,0.61,8.2e-6,0.109,0.286,89.191,4
+1hVFJYGG0f81LRxqKyJssT,"Tonight, Not Again - Live at the Eagles Ballroom, Milwaukee, WI, 10/28/2003",22,4JLRwvuD8BkYldvvPDJELW,"Tonight, Not Again: Jason Mraz Live at the Eagles Ballroom",15,1,475893,0.156,0.766,3,-6.552,1,0.0694,0.36,9.95e-6,0.971,0.196,53.76,4
+3X7lLRlTXL9u4flu5D7bTo,"Not so Usual - Live at the Eagles Ballroom, Milwaukee, WI, 10/28/2003",24,4JLRwvuD8BkYldvvPDJELW,"Tonight, Not Again: Jason Mraz Live at the Eagles Ballroom",15,2,213706,0.339,0.832,4,-5.188,0,0.0717,0.126,0,0.933,0.515,202.013,4
+36tgkinADDs5k9vjygXR9k,"Dialogue - Live at the Eagles Ballroom, Milwaukee, WI, 10/28/2003",18,4JLRwvuD8BkYldvvPDJELW,"Tonight, Not Again: Jason Mraz Live at the Eagles Ballroom",15,3,52693,0.331,0.893,7,-8.522,1,0.824,0.877,0,0.927,0.153,84.947,4
+4Z9RrdTNfFBhHOtdDSf1Nm,"No Doubling Back - Live at the Eagles Ballroom, Milwaukee, WI, 10/28/2003",23,4JLRwvuD8BkYldvvPDJELW,"Tonight, Not Again: Jason Mraz Live at the Eagles Ballroom",15,4,270306,0.444,0.849,9,-6.602,1,0.0502,0.634,7.08e-6,0.942,0.164,115.251,4
+3jH92uUHDEPQfjfQKYErj1,"You and I Both - Live at the Eagles Ballroom, Milwaukee, WI, 10/28/2003",30,4JLRwvuD8BkYldvvPDJELW,"Tonight, Not Again: Jason Mraz Live at the Eagles Ballroom",15,5,219400,0.344,0.798,7,-6.305,1,0.0394,0.612,0,0.988,0.457,103.585,4
+0man2fi5YqmLzEIzc1zzUK,"Absolutely Zero - Live at the Eagles Ballroom, Milwaukee, WI, 10/28/2003",22,4JLRwvuD8BkYldvvPDJELW,"Tonight, Not Again: Jason Mraz Live at the Eagles Ballroom",15,6,375000,0.343,0.554,5,-6.228,1,0.0314,0.659,0,0.969,0.148,130.458,4
+6jVfR41eB6iCp2MnGgxDex,"1,000 Things - Live at the Eagles Ballroom, Milwaukee, WI, 10/28/2003",23,4JLRwvuD8BkYldvvPDJELW,"Tonight, Not Again: Jason Mraz Live at the Eagles Ballroom",15,7,250600,0.256,0.773,7,-6.792,1,0.0487,0.705,5.16e-6,0.961,0.35,101.009,4
+3IdJQNgSGRR9RSuyU8elU6,"Common Pleasure - Live at the Eagles Ballroom, Milwaukee, WI, 10/28/2003",20,4JLRwvuD8BkYldvvPDJELW,"Tonight, Not Again: Jason Mraz Live at the Eagles Ballroom",15,8,318800,0.437,0.932,7,-5.339,0,0.0745,0.201,2.45e-6,0.835,0.466,123.417,4
+6687oL9h4f22w8mX1XBrF8,Curbside Prophet - Live,23,4JLRwvuD8BkYldvvPDJELW,"Tonight, Not Again: Jason Mraz Live at the Eagles Ballroom",15,9,313360,0.488,0.922,0,-4.732,1,0.0979,0.207,0,0.981,0.607,96.217,4
+25dc7wKgV1HyHIKG3frcme,"Sleeping to Dream - Live at the Eagles Ballroom, Milwaukee, WI, 10/28/2003",44,4JLRwvuD8BkYldvvPDJELW,"Tonight, Not Again: Jason Mraz Live at the Eagles Ballroom",15,10,253200,0.263,0.5,2,-8.759,1,0.0355,0.701,0,0.986,0.195,168.129,4
+1lYaDA4d43jJ6cllLiAI3t,"Unfold - Live at the Eagles Ballroom, Milwaukee, WI, 10/28/2003",24,4JLRwvuD8BkYldvvPDJELW,"Tonight, Not Again: Jason Mraz Live at the Eagles Ballroom",15,11,508640,0.416,0.769,6,-6.358,0,0.0392,0.367,1.94e-4,0.977,0.287,108.982,4
+2xADcO9PNYl9nZSiLVeAea,"No Stopping Us - Live at the Eagles Ballroom, Milwaukee, WI, 10/28/2003",21,4JLRwvuD8BkYldvvPDJELW,"Tonight, Not Again: Jason Mraz Live at the Eagles Ballroom",15,12,369933,0.377,0.874,1,-4.28,1,0.0815,0.186,0,0.976,0.344,118.939,4
+6KwJvvGEAAGZqI3QyOdAJc,"The Remedy (I Won't Worry) - Live at the Eagles Ballroom, Milwaukee, WI, 10/28/2003",27,4JLRwvuD8BkYldvvPDJELW,"Tonight, Not Again: Jason Mraz Live at the Eagles Ballroom",15,13,219466,0.477,0.94,10,-4.445,1,0.0718,0.348,0,0.97,0.466,105.109,4
+0hDtUCLrRjaLlUTW3jL2BM,"After an Afternoon - Live at the Eagles Ballroom, Milwaukee, WI, 10/28/2003",21,4JLRwvuD8BkYldvvPDJELW,"Tonight, Not Again: Jason Mraz Live at the Eagles Ballroom",15,14,226533,0.325,0.34,9,-11.951,1,0.0447,0.839,0,0.977,0.435,129.7,3
+3CqUvq23J0XH8SrlMJg5rB,"Too Much Food - Live at the Eagles Ballroom, Milwaukee, WI, 10/28/2003",19,4JLRwvuD8BkYldvvPDJELW,"Tonight, Not Again: Jason Mraz Live at the Eagles Ballroom",15,15,371360,0.307,0.974,9,-4.174,1,0.199,0.22,0,0.978,0.382,107.843,4
+2mKjs6s0Z1imKKb6gOk628,You and I Both,58,6I9GBueBmRdHdDQjbL7El1,Waiting for My Rocket to Come,12,1,220173,0.61,0.784,7,-7.469,1,0.0473,0.177,0,0.36,0.698,98.97,4
+0hK8yn7I0oqrqXljVVGPla,I'll Do Anything,45,6I9GBueBmRdHdDQjbL7El1,Waiting for My Rocket to Come,12,2,191889,0.57,0.711,9,-4.156,1,0.0701,0.119,0,0.352,0.649,163.129,4
+4tK4ARuilOrBzwVQK73E0Y,The Remedy (I Won't Worry),61,6I9GBueBmRdHdDQjbL7El1,Waiting for My Rocket to Come,12,3,256440,0.589,0.867,10,-4.523,1,0.0385,0.04,0,0.306,0.795,94.519,4
+5ao7iGf2HhRta6E7xFAQxW,Who Needs Shelter,33,6I9GBueBmRdHdDQjbL7El1,Waiting for My Rocket to Come,12,4,192260,0.483,0.569,6,-7.866,0,0.0301,0.597,2.18e-6,0.218,0.264,142.426,4
+3FKp7QAJoLHPsywOp6UvMH,Curbside Prophet,47,6I9GBueBmRdHdDQjbL7El1,Waiting for My Rocket to Come,12,5,214552,0.62,0.793,5,-5.964,1,0.066,0.258,0,0.0828,0.893,177.996,4
+0Lvb5I6rWUSPoQSZ3u9eL8,Sleep All Day,48,6I9GBueBmRdHdDQjbL7El1,Waiting for My Rocket to Come,12,6,296843,0.616,0.811,2,-6.51,1,0.0671,0.367,0,0.107,0.793,97.984,4
+6e6Ut2zlAbzWGu7ALEXjoi,Too Much Food,31,6I9GBueBmRdHdDQjbL7El1,Waiting for My Rocket to Come,12,7,221425,0.627,0.925,2,-4.441,1,0.0476,0.0271,0,0.159,0.55,99.992,4
+34biZPd8KseS4RO4aNvPAP,Absolutely Zero,32,6I9GBueBmRdHdDQjbL7El1,Waiting for My Rocket to Come,12,8,339196,0.519,0.497,5,-7.749,1,0.027,0.129,0,0.296,0.115,135.06,4
+2qGMq8rhfgyVZ3ScVLJ3pL,"On Love, in Sadness",31,6I9GBueBmRdHdDQjbL7El1,Waiting for My Rocket to Come,12,9,208793,0.56,0.832,9,-5.595,1,0.0353,0.108,0,0.232,0.802,100.96,4
+05aOhqraGCEElAG5vvAtN5,No Stopping Us,32,6I9GBueBmRdHdDQjbL7El1,Waiting for My Rocket to Come,12,10,198855,0.646,0.836,1,-6.203,1,0.0327,0.301,3.23e-5,0.29,0.727,105.992,4
+3yehL1CJJzTSzjO9aarWuS,The Boy's Gone,29,6I9GBueBmRdHdDQjbL7El1,Waiting for My Rocket to Come,12,11,255047,0.686,0.556,1,-8.5,0,0.0271,0.532,0,0.0922,0.36,113.007,4
+1rYaazf0a17MQIdUgTB6DQ,"Tonight, Not Again",28,6I9GBueBmRdHdDQjbL7El1,Waiting for My Rocket to Come,12,12,289041,0.613,0.805,8,-7.925,1,0.0518,0.0167,1.04e-5,0.0691,0.356,102.449,4

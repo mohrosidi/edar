@@ -1,0 +1,75 @@
+---
+title: "Analisis Data Eksploratif Dataset Gapminder"
+author: "Moh. Rosidi"
+date: "7/8/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Analisis Data Eksploratif
+
+Analisis data eksploratif (*exploratory data analysis* - EDA) merupakan metode eksplorasi data dengan menggunakan teknik aritmatika sederhana dan teknik grafis dalam meringkas data pengamatan.
+
+EDA bukanlah proses formal dengan seperangkat aturan yang ketat. Lebih dari segalanya, EDA adalah *state of mind*. Selama fase awal EDA Anda harus merasa bebas untuk menyelidiki setiap ide yang ada dalam pikiran kita. Beberapa pertanyaan kita selama proses ini dapat membuahkan hasil (menghasilkan *insight*) dan bahkan ada yang gagal atau tidak terjawab. Saat penjelajahan kita berlanjut, kita akan menemukan beberapa area khusus yang pada akhirnya akan kita laporkan dan komunikasikan dengan orang lain.
+
+EDA adalah bagian penting dari setiap analisis data, bahkan jika pertanyaan diserahkan kepada kita di atas kertas, karena kita selalu perlu menyelidiki kualitas data kita Pembersihan data hanyalah salah satu aplikasi EDA: kita mengajukan pertanyaan tentang apakah data kita memenuhi harapan kita atau tidak. 
+
+Terdapat 2 pertanyaan utama yang perlu dijawab dalam proses EDA, yaitu:
+
+1. Jenis variasi apa yang terjadi dalam variabel saya?, dan
+2. Jenis variasi apa yang terjadi dalam variabel saya.
+
+Selain 2 pertanyaan tersebut, kita dapat pula menambahkan pertanyaan lain ], seperti:
+
+1. Apakah terdapat kolom data yang tidak sesuai?,
+2. Apakah terdapat data hilang (*missing value*) pada data kita?, dll.
+
+Dengan melakukan proses EDA ini diharapkan kita memperoleh gambaran data dan model yang sesuai untuk analisis data tersebut.
+
+# Dataset Gapminder
+
+Pada artikel ini, kita akan melakukan analisis eksploratif pada dataset `Gapminder`. `Gapminder`  merupakan kutipan dataset tentang usia harapan hidup, PDB per kapita, dan populasi menurut negara dan benua.
+
+Kolom-kolom pada dataset tersebut, antara lain:
+
+* `country` : nama negara
+*  `continent` : nama benua
+* `year` : tahun dengan rentang 1952 sampai dengan 2007 dengan retang pengukuran tiap 5 tahun
+* `lifeExp` : angka harapan hidup dalam satuan `tahun`
+* `pop` : populasi
+* `gdpPercap` : pendapatan domestik bruto per kapita dalam satuan `US$`
+
+
+# Persiapan {.tabset}
+
+## Library
+
+```{r, message=FALSE, warning=FALSE}
+if(!require(tidyverse)) install.packages("tidyverse")
+if(!require(skimr)) install.packages("skimr")
+if(!require(DataExplorer)) install.packages("DataExplorer")
+
+library(tidyverse)
+library(skimr)
+library(DataExplorer)
+```
+
+Terdapat tiga buah *library* yang diperlukan dalam tutorial ini, antara lain:
+
+1. `tidyverse` : koleksi paket R yang dirancang untuk ilmu data. Semua paket berbagi filosofi desain, tata bahasa, dan struktur data yang mendasarinya.
+2. `skimr` : menyediakan fungsi untuk membuat ringkasan data yang dapat dibaca secara cepat.
+3. `DataExplorer` : menyediakan fungsi yang dapat membantu proses otomasi analisis data eksploratif
+
+## Import Dataset
+
+```{r}
+gapminder <- read_csv("")
+```
+
+
+
+
+

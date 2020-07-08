@@ -1,0 +1,331 @@
+id,name,popularity,album.id,album.name,album.total_tracks,track_number,duration_ms,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+3I1JTx525DKElzlTYOBfZN,Best 4 U,54,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,1,239751,0.526,0.608,10,-5.776,0,0.169,0.127,0,0.113,0.372,93.311,4
+0GxQ1A5L9xnMOytbP6eKBG,What Lovers Do (feat. SZA),74,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,2,199849,0.799,0.597,5,-5.131,0,0.0611,0.0788,5.66e-6,0.1,0.419,110.001,4
+3T9CfDxFYqZWSKxd0BhZrb,Wait,64,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,3,190642,0.655,0.603,8,-5.014,1,0.0555,0.0959,0,0.107,0.452,126.088,4
+6SEBdRAW54AFwa8spgf0Ws,Lips On You,58,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,4,216930,0.652,0.555,9,-6.608,1,0.032,0.137,2.18e-5,0.09,0.107,103.043,4
+0RqTAf0gX3pXAJYAbYRDqA,Bet My Heart,54,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,5,196120,0.759,0.604,8,-6.663,0,0.051,0.141,0,0.149,0.418,121.096,4
+2C1Bhc9B8VoatLK71jcqpU,Help Me Out (with Julia Michaels),55,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,6,193603,0.934,0.564,11,-4.806,1,0.0638,0.461,1.84e-5,0.101,0.543,115.092,4
+4Uh8KTB8uLWfNe33e85X99,Who I Am (feat. LunchMoney Lewis),53,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,7,183427,0.812,0.67,5,-4.008,1,0.0901,0.172,3.29e-6,0.253,0.654,125.087,4
+33GjvFhe7CEj40gVDOwT1J,Whiskey (feat. A$AP Rocky),54,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,8,210422,0.604,0.405,10,-8.279,1,0.0597,0.735,0,0.105,0.0861,103.98,4
+7npLlaPu9Mfno8hjk5OagD,Girls Like You,68,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,9,215229,0.611,0.462,0,-7.054,1,0.0646,0.558,1.01e-6,0.131,0.377,59.635,4
+4b6qcioYl2LpBctFrJ1kht,Closure,53,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,10,688741,0.748,0.813,0,-6.687,0,0.0704,0.183,0.0518,0.424,0.445,116.962,4
+1N857bufDNDocn8hbmoNt7,Denim Jacket,53,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,11,232550,0.781,0.628,1,-5.34,1,0.0668,0.161,0,0.0917,0.288,117.992,4
+0aeqToKAIt951omSGAyLS4,Visions,55,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,12,230727,0.594,0.762,0,-5.457,1,0.0581,0.0536,0,0.127,0.574,154.791,4
+5Kv03DcfJl3aPmLKZGZdJq,Plastic Rose,51,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,13,222885,0.666,0.736,11,-5.363,0,0.137,0.00539,0,0.0613,0.477,110.389,4
+5o3GnrcFtvkdf3zFznuSbA,Don't Wanna Know (feat. Kendrick Lamar),70,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,14,214265,0.783,0.61,7,-6.124,1,0.0696,0.343,0,0.0983,0.418,100.047,4
+2NlTOhsAamXOaZciOXbITb,Cold (feat. Future),68,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,15,234308,0.693,0.717,9,-6.346,0,0.107,0.14,0,0.0464,0.412,99.836,4
+6EvFLeZ3aUYoagV6K92cqq,Moves Like Jagger - Live In Manchester,42,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,16,299573,0.571,0.881,11,-4.791,0,0.0605,0.0457,0,0.339,0.618,129.976,4
+7wXjEQzlkeyzuOeGvv3Gkv,Stereo Hearts - Live In Manchester,51,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,17,222680,0.618,0.758,8,-4.368,1,0.0392,0.336,0,0.162,0.548,90.08,4
+5wr2eH56im5zU7bgmoiTus,Animals - Live In Manchester,50,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,18,270840,0.277,0.874,4,-5.22,0,0.0414,0.0307,0,0.351,0.185,94.977,4
+6gHOuLzy1E9QbV0B7Z4iI9,Daylight - Live In Manchester,49,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,19,416400,0.456,0.696,2,-4.756,1,0.0398,0.0162,3.65e-6,0.918,0.271,115.983,4
+69UCc4p7AVm3FHUo6vKuYJ,Maps - Live In Manchester,50,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,20,262533,0.692,0.797,8,-5.545,1,0.0376,0.104,6.64e-6,0.48,0.475,119.987,4
+2XP9LYVKKUoEDtx05Yonbq,This Love - Live In Manchester,39,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,21,301973,0.575,0.854,11,-5.112,0,0.0407,0.124,0,0.181,0.453,98.913,4
+7fa9MBXhVfQ8P8Df9OEbD8,Girls Like You (feat. Cardi B),77,1Li4rADxSxjT2g4xqUcMYh,Red Pill Blues (Deluxe),22,22,235545,0.851,0.541,0,-6.825,1,0.0505,0.568,0,0.13,0.448,124.959,4
+3tPHvT1HIHGXnOh204vGnX,Best 4 U,4,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,1,239751,0.526,0.608,10,-5.776,0,0.169,0.127,0,0.113,0.372,93.311,4
+1cPWughgzWBJa3PPVPjrmO,What Lovers Do (feat. SZA),6,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,2,199849,0.799,0.597,5,-5.131,0,0.0611,0.0788,5.66e-6,0.1,0.419,110.001,4
+06gzWmTDhFTlYTnIlGcOsu,Wait,6,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,3,190642,0.655,0.603,8,-5.014,1,0.0555,0.0959,0,0.107,0.452,126.088,4
+7eCcdP2vCfO7MOlSfxFEUR,Lips On You,5,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,4,216930,0.652,0.555,9,-6.608,1,0.032,0.137,2.18e-5,0.09,0.107,103.043,4
+3p99wnGNUZ699SR8a0WrT3,Bet My Heart,3,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,5,196120,0.759,0.604,8,-6.663,0,0.051,0.141,0,0.149,0.418,121.096,4
+27VpbzZvYkt5B9xLcWL4Sb,Help Me Out (with Julia Michaels),3,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,6,193603,0.934,0.564,11,-4.806,1,0.0638,0.461,1.84e-5,0.101,0.543,115.092,4
+17lJKvKGafJSXXCkMgIz5s,Who I Am (feat. LunchMoney Lewis),2,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,7,183427,0.812,0.67,5,-4.008,1,0.0901,0.172,3.29e-6,0.253,0.654,125.087,4
+0s7RKr4U6FyDgZ95BU1XiH,Whiskey (feat. A$AP Rocky),3,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,8,210422,0.604,0.405,10,-8.279,1,0.0597,0.735,0,0.105,0.0861,103.98,4
+3IAVf2B5Omk3gy9JwDE42f,Girls Like You,12,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,9,214425,0.728,0.448,0,-7.508,1,0.0541,0.6,1.11e-6,0.131,0.385,62.526,4
+7kIwWa4Vp22J4djxBXkPpo,Closure,4,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,10,688741,0.748,0.813,0,-6.687,0,0.0704,0.183,0.0518,0.424,0.445,116.962,4
+44laVOWo65GiS1Y0rkOlvv,Denim Jacket,5,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,11,232550,0.778,0.619,1,-5.361,1,0.068,0.182,0,0.0947,0.288,118.019,4
+6nVSqYJjwLHfqAgaIbgwWs,Visions,2,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,12,230727,0.594,0.762,0,-5.457,1,0.0581,0.0536,0,0.127,0.574,154.791,4
+7KHUrrw2wHtoP7ip5cHQx0,Plastic Rose,2,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,13,222885,0.666,0.736,11,-5.363,0,0.137,0.00539,0,0.0613,0.477,110.389,4
+3ruA1Kfcd7WZLMXR1O5W8K,Dont' Wanna Know (feat. Kendrick Lamar),6,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,14,214265,0.783,0.61,7,-6.124,1,0.0696,0.343,0,0.0983,0.418,100.047,4
+2nJCmhPrPOHZcULTDVfWaM,Cold (feat. Future),16,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,15,234308,0.699,0.714,9,-6.333,0,0.0948,0.131,0,0.0553,0.453,99.917,4
+19NLOUneLszhzQSgubwcBa,Moves Like Jagger - Live In Manchester,2,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,16,299573,0.571,0.881,11,-4.791,0,0.0605,0.0457,0,0.339,0.618,129.976,4
+1eozbrV4HbSn9FKO9ujN2N,Stereo Hearts - Live In Manchester,3,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,17,222680,0.618,0.758,8,-4.368,1,0.0392,0.336,0,0.162,0.548,90.08,4
+45Ozi7D8uAhTlzUrYfSvYA,Animals - Live In Manchester,2,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,18,270840,0.277,0.874,4,-5.22,0,0.0414,0.0307,0,0.351,0.185,94.977,4
+4z8Kmk1kGKIWTO5PICTWHg,Daylight - Live In Manchester,2,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,19,416400,0.456,0.696,2,-4.756,1,0.0398,0.0162,3.65e-6,0.918,0.271,115.983,4
+4JZYNnE9KqlXDFsUAqnR9n,Maps - Live In Manchester,1,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,20,262533,0.692,0.797,8,-5.545,1,0.0376,0.104,6.64e-6,0.48,0.475,119.987,4
+3hpAr1RTZHUKTk5ey3M0PQ,This Love - Live In Manchester,1,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,21,301973,0.575,0.854,11,-5.112,0,0.0407,0.124,0,0.181,0.453,98.913,4
+0eXb8Kgkm9UcMMQPIxk3wE,Girls Like You (feat. Cardi B),52,3CxzjUQWtYW0MrQmTiprou,Red Pill Blues (Deluxe),22,22,235545,0.613,0.522,0,-6.814,1,0.115,0.567,0,0.13,0.447,59.406,4
+7oUHzZKNKUTrlU7DYxhQ7v,Maps,62,6LtzdMGhOCh9s6sssWrpuD,V (Asia Tour Edition),20,1,189960,0.742,0.713,1,-5.522,0,0.0303,0.0205,0,0.059,0.879,120.032,4
+3h4T9Bg8OVSUYa6danHeH5,Animals,61,6LtzdMGhOCh9s6sssWrpuD,V (Asia Tour Edition),20,2,231013,0.279,0.742,4,-6.46,0,0.0898,1.85e-4,0,0.593,0.328,189.868,4
+1zlZxbqrIabWaH3nOJ4HdU,It Was Always You,47,6LtzdMGhOCh9s6sssWrpuD,V (Asia Tour Edition),20,3,239920,0.613,0.765,11,-6.582,1,0.0441,0.082,1.25e-6,0.092,0.299,103.951,4
+3w0tCn815B8Bb4ejP2lTPJ,Unkiss Me,42,6LtzdMGhOCh9s6sssWrpuD,V (Asia Tour Edition),20,4,238200,0.532,0.599,6,-6.543,1,0.0333,0.00784,0,0.14,0.113,130.019,4
+5d6Mjuu2uCGRPYpFjGpCX5,Sugar,66,6LtzdMGhOCh9s6sssWrpuD,V (Asia Tour Edition),20,5,235493,0.748,0.788,1,-7.055,1,0.0334,0.0591,0,0.0863,0.884,120.076,4
+6CjspLw4dCBJm0g4AT36Ga,Leaving California,42,6LtzdMGhOCh9s6sssWrpuD,V (Asia Tour Edition),20,6,203453,0.501,0.704,3,-5.64,1,0.0326,0.284,0,0.155,0.27,97.039,4
+3W7yQOvor4nOvuWsG3Vh6z,In Your Pocket,38,6LtzdMGhOCh9s6sssWrpuD,V (Asia Tour Edition),20,7,219493,0.618,0.837,6,-6.142,0,0.0515,0.032,0,0.0475,0.434,126.082,4
+3fHNBkgOztjEbwH4N9YNsV,New Love,37,6LtzdMGhOCh9s6sssWrpuD,V (Asia Tour Edition),20,8,196546,0.63,0.886,5,-5.216,0,0.076,0.0107,1.1e-4,0.214,0.824,165.012,4
+4EkKRYCAS5MeE58slS88hB,Coming Back For You,36,6LtzdMGhOCh9s6sssWrpuD,V (Asia Tour Edition),20,9,226960,0.644,0.866,1,-5.687,0,0.0341,0.0121,0,0.0719,0.39,114.927,4
+0plAYelfnt9ZLCzbyRUEpP,Feelings,48,6LtzdMGhOCh9s6sssWrpuD,V (Asia Tour Edition),20,10,194773,0.693,0.727,10,-5.364,0,0.0749,0.00365,0,0.0576,0.746,121.937,4
+3KYpb7zklUM6tjWvbc8Kfb,My Heart Is Open,39,6LtzdMGhOCh9s6sssWrpuD,V (Asia Tour Edition),20,11,236866,0.41,0.327,1,-7.663,1,0.0301,0.547,0,0.0763,0.283,101.861,4
+3vncluU9e0z6mdXt8hRP37,This Summer,41,6LtzdMGhOCh9s6sssWrpuD,V (Asia Tour Edition),20,12,224400,0.54,0.766,4,-5.148,0,0.07,2.48e-4,0,0.641,0.176,98.932,4
+4ErxH2OAeKYngfxYT8EI2S,Shoot Love,32,6LtzdMGhOCh9s6sssWrpuD,V (Asia Tour Edition),20,13,189666,0.595,0.797,8,-5.828,1,0.0352,0.00259,0,0.11,0.425,135,4
+4r5ZfnXb1nnXgzYZ28OZgY,Sex And Candy,35,6LtzdMGhOCh9s6sssWrpuD,V (Asia Tour Edition),20,14,264720,0.805,0.38,10,-9.713,0,0.0352,0.322,1.33e-5,0.0629,0.653,133.926,4
+1Duym1lVQurgKHHSqpOWhY,Lost Stars,62,6LtzdMGhOCh9s6sssWrpuD,V (Asia Tour Edition),20,15,267786,0.494,0.582,0,-4.769,1,0.0266,0.102,0,0.0797,0.416,82.025,4
+3ajL4puUIAeRyFsax0SHRQ,Maps - Rumba Whoa Remix,28,6LtzdMGhOCh9s6sssWrpuD,V (Asia Tour Edition),20,16,252693,0.748,0.81,1,-6.103,0,0.0967,0.0174,0,0.345,0.637,127.992,4
+4iayejBRGcy9In1dxFTpIO,Maps - Slaptop Remix,25,6LtzdMGhOCh9s6sssWrpuD,V (Asia Tour Edition),20,17,243653,0.761,0.729,1,-6.204,0,0.0413,5.76e-4,0.00102,0.0813,0.448,120.004,4
+2EfacabfeVKamiHDpJXjU6,Animals - Danny Olson Remix,26,6LtzdMGhOCh9s6sssWrpuD,V (Asia Tour Edition),20,18,300053,0.482,0.797,2,-6.187,1,0.219,0.0105,0,0.109,0.481,190.084,4
+6XSq2DbbDbnH1FJHBlEUdW,Animals - Gryffin Remix,28,6LtzdMGhOCh9s6sssWrpuD,V (Asia Tour Edition),20,19,319120,0.554,0.825,4,-6.16,0,0.0356,0.018,9.63e-4,0.0758,0.516,100.986,4
+7oBlCQeQBB89NIFuSpri3E,Sugar - Remix,32,6LtzdMGhOCh9s6sssWrpuD,V (Asia Tour Edition),20,20,234453,0.741,0.804,1,-7.138,1,0.0438,0.013,0,0.0988,0.702,120.081,4
+0hCYp5cREaIoFjquC8RRcc,One More Night - Commentary,28,3XGBx5OsOELJAWa1vE7N2b,Overexposed Commentary,15,1,99933,0.733,0.245,8,-19.03,0,0.946,0.834,0,0.385,0.692,103.618,4
+6xwxBfr1BpYRtv8Y5z87tP,Payphone - Commentary,27,3XGBx5OsOELJAWa1vE7N2b,Overexposed Commentary,15,2,60506,0.767,0.25,6,-18.656,1,0.963,0.77,0,0.405,0.618,61.112,3
+1ijucMK431HgoDkuBagpH8,Day Light - Commentary,0,3XGBx5OsOELJAWa1vE7N2b,Overexposed Commentary,15,3,26453,0.675,0.245,8,-18.914,1,0.957,0.459,0,0.217,0.586,145.796,4
+34WO4pvuF4mkNFXyhef4ho,Lucky Strike - Commentary,25,3XGBx5OsOELJAWa1vE7N2b,Overexposed Commentary,15,4,68813,0.706,0.274,7,-19.125,0,0.959,0.823,0,0.366,0.766,108.487,3
+0436vUfDUX7j5qPPVv6bNY,The Man Who Never Lied - Commentary,0,3XGBx5OsOELJAWa1vE7N2b,Overexposed Commentary,15,5,25240,0.795,0.226,1,-15.636,0,0.947,0.742,0,0.455,0.675,50.378,4
+1GHcURxyFrN63a0cDON8FA,Love Somebody - Commentary,25,3XGBx5OsOELJAWa1vE7N2b,Overexposed Commentary,15,6,60226,0.635,0.275,9,-19.261,0,0.961,0.641,0,0.163,0.7,67.033,4
+113l9vooghZmueyVdtENfc,Lady Killer - Commentary,24,3XGBx5OsOELJAWa1vE7N2b,Overexposed Commentary,15,7,75466,0.798,0.269,9,-18.163,0,0.939,0.921,0,0.216,0.573,67.728,3
+3EJzneP2nBi4jHK6iAL3yT,Fortune Teller - Commentary,23,3XGBx5OsOELJAWa1vE7N2b,Overexposed Commentary,15,8,58106,0.71,0.383,8,-16.117,1,0.963,0.81,0,0.538,0.524,70.072,4
+3sMir2CR1acuyCoSoD9nw6,Sad - Commentary,23,3XGBx5OsOELJAWa1vE7N2b,Overexposed Commentary,15,9,119173,0.714,0.23,8,-20.022,1,0.96,0.799,0,0.358,0.592,109.739,3
+3vAHmj2QcansJSsZH8qL22,Tickets - Commentary,22,3XGBx5OsOELJAWa1vE7N2b,Overexposed Commentary,15,10,67386,0.764,0.296,9,-18.854,0,0.956,0.819,0,0.284,0.526,96.371,4
+5UIcTaUkgoGyOnFwQV8pWZ,Doin' Dirt - Commentary,0,3XGBx5OsOELJAWa1vE7N2b,Overexposed Commentary,15,11,21813,0.717,0.356,10,-14.455,0,0.821,0.916,0,0.295,0.782,124.59,1
+3RHLYtC1nGfkeeHpT2WonR,Beautiful Goodbye - Commentary,23,3XGBx5OsOELJAWa1vE7N2b,Overexposed Commentary,15,12,62626,0.767,0.237,4,-18.097,1,0.957,0.796,0,0.146,0.466,99.839,3
+78qDGvJtZNSyFpg1kSCepi,Wipe Your Eyes - Commentary,22,3XGBx5OsOELJAWa1vE7N2b,Overexposed Commentary,15,13,31400,0.67,0.238,3,-18.424,1,0.95,0.807,0,0.305,0.752,54.088,3
+63qbM5Wf1ESr9qH1xPQlBE,Wasted Years - Commentary,22,3XGBx5OsOELJAWa1vE7N2b,Overexposed Commentary,15,14,42760,0.75,0.322,8,-15.517,1,0.957,0.742,0,0.329,0.74,105.433,4
+381GhCGK3spErKRk3MFBaB,Let's Stay Together - Commentary,22,3XGBx5OsOELJAWa1vE7N2b,Overexposed Commentary,15,15,42333,0.845,0.292,8,-19.176,1,0.947,0.842,0,0.269,0.75,37.64,4
+5sSjntBXVmtJLCcMlJP5Qb,One More Night,42,6XYL7jVgFaxD1X7F8IMO2b,Overexposed (Deluxe),15,1,219493,0.714,0.821,5,-3.426,0,0.0315,0.0594,0,0.0799,0.636,93,4
+5cy3CNTBZbX8vZUIsu4p7K,Payphone - Edit,50,6XYL7jVgFaxD1X7F8IMO2b,Overexposed (Deluxe),15,2,231373,0.741,0.783,4,-4.791,1,0.0415,0.015,0,0.302,0.534,110.002,4
+7e2AYYiGkqxeVv7QkOyqM1,Daylight,38,6XYL7jVgFaxD1X7F8IMO2b,Overexposed (Deluxe),15,3,225306,0.657,0.679,2,-5.511,1,0.0269,0.00246,0,0.211,0.331,120.007,4
+06hGqBU8CP78A1QZA6sec9,Lucky Strike,36,6XYL7jVgFaxD1X7F8IMO2b,Overexposed (Deluxe),15,4,185293,0.674,0.746,11,-4.542,0,0.042,6.34e-4,0,0.118,0.44,143.992,4
+6tWkTeLF2WmjTA1cyS2QEp,The Man Who Never Lied,33,6XYL7jVgFaxD1X7F8IMO2b,Overexposed (Deluxe),15,5,205186,0.63,0.842,2,-5.946,1,0.0355,3.42e-4,0,0.0711,0.826,139.943,4
+3UBVRfcLmyHmN6e7gdqlMt,Love Somebody,36,6XYL7jVgFaxD1X7F8IMO2b,Overexposed (Deluxe),15,6,229813,0.675,0.792,1,-6.303,1,0.0368,0.145,0,0.12,0.395,120.016,4
+0Tfik5OfJGHQhnwYWPUyo6,Ladykiller,29,6XYL7jVgFaxD1X7F8IMO2b,Overexposed (Deluxe),15,7,163973,0.811,0.618,7,-6.853,1,0.041,0.00867,2.43e-4,0.144,0.769,115.058,4
+4mNYQAH3X5Ja0Adrlt94iS,Fortune Teller,29,6XYL7jVgFaxD1X7F8IMO2b,Overexposed (Deluxe),15,8,203453,0.665,0.751,4,-6.122,0,0.0393,0.0573,0,0.183,0.396,119.951,4
+7oU8e9iY9m98G1SccABkXc,Sad,31,6XYL7jVgFaxD1X7F8IMO2b,Overexposed (Deluxe),15,9,194200,0.572,0.258,7,-9.213,1,0.0348,0.787,0,0.0973,0.324,111.91,4
+0xwIPGAxZ0gZNa9k7futYF,Tickets,29,6XYL7jVgFaxD1X7F8IMO2b,Overexposed (Deluxe),15,10,209026,0.797,0.823,4,-4.171,0,0.0315,0.0171,1.54e-6,0.0889,0.972,120.016,4
+5hYX24WbTQZ1aypvoIcLyk,Doin’ Dirt,30,6XYL7jVgFaxD1X7F8IMO2b,Overexposed (Deluxe),15,11,211413,0.672,0.853,3,-3.999,0,0.0436,7.64e-4,0,0.0795,0.891,124.944,4
+1wqXWUEMXcVsdD3CFFXAMd,Beautiful Goodbye,34,6XYL7jVgFaxD1X7F8IMO2b,Overexposed (Deluxe),15,12,255266,0.667,0.574,3,-2.627,1,0.0357,0.00197,3.49e-6,0.104,0.415,167.99,4
+2R3xYIBgCPatvdPRwceB3C,Wipe Your Eyes,34,6XYL7jVgFaxD1X7F8IMO2b,Overexposed (Deluxe),15,13,214853,0.605,0.916,4,-3.632,0,0.0365,0.0659,0,0.16,0.609,137.046,4
+3d1Rl07pmCx3nI1DfAnZU8,Wasted Years,27,6XYL7jVgFaxD1X7F8IMO2b,Overexposed (Deluxe),15,14,212693,0.727,0.85,9,-4.233,0,0.236,0.0542,0,0.107,0.809,158.801,4
+6L6nd7wYr53uFhnRVfkPME,Let’s Stay Together,29,6XYL7jVgFaxD1X7F8IMO2b,Overexposed (Deluxe),15,15,203880,0.686,0.283,5,-9.298,1,0.0297,0.924,0,0.0962,0.529,110.399,4
+0W1qOdPQCP5MCogLNm8cuo,One More Night,50,2w3omjUhIFTAUUOVVq1gFM,Overexposed,13,1,219466,0.718,0.82,5,-3.453,0,0.0323,0.0444,0,0.0846,0.613,92.998,4
+1ml03ZtwxEJJiEuIsjke7W,Payphone,52,2w3omjUhIFTAUUOVVq1gFM,Overexposed,13,2,231386,0.739,0.756,4,-4.828,1,0.0394,0.0136,0,0.37,0.523,110.028,4
+3xii4l5xLvX4g1ABA47MJO,Daylight,44,2w3omjUhIFTAUUOVVq1gFM,Overexposed,13,3,225400,0.662,0.67,2,-5.504,1,0.027,0.0022,0,0.203,0.352,119.977,4
+4xnjQeIMxIne3ADizSnqlI,Lucky Strike,39,2w3omjUhIFTAUUOVVq1gFM,Overexposed,13,4,185280,0.674,0.74,11,-4.517,0,0.0419,6.37e-4,0,0.111,0.431,143.998,4
+6QVlO2AQHsrpzjabmOWTnD,The Man Who Never Lied,37,2w3omjUhIFTAUUOVVq1gFM,Overexposed,13,5,205200,0.627,0.848,2,-5.989,1,0.0351,3.88e-4,0,0.0716,0.848,139.954,4
+7hONBrIYSXJtddOMXdgveV,Love Somebody,42,2w3omjUhIFTAUUOVVq1gFM,Overexposed,13,6,229826,0.675,0.79,1,-6.295,1,0.0369,0.129,0,0.121,0.423,120.015,4
+0BtRjo9xXtUDyNL4sqrRyA,Ladykiller,33,2w3omjUhIFTAUUOVVq1gFM,Overexposed,13,7,163973,0.818,0.607,0,-6.927,1,0.0425,0.00974,1.94e-4,0.154,0.784,115.054,4
+0rDGq6snkk6gr5k4A9hlhC,Fortune Teller,33,2w3omjUhIFTAUUOVVq1gFM,Overexposed,13,8,203453,0.668,0.757,4,-6.115,0,0.0411,0.0501,0,0.151,0.41,119.961,4
+1IcNnsbIsCRHYtV8oha8jF,Sad,38,2w3omjUhIFTAUUOVVq1gFM,Overexposed,13,9,194253,0.781,0.259,7,-9.204,1,0.0323,0.795,0,0.0993,0.331,111.9,4
+0J9MhOsxx1a9bxOn0pUvvu,Tickets,33,2w3omjUhIFTAUUOVVq1gFM,Overexposed,13,10,209013,0.796,0.836,4,-4.19,0,0.0322,0.0163,2.72e-6,0.106,0.973,120.026,4
+3BM3vUhdjLkAERl5DXAPet,Doin’ Dirt,33,2w3omjUhIFTAUUOVVq1gFM,Overexposed,13,11,211426,0.684,0.864,3,-4.05,0,0.0472,8.77e-4,0,0.0774,0.894,124.95,4
+6BhH3NSJEh58az40hZSMgK,Beautiful Goodbye,40,2w3omjUhIFTAUUOVVq1gFM,Overexposed,13,12,255386,0.662,0.578,3,-2.637,1,0.0343,0.002,2.45e-6,0.104,0.404,168.04,4
+750zma5WOx5qYlX4humPmT,Moves Like Jagger - Studio Recording From The Voice Performance,46,2w3omjUhIFTAUUOVVq1gFM,Overexposed,13,13,202813,0.716,0.776,9,-4.483,1,0.0451,0.0122,0,0.331,0.616,128.072,4
+0Aal3JdqxI9p7p801HiQQ2,One More Night,31,3r3flRqc5pQozLGZ3GyqTe,Overexposed,12,1,219493,0.714,0.821,5,-3.426,0,0.0315,0.0594,0,0.0799,0.636,93,4
+5np1HM7PLoEi6bbI9njCSs,Payphone - Edit,32,3r3flRqc5pQozLGZ3GyqTe,Overexposed,12,2,231373,0.741,0.783,4,-4.791,1,0.0415,0.015,0,0.302,0.534,110.002,4
+59WSkoYhv5uxsW9HjMOx0z,Daylight,25,3r3flRqc5pQozLGZ3GyqTe,Overexposed,12,3,225306,0.657,0.679,2,-5.511,1,0.0269,0.00246,0,0.211,0.331,120.007,4
+33BizS0S0Hu74tBbrS3uUv,Lucky Strike,24,3r3flRqc5pQozLGZ3GyqTe,Overexposed,12,4,185280,0.673,0.746,11,-4.542,0,0.0421,6.39e-4,0,0.119,0.444,143.994,4
+1iyzg8Bq1uEO7Ctm15N36J,The Man Who Never Lied,20,3r3flRqc5pQozLGZ3GyqTe,Overexposed,12,5,205200,0.622,0.846,2,-6,1,0.035,3.43e-4,0,0.0717,0.847,139.964,4
+1ICgFVrYSxKkyrUQmIteqk,Love Somebody,24,3r3flRqc5pQozLGZ3GyqTe,Overexposed,12,6,229813,0.675,0.792,1,-6.303,1,0.0368,0.145,0,0.12,0.395,120.016,4
+3jRR0wAaqkt3LxpYQj6A4f,Ladykiller,17,3r3flRqc5pQozLGZ3GyqTe,Overexposed,12,7,163973,0.811,0.618,7,-6.853,1,0.041,0.00867,2.43e-4,0.144,0.769,115.058,4
+6K0b4X3EvVR2GLyIHmqGXd,Fortune Teller,16,3r3flRqc5pQozLGZ3GyqTe,Overexposed,12,8,203453,0.665,0.751,4,-6.122,0,0.0393,0.0573,0,0.183,0.396,119.951,4
+29GyG2d09BqNlxr1eePNuz,Sad,40,3r3flRqc5pQozLGZ3GyqTe,Overexposed,12,9,194200,0.572,0.258,7,-9.213,1,0.0348,0.787,0,0.0973,0.324,111.91,4
+7yFbUVNbWGRVZ3ukwdPxrj,Tickets,17,3r3flRqc5pQozLGZ3GyqTe,Overexposed,12,10,209026,0.797,0.823,4,-4.171,0,0.0315,0.0171,1.54e-6,0.0889,0.972,120.016,4
+3SoO8OO9hNorwSkSewzrCa,Doin’ Dirt,17,3r3flRqc5pQozLGZ3GyqTe,Overexposed,12,11,211413,0.672,0.853,3,-3.999,0,0.0436,7.64e-4,0,0.0795,0.891,124.944,4
+3j4qTBa6BR1mEhXjC9sygF,Beautiful Goodbye,19,3r3flRqc5pQozLGZ3GyqTe,Overexposed,12,12,255280,0.667,0.574,3,-2.627,1,0.0357,0.00197,3.49e-6,0.104,0.415,167.99,4
+0D2ICDizPnNclqOuWAzh8z,One More Night - Commentary,26,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,1,98853,0.783,0.247,8,-18.968,0,0.942,0.825,0,0.381,0.64,47.331,4
+6cpk00i5TxCqSeqNi2HuIe,One More Night,70,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,2,219546,0.716,0.821,5,-3.435,0,0.0314,0.0558,0,0.0844,0.618,92.997,4
+5yGldzMcTQu88CZoLBTGfL,Payphone - Commentary,28,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,3,60120,0.742,0.251,9,-18.721,0,0.963,0.751,0,0.421,0.626,60.383,5
+1XGmzt0PVuFgQYYnV2It7A,Payphone,78,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,4,231173,0.743,0.752,4,-4.813,1,0.0414,0.0188,0,0.287,0.545,110.015,4
+7wowvWGIkqihTHKbc3KfTR,Day Light - Commentary,0,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,5,25666,0.696,0.205,7,-18.751,1,0.964,0.499,0,0.226,0.745,146.069,4
+1NNAI51EuoRWw1ydX1zV7S,Daylight,63,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,6,225066,0.656,0.674,7,-5.473,1,0.0269,0.00242,0,0.255,0.369,120.001,4
+4NcorbqrSfMQbFHziTYwRI,Lucky Strike - Commentary,28,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,7,68813,0.738,0.28,11,-19.116,0,0.96,0.831,0,0.334,0.732,50.993,4
+4rpzPAbwJboZQw2p9T5T3f,Lucky Strike,59,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,8,185293,0.673,0.746,11,-4.514,0,0.0424,6.07e-4,0,0.0988,0.446,144.013,4
+2cPR7WR2msjU2iNKTtGmBt,The Man Who Never Lied - Commentary,0,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,9,25106,0.808,0.261,11,-15.727,0,0.948,0.686,0,0.458,0.6,86.284,1
+5BXg13zwPCtGMxBHLqU8fi,The Man Who Never Lied,41,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,10,205000,0.62,0.849,2,-6.016,1,0.0351,3.27e-4,0,0.072,0.865,139.933,4
+6WERZR1YVUoneJceQfJO5d,Love Somebody - Commentary,26,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,11,59720,0.745,0.266,2,-19.173,0,0.955,0.696,0,0.12,0.75,65.835,3
+5H0ajL4EHsrcAEGESo2Lzx,Love Somebody,63,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,12,229973,0.675,0.783,1,-6.284,1,0.0365,0.134,0,0.122,0.4,120.018,4
+5hqS2Vj78TILafgx32SE2G,Lady Killer - Commentary,26,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,13,74533,0.67,0.266,7,-18.119,0,0.947,0.912,0,0.21,0.603,145.453,3
+3Uum6BJBgb7Fp3uXmlTFuC,Ladykiller,36,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,14,163986,0.82,0.63,7,-6.926,1,0.0413,0.00963,8.91e-5,0.144,0.76,115.054,4
+3nM61Q9U706cxOYK6Ze4QV,Fortune Teller - Commentary,25,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,15,57960,0.723,0.418,4,-16.09,1,0.959,0.805,0,0.436,0.508,69.7,4
+5b4LIjtXeON2spaDlsXxTv,Fortune Teller,35,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,16,203226,0.662,0.757,4,-6.119,0,0.039,0.0526,0,0.149,0.411,119.948,4
+0NH5zwHUsc1V6Q22YkcVt9,Sad - Commentary,24,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,17,119186,0.706,0.231,8,-20.066,1,0.959,0.818,0,0.352,0.621,110.03,3
+4MAxq4eEuuyE97wodPnisY,Sad,53,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,18,193826,0.781,0.262,7,-9.189,1,0.0321,0.797,0,0.1,0.338,111.92,4
+2EerUMwP1qFluPqKW2C37M,Tickets - Commentary,24,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,19,67466,0.654,0.332,7,-18.793,0,0.963,0.819,0,0.292,0.58,151.751,4
+6RzYNDWVza8E3bnqHNUqcz,Tickets,35,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,20,208733,0.801,0.816,4,-4.192,0,0.0317,0.0174,1.43e-6,0.127,0.972,120.002,4
+45p1yQiDCG1FUHaLXJbsT0,Doin' Dirt - Commentary,0,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,21,21333,0.813,0.297,11,-14.369,0,0.835,0.912,0,0.251,0.952,91.143,5
+0uI95Bm4awNXa00xZYAfbQ,Doin’ Dirt,36,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,22,211520,0.677,0.861,3,-4.04,0,0.0446,8.38e-4,0,0.0714,0.875,124.945,4
+4YShTpeo2BqjTTaY9KAPJG,Beautiful Goodbye - Commentary,24,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,23,62493,0.762,0.242,10,-18.123,1,0.958,0.787,0,0.131,0.553,52.385,4
+0ehxWIhybOYQ3acRhmcNVF,Beautiful Goodbye,58,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,24,255253,0.656,0.567,3,-2.638,1,0.0386,0.00199,1.29e-6,0.106,0.385,168.251,4
+1Joa4riuuZ9a8m5xVsqYsP,Wipe Your Eyes - Commentary,24,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,25,31040,0.827,0.274,8,-18.473,1,0.954,0.777,0,0.282,0.727,49.846,3
+2Nut5wxGFEwdbjuEe32syQ,Wipe Your Eyes,42,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,26,214853,0.607,0.913,4,-3.627,0,0.036,0.066,0,0.123,0.626,137.037,4
+7Bi3m4QIeYYjtpY8sutCtw,Wasted Years - Commentary,23,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,27,42586,0.808,0.319,4,-15.549,1,0.952,0.751,0,0.328,0.747,70.886,3
+2I7Dw7W2CFvfc51qqUhfbl,Wasted Years,32,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,28,212693,0.733,0.855,2,-4.237,1,0.213,0.0494,0,0.304,0.793,158.715,4
+4TPVIoAI3L68No07VyuQ6u,Let's Stay Together - Commentary,23,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,29,42026,0.818,0.292,8,-19.065,1,0.944,0.845,0,0.269,0.733,36.396,3
+7GjWjpwUpMnFR0gtBN5Ymo,Let’s Stay Together,41,6ijGiBcBfUwkoyHn5VUHU2,Overexposed Track By Track,33,30,204160,0.685,0.273,5,-9.266,1,0.0301,0.926,0,0.0971,0.546,110.428,4
+76gGRIHSwgM1J2qMPleIX9,Misery,30,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,1,216200,0.704,0.809,4,-4.872,0,0.0425,3.02e-4,0,0.216,0.707,102.982,4
+58AHEq1uIzD3eN8vh6UedN,Give A Little More,22,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,2,180293,0.753,0.821,0,-4.301,1,0.0386,9.78e-4,1.72e-4,0.141,0.938,117.952,4
+7AvqfYApXG2D5qCDI4mzgx,Stutter,22,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,3,196920,0.71,0.882,1,-2.772,0,0.0333,0.0171,0,0.111,0.811,119.983,4
+4xKTCWydSkbIM1tTZN81rj,Don't Know Nothing,18,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,4,199066,0.656,0.848,9,-3.125,0,0.0257,0.0149,0,0.136,0.86,129.995,4
+3mOdXqbp4XqKroLIe33MZy,Never Gonna Leave This Bed,31,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,5,196706,0.608,0.816,11,-4.207,1,0.0296,0.106,0,0.245,0.469,117.368,4
+3j4ThKa4Ep3zmoh0i2zlhg,I Can't Lie,23,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,6,211200,0.626,0.872,2,-4.89,1,0.0327,0.0257,0,0.168,0.961,90.977,4
+47nyqn3MhVAUVeDU3Rt4lC,Hands All Over,19,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,7,192853,0.651,0.79,5,-4.703,0,0.0399,0.00886,0,0.104,0.725,86.457,4
+6nRnzQJPdiX3XwvhgnellJ,How,22,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,8,216600,0.535,0.689,4,-4.536,1,0.0263,0.122,0,0.333,0.392,92.98,4
+6AFmFJQWVh1aDKnxD66JTQ,Get Back In My Life,18,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,9,217893,0.757,0.925,11,-3.843,1,0.0272,2.63e-4,0,0.137,0.899,111.96,4
+1tUh5eemzSJU4ULnPUWsFO,Just A Feeling,33,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,10,226506,0.602,0.618,3,-5.098,1,0.0284,0.147,0,0.105,0.294,149.944,4
+0eTHTVgYowVRYzqBm4gTrY,Runaway,21,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,11,181200,0.662,0.841,11,-3.683,0,0.0299,0.0092,0,0.153,0.597,99.996,4
+0scsjEVunge6vYpQ4UktuD,Out Of Goodbyes,22,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,12,196600,0.657,0.528,0,-8.459,1,0.0245,0.141,9.85e-5,0.108,0.386,103.916,4
+1pLPLstoA9MsvxAviPW3e1,Last Chance,20,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,13,189946,0.794,0.769,6,-5.18,0,0.0317,0.0459,0,0.194,0.957,129.058,4
+4coSuKr7kgeH6kUYkStplS,No Curtain Call,19,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,14,224706,0.517,0.8,10,-5.001,0,0.027,0.00131,0,0.107,0.342,168.059,4
+1DYQAzGn0zJM0JxBoabkGO,Never Gonna Leave This Bed - Acoustic Version,27,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,15,202306,0.712,0.676,11,-5.705,1,0.0392,0.334,0,0.0899,0.619,114.96,4
+7bdLak4LfMX2IIiwPyjO05,Misery - Acoustic Version,34,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,16,226306,0.725,0.6,6,-7.58,1,0.0377,0.261,0,0.112,0.439,97.041,4
+4OequwRMHz1pW53iUTD1sM,If I Ain’t Got You - Live,43,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,17,240600,0.501,0.406,3,-8.326,1,0.0271,0.567,0,0.0841,0.242,114.855,3
+2z0CESC4cDnacW4txsnkzo,Crazy Little Thing Called Love - Acoustic Version,22,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,18,193453,0.506,0.748,2,-6.377,1,0.0524,0.353,1.16e-6,0.357,0.608,151.75,4
+71a1VXuJFr0TIa6jkvxisY,The Way You Look Tonight - Bonus Track,31,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,19,204093,0.465,0.561,10,-4.776,1,0.0434,0.28,0,0.109,0.568,133.324,4
+6rFJWfFHgzEg5Rey08SNrD,The Air That I Breathe - Bonus Track,29,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,20,257200,0.738,0.557,1,-7.011,1,0.0321,0.111,0,0.183,0.383,117.974,3
+2F8GPfzDGBTz3vuPkOxLXJ,Happy Christmas (War Is Over) - Bonus Track,17,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,21,206706,0.441,0.157,2,-10.792,1,0.0307,0.936,0,0.107,0.186,143.241,3
+4pCySxpf4XZ50wO5331xSH,Misery - (Bimbo Jones Mix) Bonus Track,13,4aqbZrtqu8FYFqMB9BIdH0,Hands All Over (Deluxe Asia Tour Edition),22,22,177840,0.643,0.907,7,-3.712,1,0.0416,0.0368,0,0.355,0.854,125.034,4
+557idQwt2bQnRz9CI0zguR,Misery,51,1nZO44p9pu7ZIjdawEykyw,Hands All Over (Asia Standard Jewel Case Version),13,1,216200,0.703,0.812,4,-4.873,0,0.0422,3.13e-4,0,0.199,0.711,102.982,4
+5rpIq8YYqJ0Qa8qyrA99ex,Give A Little More,41,1nZO44p9pu7ZIjdawEykyw,Hands All Over (Asia Standard Jewel Case Version),13,2,180293,0.753,0.821,0,-4.303,1,0.0386,9.88e-4,1.91e-4,0.141,0.936,117.954,4
+1LRGDoeRpUW8WXB07yUES8,Stutter,26,1nZO44p9pu7ZIjdawEykyw,Hands All Over (Asia Standard Jewel Case Version),13,3,196920,0.71,0.883,1,-2.772,0,0.0333,0.0171,0,0.111,0.814,119.983,4
+21AHhcvT8XRVPazrj46TUG,Don't Know Nothing,21,1nZO44p9pu7ZIjdawEykyw,Hands All Over (Asia Standard Jewel Case Version),13,4,199066,0.657,0.846,9,-3.124,0,0.0258,0.0149,0,0.136,0.857,129.994,4
+6Ei0g7sfPanJVCml0gg7YL,Never Gonna Leave This Bed,50,1nZO44p9pu7ZIjdawEykyw,Hands All Over (Asia Standard Jewel Case Version),13,5,196706,0.608,0.815,11,-4.207,1,0.0296,0.104,0,0.248,0.469,117.364,4
+11rEQPIyb3VEqfV9ezGEC9,I Can't Lie,28,1nZO44p9pu7ZIjdawEykyw,Hands All Over (Asia Standard Jewel Case Version),13,6,211200,0.627,0.872,2,-4.89,1,0.0329,0.0269,0,0.168,0.96,90.979,4
+35yEUavzsa7DdLPaHYjji2,Hands All Over,23,1nZO44p9pu7ZIjdawEykyw,Hands All Over (Asia Standard Jewel Case Version),13,7,192853,0.651,0.79,5,-4.706,0,0.0399,0.00922,0,0.104,0.73,86.447,4
+6inFaYg03ih4BwM6YmpVs5,How,27,1nZO44p9pu7ZIjdawEykyw,Hands All Over (Asia Standard Jewel Case Version),13,8,216600,0.535,0.689,4,-4.544,1,0.0262,0.118,0,0.334,0.389,92.991,4
+7Cxx9Xd9A9p7nueuUamhfE,Get Back In My Life,21,1nZO44p9pu7ZIjdawEykyw,Hands All Over (Asia Standard Jewel Case Version),13,9,217893,0.757,0.923,11,-3.842,1,0.0273,2.73e-4,0,0.136,0.906,111.956,4
+3JPbZa3mr7zul9ZRqo7pmN,Just A Feeling,50,1nZO44p9pu7ZIjdawEykyw,Hands All Over (Asia Standard Jewel Case Version),13,10,226506,0.602,0.621,3,-5.094,1,0.0285,0.143,0,0.105,0.306,149.917,4
+4iaA9UT1XZSCIQwFacmGE7,Runaway,25,1nZO44p9pu7ZIjdawEykyw,Hands All Over (Asia Standard Jewel Case Version),13,11,181200,0.662,0.843,11,-3.697,0,0.0301,0.00885,0,0.149,0.593,99.996,4
+3mpXIFKxEHuAUS43FH7tmx,Out Of Goodbyes,27,1nZO44p9pu7ZIjdawEykyw,Hands All Over (Asia Standard Jewel Case Version),13,12,196600,0.662,0.536,0,-8.459,1,0.025,0.139,1.09e-4,0.108,0.391,103.913,4
+1mYhUH4EzceTiJdrWS1pDv,Crazy Little Thing Called Love - Acoustic Version,29,1nZO44p9pu7ZIjdawEykyw,Hands All Over (Asia Standard Jewel Case Version),13,13,194160,0.496,0.758,2,-6.328,1,0.0532,0.348,0,0.344,0.602,151.794,4
+2rNC907JV64oIZRXYlJpw3,Misery,26,1YpWBHVe6qlFIXhESmhJZ6,Hands All Over (Asia Deluxe Version),18,1,216200,0.705,0.81,4,-4.874,0,0.0426,3.21e-4,0,0.216,0.724,102.984,4
+1n5pqSLAQD4pUj7cE22hNs,Give A Little More,19,1YpWBHVe6qlFIXhESmhJZ6,Hands All Over (Asia Deluxe Version),18,2,180293,0.753,0.824,0,-4.301,1,0.0385,8.99e-4,1.58e-4,0.141,0.938,117.948,4
+0FprwCpCWifxmIpas2hSDf,Stutter,20,1YpWBHVe6qlFIXhESmhJZ6,Hands All Over (Asia Deluxe Version),18,3,196920,0.711,0.882,1,-2.772,0,0.0333,0.017,0,0.112,0.812,119.984,4
+7j7FBqU0UIVsKFZTiSl4jj,Don't Know Nothing,16,1YpWBHVe6qlFIXhESmhJZ6,Hands All Over (Asia Deluxe Version),18,4,199066,0.657,0.847,9,-3.124,0,0.0258,0.0149,0,0.136,0.859,129.995,4
+49DShQJXSAvSms5KncjHZI,Never Gonna Leave This Bed,27,1YpWBHVe6qlFIXhESmhJZ6,Hands All Over (Asia Deluxe Version),18,5,196706,0.609,0.812,11,-4.208,1,0.0297,0.111,0,0.247,0.468,117.368,4
+5UfK1U2mD7juGgmg1GfuB7,I Can't Lie,23,1YpWBHVe6qlFIXhESmhJZ6,Hands All Over (Asia Deluxe Version),18,6,211200,0.625,0.872,2,-4.89,1,0.0327,0.0257,0,0.152,0.96,90.979,4
+2rIRYDPYRowCykuxtWO01M,Hands All Over,16,1YpWBHVe6qlFIXhESmhJZ6,Hands All Over (Asia Deluxe Version),18,7,192853,0.651,0.791,5,-4.706,0,0.04,0.00941,0,0.103,0.728,86.471,4
+41penxdcq6LejItbDdS0aT,How,23,1YpWBHVe6qlFIXhESmhJZ6,Hands All Over (Asia Deluxe Version),18,8,216600,0.535,0.689,4,-4.549,1,0.0262,0.12,0,0.346,0.389,92.998,4
+0afqx5yZ87ZRdUJdzjIE5V,Get Back In My Life,18,1YpWBHVe6qlFIXhESmhJZ6,Hands All Over (Asia Deluxe Version),18,9,217893,0.758,0.925,11,-3.842,1,0.0273,2.75e-4,0,0.137,0.899,111.957,4
+5o8RS6vBfCdSEKgnPwMNSp,Just A Feeling,28,1YpWBHVe6qlFIXhESmhJZ6,Hands All Over (Asia Deluxe Version),18,10,226506,0.602,0.616,3,-5.098,1,0.0283,0.148,0,0.106,0.294,149.964,4
+5rZdymajCJKwbchumSJ7W1,Runaway,20,1YpWBHVe6qlFIXhESmhJZ6,Hands All Over (Asia Deluxe Version),18,11,181200,0.662,0.842,11,-3.694,0,0.0301,0.0092,0,0.151,0.593,99.995,4
+6jjaaXyaSJnHQnFqELBQrW,Out Of Goodbyes with Lady Antebellum,19,1YpWBHVe6qlFIXhESmhJZ6,Hands All Over (Asia Deluxe Version),18,12,196600,0.446,0.533,7,-8.458,1,0.0318,0.141,9.04e-5,0.108,0.377,207.546,4
+4xCgXfDMm0TKjSpWkNsbok,Last Chance,18,1YpWBHVe6qlFIXhESmhJZ6,Hands All Over (Asia Deluxe Version),18,13,189946,0.792,0.769,6,-5.18,0,0.0316,0.0472,0,0.194,0.956,129.041,4
+3yBLvRvcoZfzHGZh00VHYq,No Curtain Call,16,1YpWBHVe6qlFIXhESmhJZ6,Hands All Over (Asia Deluxe Version),18,14,224706,0.519,0.799,10,-4.998,0,0.0271,0.00137,0,0.107,0.343,168.086,4
+5vm4gTOAvdfXSxnF4LOOgC,Never Gonna Leave This Bed - Acoustic Version,21,1YpWBHVe6qlFIXhESmhJZ6,Hands All Over (Asia Deluxe Version),18,15,202306,0.712,0.677,11,-5.706,1,0.0392,0.328,0,0.0901,0.609,114.957,4
+4kJaLMoOt4TWAUjMV5ikI3,Misery - Acoustic Version,29,1YpWBHVe6qlFIXhESmhJZ6,Hands All Over (Asia Deluxe Version),18,16,226306,0.729,0.599,6,-7.577,1,0.0371,0.258,0,0.112,0.452,97.01,4
+6xWHK7jTmOx20jztSul2uu,If I Ain’t Got You - Live,39,1YpWBHVe6qlFIXhESmhJZ6,Hands All Over (Asia Deluxe Version),18,17,240600,0.5,0.406,3,-8.321,1,0.0271,0.556,0,0.0845,0.235,114.879,3
+7u6GVsDBnw4ZIl1FffYU4r,Crazy Little Thing Called Love - Acoustic Version,16,1YpWBHVe6qlFIXhESmhJZ6,Hands All Over (Asia Deluxe Version),18,18,194013,0.428,0.748,2,-6.375,1,0.0575,0.354,1.18e-6,0.344,0.601,151.5,4
+66zHUNLpXsG6rRL3yeAYSj,Misery,33,2IyanCCFV9rJBKCgWuO8vL,Hands All Over (Revised Asia Standard Version),14,1,216200,0.703,0.81,4,-4.874,0,0.0424,3.15e-4,0,0.216,0.726,102.978,4
+1wT7jlcm3pbMUHvkhg6bxd,Give A Little More,25,2IyanCCFV9rJBKCgWuO8vL,Hands All Over (Revised Asia Standard Version),14,2,180293,0.753,0.824,0,-4.301,1,0.0385,9.2e-4,1.34e-4,0.141,0.938,117.951,4
+1ZuZcBgNO3NtdPCbd2plqh,Stutter,20,2IyanCCFV9rJBKCgWuO8vL,Hands All Over (Revised Asia Standard Version),14,3,196920,0.711,0.882,1,-2.77,0,0.0334,0.017,0,0.111,0.814,119.982,4
+7oz55g09l5VkL0ePFBvmw2,Don't Know Nothing,17,2IyanCCFV9rJBKCgWuO8vL,Hands All Over (Revised Asia Standard Version),14,4,199066,0.656,0.847,9,-3.124,0,0.0257,0.0155,0,0.135,0.863,129.99,4
+6vpWjgkmLPl9ulmjPKcwfF,Never Gonna Leave This Bed,31,2IyanCCFV9rJBKCgWuO8vL,Hands All Over (Revised Asia Standard Version),14,5,196706,0.608,0.817,11,-4.207,1,0.0296,0.104,0,0.247,0.47,117.367,4
+2nVCQRuLWu0hKsGUUYBayX,I Can't Lie,21,2IyanCCFV9rJBKCgWuO8vL,Hands All Over (Revised Asia Standard Version),14,6,211200,0.625,0.872,2,-4.888,1,0.0327,0.0261,0,0.151,0.961,90.978,4
+1OJs4j8a18TcfgvgkmEpR5,Hands All Over,18,2IyanCCFV9rJBKCgWuO8vL,Hands All Over (Revised Asia Standard Version),14,7,192853,0.651,0.79,5,-4.702,0,0.0397,0.00944,0,0.104,0.728,86.453,4
+5eIeLJYzz7900YR5GimwcB,How,20,2IyanCCFV9rJBKCgWuO8vL,Hands All Over (Revised Asia Standard Version),14,8,216600,0.535,0.689,4,-4.536,1,0.0262,0.123,0,0.334,0.388,92.989,4
+7tVMCyNGk0J4PpU2pfnkb1,Get Back In My Life,17,2IyanCCFV9rJBKCgWuO8vL,Hands All Over (Revised Asia Standard Version),14,9,217893,0.759,0.924,11,-3.843,1,0.0273,2.7e-4,0,0.136,0.899,111.959,4
+6bIDlUJW8Le0VmWrBovJCU,Just A Feeling,39,2IyanCCFV9rJBKCgWuO8vL,Hands All Over (Revised Asia Standard Version),14,10,226506,0.601,0.617,3,-5.098,1,0.0285,0.14,0,0.107,0.295,149.903,4
+7g7bGCPmyM27iNKbiY4SQo,Runaway,19,2IyanCCFV9rJBKCgWuO8vL,Hands All Over (Revised Asia Standard Version),14,11,181200,0.662,0.842,11,-3.696,0,0.0302,0.0092,0,0.152,0.588,99.983,4
+3HKswndbc5sb1qgWa0cyv9,Out Of Goodbyes With Lady Antebellum,20,2IyanCCFV9rJBKCgWuO8vL,Hands All Over (Revised Asia Standard Version),14,12,196613,0.661,0.531,0,-8.459,1,0.0247,0.143,8.8e-5,0.108,0.39,103.91,4
+3TahdwXB4gJRWVAI00Ejqa,Moves Like Jagger - Studio Recording From The Voice Performance,60,2IyanCCFV9rJBKCgWuO8vL,Hands All Over (Revised Asia Standard Version),14,13,201493,0.722,0.761,11,-4.459,0,0.0475,0.0117,0,0.315,0.624,128.044,4
+6hwOHUnOSjAhUt97zQ0zBG,Crazy Little Thing Called Love - Acoustic Version,20,2IyanCCFV9rJBKCgWuO8vL,Hands All Over (Revised Asia Standard Version),14,14,193786,0.532,0.753,7,-6.348,1,0.0521,0.341,1e-6,0.358,0.614,151.598,4
+5RFo4jjKsAoe9JZiq25fWs,If I Never See Your Face Again - Swizz Beatz Remix,25,1btcxe4BlA1oqaBXQhd5zm,Call And Response: The Remix Album,18,1,225733,0.619,0.932,6,-4.244,1,0.0471,0.0018,0,0.351,0.681,106.03,4
+2TZpefebxp7JIj9TQvrNGn,Wake Up Call - Mark Ronson Remix,26,1btcxe4BlA1oqaBXQhd5zm,Call And Response: The Remix Album,18,2,191560,0.62,0.902,11,-3.511,0,0.122,0.104,0,0.0942,0.907,89.413,4
+3zojn1LRZxEh3aH477WRmm,Sunday Morning - Questlove Remix,35,1btcxe4BlA1oqaBXQhd5zm,Call And Response: The Remix Album,18,3,226546,0.519,0.642,0,-5.26,1,0.0389,0.155,0,0.0512,0.892,87.907,4
+4DZRhGua8FwDIf6St0dbHo,Makes Me Wonder - Just Blaze Remix,25,1btcxe4BlA1oqaBXQhd5zm,Call And Response: The Remix Album,18,4,354986,0.447,0.719,11,-6.058,0,0.0675,0.0691,6.72e-4,0.547,0.0738,175.917,4
+7lF4S3wpOcMQcdlY7G4Vaf,"This Love - C. ""Tricky"" Stewart Remix",25,1btcxe4BlA1oqaBXQhd5zm,Call And Response: The Remix Album,18,5,177546,0.809,0.76,8,-6.08,1,0.0828,0.0135,2.52e-6,0.0573,0.725,114.944,4
+7mbR1Mao73NCRI457H9zAC,She Will Be Loved - Pharrell Williams Remix,27,1btcxe4BlA1oqaBXQhd5zm,Call And Response: The Remix Album,18,6,261653,0.684,0.531,5,-5.744,0,0.0269,0.24,0,0.148,0.212,101.998,4
+6AM6mcvOhsBXhBRLqNrAvB,Shiver - DJ Quick Remix,21,1btcxe4BlA1oqaBXQhd5zm,Call And Response: The Remix Album,18,7,164746,0.745,0.763,2,-4.75,1,0.113,0.0193,0.00523,0.0581,0.917,171.958,4
+5Iiu0kA68rJNN0gZLxRT6U,Wake Up Call - David Banner Remix,24,1btcxe4BlA1oqaBXQhd5zm,Call And Response: The Remix Album,18,8,200853,0.742,0.792,4,-5.313,0,0.0743,0.00358,0.0377,0.0719,0.384,163.988,4
+23W2HOwEyDj9uA8WzaqSKf,Harder To Breathe - The Cool Kids Remix,26,1btcxe4BlA1oqaBXQhd5zm,Call And Response: The Remix Album,18,9,178066,0.702,0.706,1,-7.066,0,0.0576,0.00474,0.00523,0.134,0.961,150.075,4
+0rsCN21VJFkoTlrnNre7SP,Little Of Your Time - Bloodshy & Avant Remix,22,1btcxe4BlA1oqaBXQhd5zm,Call And Response: The Remix Album,18,10,234440,0.631,0.841,7,-5.577,1,0.119,0.00158,0,0.315,0.835,145.044,4
+5oaOnZFJViAM54otXt27Z3,Little Of Your Time - Of Montreal Remix,19,1btcxe4BlA1oqaBXQhd5zm,Call And Response: The Remix Album,18,11,179520,0.593,0.952,6,-6.884,0,0.0684,0.00788,0.164,0.394,0.592,144.068,4
+1yVlbG6WLOtWp3tLkFKpLs,Goodnight Goodnight - Deerhoof Remix,22,1btcxe4BlA1oqaBXQhd5zm,Call And Response: The Remix Album,18,12,242400,0.648,0.483,2,-7.055,1,0.0296,0.117,1.94e-6,0.0789,0.233,94.977,4
+6ymmQd6NKrsjVuGTCZ2jYJ,Not Falling Apart - Tiësto Remix,27,1btcxe4BlA1oqaBXQhd5zm,Call And Response: The Remix Album,18,13,368733,0.741,0.376,7,-8.465,1,0.0632,0.00138,0.0138,0.225,0.418,130.011,4
+0tG5QWGVg7Dillxob8z2em,Better That We Break - Ali Shaheed Muhammad & Doc Remix,21,1btcxe4BlA1oqaBXQhd5zm,Call And Response: The Remix Album,18,14,159853,0.515,0.838,9,-4.669,0,0.148,0.0104,0,0.292,0.598,94.012,4
+7KR1V5JyZ0dIBMkeoQUqVU,Secret - Premier 5 Remix,22,1btcxe4BlA1oqaBXQhd5zm,Call And Response: The Remix Album,18,15,233573,0.752,0.605,7,-6.044,1,0.0411,0.00224,2.9e-4,0.212,0.389,87.989,4
+3NPQFM3LRycBk6PxVlT1eL,Woman - Sam Farrar Remix,22,1btcxe4BlA1oqaBXQhd5zm,Call And Response: The Remix Album,18,16,251853,0.672,0.707,7,-7.283,1,0.125,0.0496,0.00171,0.0617,0.797,173.972,4
+2Q8sQ7cYrMqBQt2lAoWPDl,This Love - Cut Copy Galactic Beach House Mix,22,1btcxe4BlA1oqaBXQhd5zm,Call And Response: The Remix Album,18,17,441306,0.632,0.892,10,-6.807,0,0.0366,0.00175,0.253,0.101,0.533,114.996,4
+4ZSsnZIeuhu7urOeVFQsWT,If I Never See Your Face Again - Paul Oakenfold Remix,24,1btcxe4BlA1oqaBXQhd5zm,Call And Response: The Remix Album,18,18,423253,0.636,0.709,3,-6.44,0,0.0427,0.0216,0.00108,0.425,0.659,124.997,4
+4dHOg1U0mIHjqV0mmUtxZd,If I Never See Your Face Again,55,2RUHJZ3raiIDsR3yX4JXf5,It Won't Be Soon Before Long (International Version),15,1,201000,0.745,0.867,1,-2.446,1,0.0374,0.017,0,0.281,0.936,106.006,4
+3PNOYDruQplC92lNc7mE9W,Makes Me Wonder,62,2RUHJZ3raiIDsR3yX4JXf5,It Won't Be Soon Before Long (International Version),15,2,211080,0.803,0.851,7,-2.429,1,0.0357,0.00485,3.58e-4,0.0577,0.881,113.996,4
+3Eb5tBeashhnFNn71fkf0c,Little Of Your Time,35,2RUHJZ3raiIDsR3yX4JXf5,It Won't Be Soon Before Long (International Version),15,3,137066,0.686,0.963,6,-2.532,0,0.0801,0.0658,0,0.104,0.965,143.931,4
+1BBotmY58mifFRvQvhFpjW,Wake Up Call,50,2RUHJZ3raiIDsR3yX4JXf5,It Won't Be Soon Before Long (International Version),15,4,201306,0.632,0.949,4,-2.671,0,0.0593,0.0302,0,0.0871,0.969,164.118,4
+6WEBwvsmpaoGxka0tSh5a7,Won't Go Home Without You,68,2RUHJZ3raiIDsR3yX4JXf5,It Won't Be Soon Before Long (International Version),15,5,231173,0.737,0.615,3,-3.76,1,0.0317,0.0149,0,0.102,0.41,110.023,4
+5HnGr274AAE80EsWZQ7lU0,Nothing Lasts Forever,47,2RUHJZ3raiIDsR3yX4JXf5,It Won't Be Soon Before Long (International Version),15,6,187920,0.595,0.764,4,-4.631,0,0.0304,0.345,0,0.0855,0.558,95.959,4
+4GzMGX8UcT1SH9BcvpUNEw,Can't Stop,39,2RUHJZ3raiIDsR3yX4JXf5,It Won't Be Soon Before Long (International Version),15,7,152800,0.61,0.931,4,-1.872,0,0.0633,0.0167,0,0.0585,0.971,154.874,4
+6pGZOkEi79wdJ7x2dPBy4w,Goodnight Goodnight,56,2RUHJZ3raiIDsR3yX4JXf5,It Won't Be Soon Before Long (International Version),15,8,243320,0.587,0.677,2,-3.765,1,0.0256,0.033,0,0.18,0.239,94.988,4
+4cQsMQCn1HCsYifnUsp5Q1,Not Falling Apart,35,2RUHJZ3raiIDsR3yX4JXf5,It Won't Be Soon Before Long (International Version),15,9,243626,0.758,0.714,7,-5.027,1,0.0382,0.00788,1.34e-6,0.0636,0.403,119.971,4
+26nKk5RN1eeCyRvwpTS2Or,Kiwi,32,2RUHJZ3raiIDsR3yX4JXf5,It Won't Be Soon Before Long (International Version),15,10,214546,0.74,0.874,4,-4.47,0,0.0992,0.0384,0.00634,0.901,0.709,141.984,4
+1d3kcbftCujF3gG3J342cI,Better That We Break,43,2RUHJZ3raiIDsR3yX4JXf5,It Won't Be Soon Before Long (International Version),15,11,186306,0.52,0.613,0,-3.238,1,0.0268,0.314,0,0.13,0.383,79.914,4
+748xEL4W6Bm2X1GOxU8Yms,Back At Your Door,34,2RUHJZ3raiIDsR3yX4JXf5,It Won't Be Soon Before Long (International Version),15,12,226826,0.647,0.624,3,-3.415,1,0.0263,0.0196,0,0.224,0.315,111.994,3
+3csXSG8QloDZH5LebEyUgU,Until You're Over Me - Non-LP Version,31,2RUHJZ3raiIDsR3yX4JXf5,It Won't Be Soon Before Long (International Version),15,13,195306,0.811,0.813,5,-2.788,1,0.0601,0.0274,0,0.0702,0.897,139.951,4
+7e2MR9NEW1XevN0ZUZIa55,Infatuation,33,2RUHJZ3raiIDsR3yX4JXf5,It Won't Be Soon Before Long (International Version),15,14,265413,0.721,0.555,4,-3.833,1,0.0324,0.141,0,0.0716,0.541,144.014,4
+2oIyWEuPUKGJWPTzsTN1S2,Losing My Mind - Non-LP Version,30,2RUHJZ3raiIDsR3yX4JXf5,It Won't Be Soon Before Long (International Version),15,15,201266,0.495,0.769,10,-3.005,1,0.0379,0.0275,0,0.112,0.369,167.952,4
+6LGXMlZFFkvMrz8iJPwSbY,Shiver - Live,21,07hPT8Ndirhuv2NeurOD6C,Live Friday The 13th,14,1,289160,0.226,0.987,0,-5.258,1,0.0754,0.00801,2.88e-6,0.833,0.358,173.533,4
+2nvjcxZbWfgtC8a44B4MVU,Through With You - Live,20,07hPT8Ndirhuv2NeurOD6C,Live Friday The 13th,14,2,199040,0.488,0.933,10,-6.333,0,0.0354,0.00879,0,0.409,0.653,142.043,4
+4BE1xijuaclg0GPzx1dI71,Tangled - Live,20,07hPT8Ndirhuv2NeurOD6C,Live Friday The 13th,14,3,217493,0.393,0.969,9,-5.943,0,0.0692,9.27e-4,5.82e-5,0.979,0.473,141.093,4
+68a4QAkomPREeFxjiWBIsJ,Harder To Breathe - Live,23,07hPT8Ndirhuv2NeurOD6C,Live Friday The 13th,14,4,179786,0.279,0.976,1,-5.67,0,0.0545,0.00546,0,0.934,0.726,148.125,4
+2RhYrgApWxy0brsWNko6xD,The Sun - Live,20,07hPT8Ndirhuv2NeurOD6C,Live Friday The 13th,14,5,472280,0.333,0.942,7,-6.645,1,0.0685,0.00317,5.86e-5,0.957,0.309,80.061,4
+3uc8EaDOksuNPOrSCwuu2W,Wasted Years - Live,20,07hPT8Ndirhuv2NeurOD6C,Live Friday The 13th,14,6,323480,0.271,0.881,9,-6.682,0,0.0501,0.0191,0,0.991,0.438,152.043,4
+0cCYNg9N6BFtJxVF0FB0o5,Secret/Ain't No Sunshine - Live,21,07hPT8Ndirhuv2NeurOD6C,Live Friday The 13th,14,7,431626,0.39,0.687,5,-8.226,1,0.0319,0.0306,0.00119,0.965,0.192,83.606,4
+2MTCwBeOpNa3ww6PFUb0kq,Not Coming Home - Live,19,07hPT8Ndirhuv2NeurOD6C,Live Friday The 13th,14,8,268280,0.522,0.953,1,-5.999,0,0.112,0.0631,1.08e-6,0.981,0.361,120.994,4
+0lRm2146tAYFre5X1oIwN8,This Love - Live,28,07hPT8Ndirhuv2NeurOD6C,Live Friday The 13th,14,9,314186,0.417,0.977,0,-5.675,1,0.117,0.0333,0,0.945,0.286,95.165,4
+2kYvXQ6GPDBINWJLiOaOiC,Must Get Out - Live,20,07hPT8Ndirhuv2NeurOD6C,Live Friday The 13th,14,10,248720,0.483,0.883,7,-5.752,1,0.0327,0.0036,0,0.942,0.394,98.001,4
+2GRpb2NAI2vn8qwLa3oxd8,Sunday Morning - Live,26,07hPT8Ndirhuv2NeurOD6C,Live Friday The 13th,14,11,397520,0.346,0.927,0,-6.188,1,0.0957,0.0175,1.18e-5,0.932,0.291,85.886,4
+2pBttYLLbR8W2xgAPOZIUS,Sweetest Goodbye - Live,22,07hPT8Ndirhuv2NeurOD6C,Live Friday The 13th,14,12,578666,0.218,0.954,3,-6.598,0,0.0817,0.00401,0.00138,0.989,0.227,83.075,4
+1vpT2nIDyx9MV6P4TfvwMq,Hello - Live,18,07hPT8Ndirhuv2NeurOD6C,Live Friday The 13th,14,13,232240,0.185,0.984,9,-4.638,0,0.0977,3.21e-5,0.00402,1,0.169,108.552,4
+4CbFaTmshnLTEKYS2v3t2L,She Will Be Loved - Live,33,07hPT8Ndirhuv2NeurOD6C,Live Friday The 13th,14,14,379013,0.226,0.87,2,-6.907,1,0.0512,0.0353,0,0.397,0.481,201.099,4
+5L1B4PfjpyeAYUyOgiq9eQ,If I Never See Your Face Again,25,2qECqBZLOCwcrhIbB7e3Kw,It Won't Be Soon Before Long (International Limited Deluxe Version),19,1,201000,0.745,0.867,1,-2.446,1,0.0374,0.017,0,0.281,0.936,106.006,4
+1KIkQkQtGzrv5PFNNAXfwY,Makes Me Wonder,30,2qECqBZLOCwcrhIbB7e3Kw,It Won't Be Soon Before Long (International Limited Deluxe Version),19,2,211080,0.803,0.851,7,-2.429,1,0.0357,0.00485,3.58e-4,0.0577,0.881,113.996,4
+64GVkyQ7yAr0WocanA4lg7,Little Of Your Time,20,2qECqBZLOCwcrhIbB7e3Kw,It Won't Be Soon Before Long (International Limited Deluxe Version),19,3,137066,0.686,0.963,6,-2.532,0,0.0801,0.0658,0,0.104,0.965,143.931,4
+1ZBlhRrfpuIpBu4R5ml7oL,Wake Up Call,26,2qECqBZLOCwcrhIbB7e3Kw,It Won't Be Soon Before Long (International Limited Deluxe Version),19,4,201306,0.632,0.949,4,-2.671,0,0.0593,0.0302,0,0.0871,0.969,164.118,4
+5n6xcZcHCSpAC2VHJKL3az,Won't Go Home Without You,38,2qECqBZLOCwcrhIbB7e3Kw,It Won't Be Soon Before Long (International Limited Deluxe Version),19,5,231173,0.737,0.615,3,-3.76,1,0.0317,0.0149,0,0.102,0.41,110.023,4
+3yLr56klPeVdRFRSThUbqo,Nothing Lasts Forever,28,2qECqBZLOCwcrhIbB7e3Kw,It Won't Be Soon Before Long (International Limited Deluxe Version),19,6,187920,0.595,0.764,4,-4.631,0,0.0304,0.345,0,0.0855,0.558,95.959,4
+0zF89WgKV6tC2PShUu7MFQ,Can't Stop,20,2qECqBZLOCwcrhIbB7e3Kw,It Won't Be Soon Before Long (International Limited Deluxe Version),19,7,152800,0.61,0.931,4,-1.872,0,0.0633,0.0167,0,0.0585,0.971,154.874,4
+7qTLRFfB2KGnM0ypoQNYYs,Goodnight Goodnight,26,2qECqBZLOCwcrhIbB7e3Kw,It Won't Be Soon Before Long (International Limited Deluxe Version),19,8,243320,0.587,0.677,2,-3.765,1,0.0256,0.033,0,0.18,0.239,94.988,4
+1Jbnep9UP9swwo01h02UZ5,Not Falling Apart,20,2qECqBZLOCwcrhIbB7e3Kw,It Won't Be Soon Before Long (International Limited Deluxe Version),19,9,243626,0.758,0.714,7,-5.027,1,0.0382,0.00788,1.34e-6,0.0636,0.403,119.971,4
+61xBZzKTtNSYK29NAVVttg,Kiwi,17,2qECqBZLOCwcrhIbB7e3Kw,It Won't Be Soon Before Long (International Limited Deluxe Version),19,10,214546,0.74,0.874,4,-4.47,0,0.0992,0.0384,0.00634,0.901,0.709,141.984,4
+7njcuQTUExivweyTv9fQc8,Better That We Break,26,2qECqBZLOCwcrhIbB7e3Kw,It Won't Be Soon Before Long (International Limited Deluxe Version),19,11,186306,0.52,0.613,0,-3.238,1,0.0268,0.314,0,0.13,0.383,79.914,4
+6U8Oad01XDrOWI2BMvlh5V,Back At Your Door,19,2qECqBZLOCwcrhIbB7e3Kw,It Won't Be Soon Before Long (International Limited Deluxe Version),19,12,226826,0.647,0.624,3,-3.415,1,0.0263,0.0196,0,0.224,0.315,111.994,3
+1UWzM1ekpDhQlPQ1yyMgwm,Until You're Over Me - Non-LP Version,17,2qECqBZLOCwcrhIbB7e3Kw,It Won't Be Soon Before Long (International Limited Deluxe Version),19,13,195306,0.811,0.813,5,-2.788,1,0.0601,0.0274,0,0.0702,0.897,139.951,4
+3mYQkjPJQjY7dAMyhh48Zq,Infatuation,19,2qECqBZLOCwcrhIbB7e3Kw,It Won't Be Soon Before Long (International Limited Deluxe Version),19,14,265413,0.721,0.555,4,-3.833,1,0.0324,0.141,0,0.0716,0.541,144.014,4
+6BnPy6mHpNTpg0moowYbxy,Losing My Mind - Non-LP Version,16,2qECqBZLOCwcrhIbB7e3Kw,It Won't Be Soon Before Long (International Limited Deluxe Version),19,15,201266,0.495,0.769,10,-3.005,1,0.0379,0.0275,0,0.112,0.369,167.952,4
+7f5Kc5ddTWHiMxeiQOaGbP,Wake Up Call - Mark Ronson Remix,16,2qECqBZLOCwcrhIbB7e3Kw,It Won't Be Soon Before Long (International Limited Deluxe Version),19,16,191933,0.474,0.897,11,-3.521,0,0.209,0.0969,0,0.0694,0.889,177.96,4
+0d2nlVKOipwBVUtUJZOTNc,The Way I Was - Non-LP Version,19,2qECqBZLOCwcrhIbB7e3Kw,It Won't Be Soon Before Long (International Limited Deluxe Version),19,17,259146,0.541,0.91,11,-2.902,1,0.032,0.0124,0,0.346,0.489,120.038,4
+1NiZM2Xvxfk99hiUsao43Y,Story - Non-LP Version,18,2qECqBZLOCwcrhIbB7e3Kw,It Won't Be Soon Before Long (International Limited Deluxe Version),19,18,269573,0.47,0.818,0,-3.691,1,0.033,0.0018600000000000001,0,0.205,0.399,119.983,4
+42GZXjBcfZXWrxHPYDXkVy,Won't Go Home Without You - Acoustic Version,33,2qECqBZLOCwcrhIbB7e3Kw,It Won't Be Soon Before Long (International Limited Deluxe Version),19,19,246306,0.617,0.292,3,-11.111,1,0.0286,0.928,9.8199999999999992e-006,0.0877,0.302,106.121,4
+3d7pK1CqZaj5xbIGPy85rD,This Love - Acoustic,51,0BCjGDBIymcwf4etd4KBgu,1.22.03 Acoustic,7,1,255293,0.649,0.621,10,-8.959,0,0.0559,0.503,1.23e-5,0.379,0.674,91.25,4
+3bXhtg6H8lOMWaLZttQF6F,Sunday Morning - Acoustic,61,0BCjGDBIymcwf4etd4KBgu,1.22.03 Acoustic,7,2,254853,0.55,0.667,7,-8.613,1,0.0776,0.57,0,0.705,0.763,82.767,4
+2sLS4tVaEoMYrNS67PVz0V,She Will Be Loved - Acoustic,70,0BCjGDBIymcwf4etd4KBgu,1.22.03 Acoustic,7,3,276786,0.618,0.504,11,-9.328,0,0.0319,0.496,4.73e-6,0.698,0.58,98.12,4
+5Ay81Q9Ms1TxEpW4K2sEdF,Harder To Breathe - Acoustic,55,0BCjGDBIymcwf4etd4KBgu,1.22.03 Acoustic,7,4,189880,0.693,0.798,8,-7.809,0,0.195,0.482,0,0.735,0.955,146.468,4
+4UXIPGSBpaK4TXaWsY0bfY,The Sun - Acoustic,36,0BCjGDBIymcwf4etd4KBgu,1.22.03 Acoustic,7,5,318520,0.438,0.727,4,-9.248,0,0.125,0.528,6.59e-5,0.575,0.469,154.583,4
+3lAqHOGFBABytXxiPpDm6e,"If I Fell - Acoustic / Live At The Hit Factory, NYC / 2003",38,0BCjGDBIymcwf4etd4KBgu,1.22.03 Acoustic,7,6,203306,0.508,0.125,6,-16.55,0,0.0364,0.919,0,0.708,0.192,81.3,4
+2h7AMLucO47xzRTxdFzK7U,"Highway To Hell - Acoustic - Live From Hamburg, Germany",31,0BCjGDBIymcwf4etd4KBgu,1.22.03 Acoustic,7,7,269693,0.493,0.878,7,-6.966,1,0.0761,0.0265,0.00134,0.924,0.451,121.88,4
+2RjpDxBii8EvC6p6wxwCSz,Harder To Breathe,55,1Rv9WRKyYhFaGbuYDaQunN,Songs About Jane,12,1,173693,0.662,0.908,1,-4.764,0,0.0449,0.0506,0,0.0508,0.967,149.941,4
+6YgV0EF8xJMZz0Zm6BTaT4,This Love,68,1Rv9WRKyYhFaGbuYDaQunN,Songs About Jane,12,2,206200,0.712,0.862,5,-4.612,0,0.0378,0.0525,0,0.093,0.809,95.051,4
+3T35D5r5tkO6c1KzZ0HCBr,Shiver,46,1Rv9WRKyYhFaGbuYDaQunN,Songs About Jane,12,3,179773,0.625,0.925,0,-4.435,1,0.342,0.0421,0,0.865,0.515,172.017,4
+7sapKrjDij2fpDVj0GxP66,She Will Be Loved,72,1Rv9WRKyYhFaGbuYDaQunN,Songs About Jane,12,4,257133,0.706,0.713,0,-5.512,0,0.0301,0.0596,0,0.132,0.544,102.037,4
+07oRM1c6VtzDpxjTn8w6Hm,Tangled,46,1Rv9WRKyYhFaGbuYDaQunN,Songs About Jane,12,5,198200,0.626,0.8,9,-5.085,0,0.0611,0.0313,0,0.0587,0.737,145.839,4
+6cX1zmXxkfhSvHW82U5CW6,The Sun,47,1Rv9WRKyYhFaGbuYDaQunN,Songs About Jane,12,6,251693,0.446,0.728,7,-5.663,1,0.0463,0.0492,0,0.0316,0.562,79.648,4
+7xlIrLvCs7digqxVI3LKMM,Must Get Out,46,1Rv9WRKyYhFaGbuYDaQunN,Songs About Jane,12,7,239440,0.749,0.531,7,-6.636,1,0.0324,0.0549,0,0.237,0.317,97.022,4
+1YI0uK36eupTmw9F8kHysr,Sunday Morning,68,1Rv9WRKyYhFaGbuYDaQunN,Songs About Jane,12,8,244866,0.607,0.76,0,-5.229,1,0.0482,0.0745,0,0.0595,0.805,88.059,4
+64i1dyG9Td5z5Q0TCG17Pb,Secret,50,1Rv9WRKyYhFaGbuYDaQunN,Songs About Jane,12,9,295000,0.42,0.438,5,-8.402,1,0.051,0.256,1.17e-4,0.0963,0.149,87.986,4
+6DhtWg2DzPVEcBZoJ2CJh9,Through With You,44,1Rv9WRKyYhFaGbuYDaQunN,Songs About Jane,12,10,181573,0.69,0.8,10,-5.407,0,0.044,0.0749,0,0.0848,0.663,146.147,4
+7sT621Iv8V6bMv6Z5B16PO,Not Coming Home,44,1Rv9WRKyYhFaGbuYDaQunN,Songs About Jane,12,11,261226,0.668,0.925,1,-5.204,0,0.0901,0.135,4.55e-6,0.983,0.352,120.049,4
+44R3zk8n5b3g5fTEXCkwnW,Sweetest Goodbye,47,1Rv9WRKyYhFaGbuYDaQunN,Songs About Jane,12,12,270733,0.566,0.819,1,-5.951,1,0.104,0.167,0,0.187,0.708,164.004,4
+4V9JDRqKjN8F2HWdlEDxvI,Harder To Breathe,65,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,1,173693,0.662,0.908,1,-4.764,0,0.0449,0.0506,0,0.0508,0.967,149.941,4
+6ECp64rv50XVz93WvxXMGF,This Love,77,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,2,206200,0.712,0.862,5,-4.612,0,0.0378,0.0525,0,0.093,0.809,95.051,4
+6MvQ6mhfqeoxfhTydwYRRI,Shiver,47,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,3,179773,0.625,0.925,0,-4.435,1,0.342,0.0421,0,0.865,0.515,172.017,4
+4llK75pXNWZz6KAho2Gp16,She Will Be Loved - Radio Mix,80,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,4,259453,0.651,0.663,0,-5.569,0,0.0281,0.228,0,0.0994,0.465,102,4
+4c0Arzex2NVpiCePeB5rf5,Tangled,45,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,5,198200,0.63,0.798,9,-5.075,0,0.0559,0.0348,0,0.0557,0.788,145.977,4
+16tn9LlieVLhbCmL2x2TRe,The Sun,46,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,6,251693,0.532,0.73,7,-5.671,1,0.0414,0.0464,0,0.0323,0.558,79.989,4
+7BMFfYoeXMXMX2mVCy2NVz,Must Get Out,46,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,7,239440,0.748,0.529,7,-6.641,1,0.0323,0.053,0,0.338,0.317,97.017,4
+5qII2n90lVdPDcgXEEVHNy,Sunday Morning,71,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,8,244880,0.608,0.768,0,-5.227,1,0.0475,0.0913,0,0.0629,0.809,88.059,4
+6QU5K23dgQ6kOca5INWOVB,Secret,49,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,9,295000,0.641,0.446,5,-8.369,1,0.0391,0.231,8.68e-5,0.106,0.15,88.04,4
+1ShkiUGko94e4BW5fEnxxw,Through With You,43,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,10,181573,0.691,0.795,10,-5.38,0,0.0439,0.0715,0,0.0932,0.64,146.144,4
+47GAwoC7QtBMVqrixfLVUo,Not Coming Home,45,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,11,261226,0.667,0.921,1,-5.223,0,0.0909,0.123,6.66e-6,0.982,0.378,120.04,4
+6b9NzxGrLgueouFOAr5Jw3,Sweetest Goodbye,42,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,12,270746,0.557,0.819,3,-5.985,0,0.0983,0.15,0,0.185,0.721,163.986,4
+03yLhZ200apRpQR47lb2fg,Harder To Breathe - Demo,37,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,1,137680,0.537,0.79,6,-5.614,0,0.176,0.0898,0,0.0914,0.908,149.8,4
+4PNn9pMYbErIXMHmE0w4a2,This Love - Demo,40,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,2,201866,0.686,0.576,0,-6.775,0,0.0376,0.182,0,0.106,0.642,95.94,4
+2NPgLm7I9ltBDXE4oigXi6,Shiver - Demo,34,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,3,188773,0.762,0.613,4,-5.59,0,0.132,0.0134,7.52e-6,0.091,0.704,171.906,4
+0HJdnuMSH9cR4GNUUtQBPM,She Will Be Loved - Demo,40,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,4,188906,0.879,0.429,1,-7.939,0,0.041,0.0227,0,0.064,0.61,100.014,4
+3B4rsHMPbvYV7nNxs4FSWE,Tangled - Demo,34,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,5,164413,0.842,0.534,5,-8.309,1,0.221,0.181,0,0.17,0.522,77.98,4
+09ZNbemRWaTfNBmZ246SOQ,The Sun - Demo,34,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,6,202613,0.7,0.646,7,-6.823,1,0.0737,0.121,0,0.0729,0.741,80.302,4
+6ky7V6pofLTDxI6vJ6azZ4,Must Get Out - Demo,34,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,7,197466,0.664,0.507,7,-7.11,1,0.0371,0.214,0,0.0849,0.586,191.978,4
+6lwJPy78yr392u5uVUQKww,Sunday Morning - Demo,43,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,8,252106,0.536,0.624,0,-7.481,1,0.0533,0.0274,0,0.0908,0.886,88.648,4
+4ygNJLjf6J6X91VPExX0Ee,Secret - Demo,35,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,9,249666,0.512,0.51,5,-7.219,1,0.0455,0.097,2.39e-5,0.128,0.132,177.109,4
+2gGyGhrur9okI0UBIDXJEG,Through With You - Demo,33,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,10,200853,0.677,0.427,10,-7.47,0,0.0434,0.0605,0,0.0788,0.537,140.057,4
+4lgsjS8hYdpP8lOyyKdNEf,Not Coming Home - Demo,33,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,11,231293,0.747,0.361,2,-8.595,0,0.0549,0.0511,2.26e-6,0.202,0.397,121.499,4
+5tSN9S1BvuQ1TcmBnkA9Ws,Sweetest Goodbye - Demo,35,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,12,210453,0.716,0.606,7,-7.083,1,0.0446,0.216,1.27e-6,0.112,0.787,164.052,4
+4bvqIVboftRLtgT8WBOXCI,Take What You Want - Demo,36,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,13,145066,0.642,0.834,9,-6.517,1,0.0615,0.0462,0,0.201,0.54,112.344,3
+39gJMnnXw8x2Im44B8BM3P,Ragdoll - Original Demo/Non-LP International B-Side,36,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,14,328693,0.718,0.576,7,-5.244,1,0.0342,0.333,3.15e-6,0.0965,0.361,121.699,4
+4PPgUdOaHiGBEswMhwSziB,Woman - Demo,35,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,15,246213,0.774,0.604,9,-9.445,0,0.131,0.227,0.00268,0.0646,0.78,173.998,4
+1hbbMyfgxjcFrW2v4ll8uQ,Chilly Winter - Demo,33,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,16,175106,0.793,0.489,0,-9.254,1,0.0358,0.0831,4.44e-4,0.111,0.793,136.009,5
+0ecxQl1Uij06vO9S7htIVI,The Sun - Alternate Mix,34,5zClcGCSWj926AMjvBNSLc,Songs About Jane: 10th Anniversary Edition,29,17,256680,0.618,0.805,7,-4.962,1,0.0378,0.0175,0,0.0455,0.476,80.024,4
