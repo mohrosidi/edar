@@ -71,6 +71,16 @@ Untuk mengecek 10 observasi awal dataset tersebut, jalankan sintaks berikut:
 ___
 ```
 
+# Ringkasan Data
+
+```{r}
+glimpse(___)
+summary(___)
+skim(___)
+plot_intro(___)
+plot_missing(___)
+```
+
 # Variasi
 
 ## Data Kontinu

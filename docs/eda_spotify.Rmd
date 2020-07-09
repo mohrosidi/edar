@@ -80,6 +80,34 @@ Untuk mengecek 10 observasi awal dataset tersebut, jalankan sintaks berikut:
 ___
 ```
 
+## Data Cleaning
+
+Terdapat sejumlah variabel yang perlu disesuaikan terlebih dahulu jenis datanya. Variabel tersebut, antara lain: `time_signature`, `key`, dan `mode`.
+
+```{r}
+key_labs = c('c', 'c#', 'd', 'd#', 'e', 'f', 
+             'f#', 'g', 'g#', 'a', 'a#', 'b')
+mode_labs = c('minor', 'major')
+
+spotify <- spotify %>%
+  mutate(time_signature = factor(time_signature),
+         key = key = factor(key, labels = key_labs),
+         mode = factor(mode, labels = mode_labs))
+
+```
+
+
+# Ringkasan Data
+
+```{r}
+glimpse(___)
+summary(___)
+skim(___)
+plot_intro(___)
+plot_missing(___)
+```
+
+
 # Variasi
 
 ## Data Kontinu
@@ -112,7 +140,7 @@ plot_boxplot(___, by = "artist")
 ## Kontinu vs Kontinu
 
 ```{r}
-plot_scatterplot()
+plot_scatterplot(___ , by = "liveness")
 ```
 
 # Lagu Terpopuler Masing-Masing Artis
