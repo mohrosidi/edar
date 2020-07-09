@@ -1,0 +1,21 @@
+---
+title: "Analisis Data Eksploratif Dataset CatvsDog"
+author: "nama_peserta"
+date: "7/9/2020"
+output:
+  html_document:
+    number_sections: true
+    toc: true
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+    df_print: paged
+    theme: yeti
+    highlight: textmate
+    css: assets/style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
