@@ -19,22 +19,161 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+# Dataset Spotify
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Pada artikel ini, kita akan melakukan analisis eksploratif pada dataset `Spotify`. `Spotify`  Merupakan dataset yang berisikan daftar lagu dan fitur audio dari band/penyanyi ternama dunia, antara lain: Queens, Maroon 5, dan Jason Mraz.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Kolom-kolom pada dataset tersebut, antara lain:
 
-```{r cars}
-summary(cars)
+* `id` : nomor seri lagu
+*  `name` : judul lagu
+* `popularity` : tingkat popularitas lagu
+* `album.id` : nomor seri album
+* `album.name` : nama album
+* `album.total_tracks` : total lagu dalam album
+* `track_number` : nomor lagu dalam album
+* `duration_ms` : durasi lagu dalam satuan ms
+* `danceability` : elemen musik termasuk tempo, stabilitas ritme, kekuatan beat, dan keteraturan keseluruhan. Nilai 0,0 paling tidak bisa digunakan untuk menari dan 1,0 paling bisa digunakan untuk menari.
+* `energy` : Energi adalah ukuran dari 0,0 hingga 1,0 dan mewakili ukuran persepsi intensitas dan aktivitas. Biasanya, trek yang energik terasa cepat, keras, dan berisik. Sebagai contoh, death metal memiliki energi tinggi, sedangkan prelude Bach mendapat skor rendah pada skala. Fitur perseptual yang berkontribusi pada atribut ini meliputi rentang dinamis, persepsi kenyaringan, warna nada, onset rate, dan entropi umum.
+* `key` : Kunci dari trek adalah. Integer memetakan ke pitch menggunakan notasi Pitch Class standar. Misalnya. 0 = C, 1 = C♯ / D ♭, 2 = D, dan seterusnya.
+* `loudness` : Keseluruhan kenyaringan trek dalam desibel (dB). Nilai kenyaringan rata-rata di seluruh trek dan berguna untuk membandingkan kenyaringan relatif trek. Kenyaringan adalah kualitas suara yang merupakan korelasi psikologis utama dari kekuatan fisik (amplitudo). Nilai kisaran khas antara -60 dan 0 db.
+* `mode` : Mode menunjukkan modalitas (besar atau kecil) dari suatu trek, jenis skala dari mana konten melodinya diturunkan. Mayor diwakili oleh 1 dan minor adalah 0.
+* `speechiness` : Speechiness mendeteksi keberadaan kata-kata yang diucapkan di trek. Semakin eksklusif pidato-seperti rekaman (mis. Acara bincang-bincang, buku audio, puisi), semakin dekat dengan 1.0 nilai atribut. Nilai di atas 0,66 menggambarkan trek yang mungkin seluruhnya terbuat dari kata-kata yang diucapkan. Nilai antara 0,33 dan 0,66 menggambarkan trek yang mungkin berisi musik dan ucapan, baik dalam bagian atau lapisan, termasuk kasus-kasus seperti musik rap. Nilai di bawah 0,33 kemungkinan besar mewakili musik dan trek non-ucapan lainnya.
+* `acousticness` : Ukuran kepercayaan dari 0,0 hingga 1,0 dari apakah trek akustik. 1.0 mewakili kepercayaan tinggi trek adalah akustik.
+* `instrumentalness` : Memprediksi apakah suatu lagu tidak mengandung vokal. Suara “Ooh” dan “aah” diperlakukan sebagai instrumen dalam konteks ini. Rap atau trek kata yang diucapkan jelas "vokal". Semakin dekat nilai instrumentalness ke 1.0, semakin besar kemungkinan trek tidak mengandung konten vokal. Nilai di atas 0,5 dimaksudkan untuk mewakili trek instrumental, tetapi kepercayaan diri lebih tinggi ketika nilai mendekati 1.0.
+* `liveness` : Mendeteksi keberadaan audiens dalam rekaman. Nilai liveness yang lebih tinggi mewakili probabilitas yang meningkat bahwa trek dilakukan secara langsung. Nilai di atas 0,8 memberikan kemungkinan kuat bahwa trek live.
+* `valence` : Ukuran 0,0 hingga 1,0 yang menggambarkan kepositifan musik yang disampaikan oleh sebuah trek. Lagu dengan valensi tinggi terdengar lebih positif (mis. Bahagia, ceria, gembira), sedangkan trek dengan valensi rendah terdengar lebih negatif (mis. Sedih, tertekan, marah).
+* `tempo` : Perkiraan tempo trek secara keseluruhan dalam beat per menit (BPM). Dalam terminologi musik, tempo adalah kecepatan atau kecepatan dari bagian yang diberikan dan diturunkan langsung dari durasi beat rata-rata.
+* `time_signature` : An estimated overall time signature of a track. The time signature (meter) is a notational convention to specify how many beats are in each bar (or measure).
+
+# Persiapan {.tabset}
+
+## Library
+
+```{r, message=FALSE, warning=FALSE}
+if(!require(tidyverse)) install.packages("tidyverse")
+if(!require(skimr)) install.packages("skimr")
+if(!require(DataExplorer)) install.packages("DataExplorer")
+
+library(tidyverse)
+library(skimr)
+library(DataExplorer)
 ```
 
-## Including Plots
+Terdapat tiga buah *library* yang diperlukan dalam tutorial ini, antara lain:
 
-You can also embed plots, for example:
+1. `tidyverse` : koleksi paket R yang dirancang untuk ilmu data. Semua paket berbagi filosofi desain, tata bahasa, dan struktur data yang mendasarinya.
+2. `skimr` : menyediakan fungsi untuk membuat ringkasan data yang dapat dibaca secara cepat.
+3. `DataExplorer` : menyediakan fungsi yang dapat membantu proses otomasi analisis data eksploratif
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+## Import Dataset
+
+Data yang kita miliki memiliki format `.csv`. Untuk megimport data tersebut, kita dapat menggunakan fungsi `read_csv` dari library `readr`.
+
+```{r, warning=FALSE, message=FALSE}
+spotify <- read_csv("data/___")
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Untuk mengecek 10 observasi awal dataset tersebut, jalankan sintaks berikut:
+
+```{r}
+___
+```
+
+# Variasi
+
+## Data Kontinu
+
+```{r}
+plot_histogram(___)
+```
+
+## Data Kategorikal
+
+```{r}
+plot_bar(___)
+```
+
+
+# Kovarian
+
+## Koefisien Korelasi
+
+```{r}
+plot_correlation(___)
+```
+
+## Kategorikal vs Kontinu
+
+```{r}
+plot_boxplot(___, by = "artist")
+```
+
+## Kontinu vs Kontinu
+
+```{r}
+plot_scatterplot()
+```
+
+# Lagu Terpopuler Masing-Masing Artis
+
+```{r}
+spotify %>%
+  group_by(artist) %>%
+  summarise(popularity = max(___))
+```
+
+# Lagu yang Paling Cocok untuk Berdansa pada Masing-Masing Artis
+
+```{r}
+spotify %>%
+  group_by(artist) %>%
+  summarise(danceability = max(___))
+```
+
+# Lagu Paling Sedih pada Masing-Masing Artis
+
+```{r}
+spotify %>%
+  group_by(artist) %>%
+  summarise(valence = max(___))
+```
+
+# Lagu dengan Durasi Terlama pada Masing-Masing Artis
+
+```{r}
+spotify %>%
+  group_by(artist) %>%
+  summarise(duration_ms = max(___))
+```
+
+# Apakah Seluruh Track pada Data Spotify Direkam Secara Live
+
+```{r}
+spotify %>%
+  filter(liveness >= ___) %>%
+  count(artist)
+```
+
+# Lagu apa yang Paling Keras Terdengar?
+
+```{r}
+spotify %>%
+  arrange(desc(___))
+```
+
+# Lagu apa yang Paling Lambat Temponya?
+
+```{r}
+spotify %>%
+  arrange(___)
+```
+
+
+
+
+
+
+
+
+

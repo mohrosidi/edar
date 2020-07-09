@@ -19,3 +19,161 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Dataset Pokemon
+
+Pada artikel ini, kita akan melakukan analisis eksploratif pada dataset `Pokemon`. `Pokemon`  merupakan dataset yang berisikan karakteristik pokemon seperti: nama pokemon, jenis pokemon, dan karakteristik kekuatan pokemon.
+
+Kolom-kolom pada dataset tersebut, antara lain:
+
+* `number` : nomor seri pokemon
+*  `name` : nama pokemon
+* `type` : jenis pokemon
+* `total` : total nilai karakteristik serangan, kecepatan, *health point*, dan pertahanan pokemon
+* `hp` : *health point*
+* `attack` : Kekuatan serangan
+* `defense` : kekuatan pertahanan
+* `special_attack` : kekuatan serangan khusus
+* `special_defense` : kekuatan pertahanan khusus
+* `speed` : tingkat kecepatan
+
+
+# Persiapan {.tabset}
+
+## Library
+
+```{r, message=FALSE, warning=FALSE}
+if(!require(tidyverse)) install.packages("tidyverse")
+if(!require(skimr)) install.packages("skimr")
+if(!require(DataExplorer)) install.packages("DataExplorer")
+
+library(tidyverse)
+library(skimr)
+library(DataExplorer)
+```
+
+Terdapat tiga buah *library* yang diperlukan dalam tutorial ini, antara lain:
+
+1. `tidyverse` : koleksi paket R yang dirancang untuk ilmu data. Semua paket berbagi filosofi desain, tata bahasa, dan struktur data yang mendasarinya.
+2. `skimr` : menyediakan fungsi untuk membuat ringkasan data yang dapat dibaca secara cepat.
+3. `DataExplorer` : menyediakan fungsi yang dapat membantu proses otomasi analisis data eksploratif
+
+## Import Dataset
+
+Data yang kita miliki memiliki format `.csv`. Untuk megimport data tersebut, kita dapat menggunakan fungsi `read_csv` dari library `readr`.
+
+```{r, warning=FALSE, message=FALSE}
+pokemon <- read_csv("data/___")
+```
+
+Untuk mengecek 10 observasi awal dataset tersebut, jalankan sintaks berikut:
+
+```{r}
+___
+```
+
+# Variasi
+
+## Data Kontinu
+
+```{r}
+plot_histogram(___)
+```
+
+## Data Kategorikal
+
+```{r}
+plot_bar(___)
+```
+
+
+# Kovarian
+
+## Koefisien Korelasi
+
+```{r}
+plot_correlation(___)
+```
+
+## Kategorikal vs Kontinu
+
+```{r}
+plot_boxplot(___, by = "type")
+```
+
+## Kontinu vs Kontinu
+
+```{r}
+plot_scatterplot()
+```
+
+
+# Jenis Pokemon Terkuat
+
+```{r}
+pokemon %>%
+  ggplot() +
+  geom_boxplot(aes(x = "type", y = ___))
+```
+
+
+# Pokemon Terkuat
+
+```{r}
+pokemon %>%
+  arrange(desc(___))
+```
+
+
+# Pokemon Terlemah
+
+```{r}
+pokemon %>%
+  arrange(___)
+```
+
+# Pokemon Tecepat
+
+```{r}
+pokemon %>%
+  arrange(desc(___))
+```
+
+# Pokemon Terkuat dari Tiap Jenisnya
+
+```{r}
+pokemon %>%
+  group_by(type) %>%
+  summarise(total = max(___))
+  arrange(desc(___))
+```
+
+# Pokemon dengan Tingkat Serangan Spesial Tertinggi tiap Jenisnya
+
+```{r}
+pokemon %>%
+  group_by(type) %>%
+  summarise(special_attack = max(___))
+  arrange(desc(___))
+```
+
+# Pokemon  dengan Tingkat Pertahanan Spesial Tertinggi tiap Jenisnya
+
+```{r}
+pokemon %>%
+  group_by(type) %>%
+  summarise(special_defense = max(___))
+  arrange(desc(___))
+```
+
+# Apakah Pokemon dengan Tingkat Serangan Spesial Tinggi akan Memiliki Tingkat Pertahanan yang Tinggi juga?
+
+```{r}
+ggplot(pokemon, aes(x = ___, y = ___)) +
+  geom_point() +
+  geom_smooth()
+```
+
+
+
+
+
