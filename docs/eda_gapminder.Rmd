@@ -2,7 +2,17 @@
 title: "Analisis Data Eksploratif Dataset Gapminder"
 author: "Moh. Rosidi"
 date: "7/8/2020"
-output: html_document
+output:
+  html_document:
+    number_sections: true
+    toc: true
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+    df_print: paged
+    theme: yeti
+    highlight: textmate
+    css: assets/style.css
 ---
 
 ```{r setup, include=FALSE}
@@ -20,12 +30,13 @@ EDA adalah bagian penting dari setiap analisis data, bahkan jika pertanyaan dise
 Terdapat 2 pertanyaan utama yang perlu dijawab dalam proses EDA, yaitu:
 
 1. Jenis variasi apa yang terjadi dalam variabel saya?, dan
-2. Jenis variasi apa yang terjadi dalam variabel saya.
+2. Jenis variasi apa yang terjadi dalam variabel saya?.
 
 Selain 2 pertanyaan tersebut, kita dapat pula menambahkan pertanyaan lain ], seperti:
 
 1. Apakah terdapat kolom data yang tidak sesuai?,
-2. Apakah terdapat data hilang (*missing value*) pada data kita?, dll.
+2. Apakah terdapat data hilang (*missing value*) pada data kita?, 
+3. Apakah pada data terdapat observasi yang tidak biasa (*outlier*)?, dll.
 
 Dengan melakukan proses EDA ini diharapkan kita memperoleh gambaran data dan model yang sesuai untuk analisis data tersebut.
 
@@ -65,11 +76,257 @@ Terdapat tiga buah *library* yang diperlukan dalam tutorial ini, antara lain:
 
 ## Import Dataset
 
+Data yang kita miliki memiliki format `.csv`. Untuk megimport data tersebut, kita dapat menggunakan fungsi `read_csv` dari library `readr`.
+
+```{r, warning=FALSE, message=FALSE}
+gapminder <- read_csv("data/gapminder.csv")
+```
+
+Untuk mengecek 10 observasi awal dataset tersebut, jalankan sintaks berikut:
+
 ```{r}
-gapminder <- read_csv("")
+gapminder
+```
+
+# Ringkasan Data
+
+Terdapat beberapa fungsi yang dapat digunakan untuk menampilkan ringkasan data pada dataset, antara lain:
+
+* `glimpse` : fungsi dari library `tibble` untuk menampikan struktur data, seperti: jumlah observasi, jumlah kolom, nama kolom dan jenis datanya, dan contoh data pada masing-masing kolom. `glimpse` merupakan versi transpose dari fungsi `print`, kolom ditampilkan per baris dan data pada tiap kolom ditampilkan secara mendatar disamping nama kolomnya.
+* `summary` : fungsi dari library `base` untuk menampilkan ringkasan data pada masing-masing kolom , seperti : `mean`, `median`, `min` dan `max`, `1st Qu.` dan `3rd Qu.`, jumlah baris *missing value* pada masing-masing kolom, dan tabel kontingensi.
+* `skim` : fungsi dari library `skimr` merupakan alternatif lain dari fungsi `summary`, dengan cepat memberikan gambaran luas dari kerangka data. Fungsi ini menangani berbagai jenis data, mengirimkan satu set fungsi ringkasan yang berbeda berdasarkan pada jenis kolom dalam dataframe.
+
+Berikut adalah penerapan fungsi `glimpse`:
+
+
+```{r}
+glimpse(gapminder)
+```
+
+Berdasarkan hasil yang diperoleh, dataset `gapminder` memiliki `1704` baris dan `6` kolom. Terdapat dua buah jenis data pada dataset tersebut, yaitu: *character* (`country` dan `continent`) dan `double/numeric`. 
+
+Untuk penerapan fungsi `summary`, ditampilkan pada sintaks berikut:
+
+```{r}
+summary(gapminder)
+```
+
+Fungsi `skim` akan menampilkan ringkasan data yang lebih *tidy* dibandingkan fungsi `summary`. Selain itu, pada jenis data *numeric* dan *integer*, fungsi tersebut akan menampilkan hitogram untuk menggambarkan distribusi dari data *numeric* dan *integer*.
+
+```{r}
+skim(gapminder)
+```
+
+Berdasarkan output yang dihasilkan, terdapat 4 komponen yang ditampilkan, antara lain:
+
+1. `Data summary`
+2. `Column type frequency`
+3. `Group variables`
+4. Ringkasan data berdasarkan tiap jenis data.
+
+# Variasi
+
+Variasi adalah kecenderungan nilai-nilai variabel berubah dari pengukuran ke pengukuran. Kita dapat melihat variasi dengan mudah dalam kehidupan nyata; jika kita mengukur variabel kontinu dua kali, kita akan mendapatkan dua hasil berbeda. Setiap variabel memiliki pola variasinya sendiri, yang dapat mengungkapkan informasi menarik. Cara terbaik untuk memahami pola itu adalah dengan memvisualisasikan distribusi nilai-nilai variabel.
+
+## Data Numerik
+
+Visualisasi yang umum digunakan untuk menggabarkan distribusi data numerik adalah **histogram**.  Untuk melakukannya, kita dapat menggunakan fungsi `geom_histogram` dari library `ggplot2`.
+
+```{r}
+ggplot(gapminder) +
+  geom_histogram(aes(x = lifeExp))
+```
+
+Secara default, data akan dibagi ke dalam 30 buah rentang nilai (*bins*). Berdasarkan visualisai tersebut, dapat kita lihat bahwa distribusi variabel `lifeExp` memiliki dua buah puncak.
+
+Bagaimana cara memvisualisasikan seluruh variabel numerik ke dalam satu visualisasi? Untuk melakukannya, berikut adalah tahapan yang perlu dilakukan:
+
+1. Transformasi seluruh variabel numerik ke dalam dua buah kolom, yaitu: kolom variabel dan nilai. Transformasi akan menggunakan fungsi `pivot_longer`.
+2. Visualisasi dengan menggunakan `facet_grid` untuk membuat visualisasi pada tiap kolom data.
+
+```{r}
+gapminder %>%
+  select(!dplyr::starts_with("co")) %>%
+  pivot_longer(cols = year:gdpPercap , names_to = "variables", values_to = "values") %>%
+  ggplot() +
+  geom_histogram(aes(values)) +
+  facet_wrap(~variables, scales = "free")
+```
+
+Berdasarkan hasil visualisasi, ketiga variabel numerik (`gdpPercap`, `lifeExp`, dan `pop`) tidak berdistribusi normal. Transformasi diperlukan untuk variabel tersebut, khususnya variabel `gdpPercap` dan `pop`. Transformasi yang dapat digunakan adalah transformasi logaritmik sebab ketiga variabel tersebut memiliki jenis kemencengan positif (*positif skewness*). Sedangkan pada variabel `year` dapat kita ketahui bahwa jumlah negara yang dicatat atau disurvey sama setiap tahunnya dan pengukuran dilakukan sestiap 5 tahun sekali.
+
+## Data Kategorikal
+
+Distribusi variabel kategorikan dapat dipelajari dengan cara membuat tabulasi silang (menghitung jumlah observasi pada masing-masing kategori) atau dengan visualisasi menggunakan barplot. Visualisasi digunakan apabila jumlah kategorinya sedikit (tidak lebih dari 5 atau 10).
+
+```{r}
+gapminder %>%
+  group_by(country) %>%
+  count()
+```
+
+Berdasarkan output yang dihasilkan, masing-masing negara dilakukan survey sebanyak 12 kali setiap 5 tahun dan pada data tersebut, distribusi jumlah survey masing-masing negara sama.
+
+Lebih jauh lagi kita juga dapat memeriksa jumlah negara pada masing-masing benua untuk mengetahui distribusi negara yang disurvey pada masing-masing benua. Distribusi jumlah negara pada masing-masing benua dapat dilakukan visualisasi dengan barplot untuk menggambarkan distribusinya sebab jumlah kategorinya yang tidak sebanyak variabel `country`.
+
+```{r}
+gapminder %>%
+  filter(year == 2007) %>%
+  select(dplyr::starts_with("co")) %>%
+  group_by(continent) %>%
+  count() %>%
+  ggplot() +
+  geom_bar(aes(x = continent, y = n), stat = "identity")
+```
+
+Berdasarkan hasil visualisasi dapat diketahui bahwa distribusi jumlah negara yang disurvey atau tercatat tidak seimbang pada masing-masing benua, dimana benua afrika memiliki jumlah negara yang tercatat lebih dari 50 sedangkan oceania hanya 2 negara saja. Kondisi tersebut akan berpengaruh pada performa model yang akan dibentuk dimana benua afrika akan memberikan efek dominan pada model, sedangkan benua oceania memberikan efek paling kecil atau bisa jadi efek yang dihasilkan tidak tertangkap oleh model. Jika model yang dibuat ingin menangkap seluruh efek benua secara merata, proses `over` atau `under sampling` perlu dilakukan berdasarkan variabel `continent`.
+
+# Kovarian
+
+Jika variasi menggambarkan perilaku di dalam suatu variabel, kovariasi menggambarkan perilaku di antara variabel. Kovarian adalah kecenderungan untuk nilai-nilai dari dua atau lebih variabel bervariasi bersama dalam cara yang terkait. Cara terbaik untuk menemukan kovarisasi adalah memvisualisasikan hubungan antara dua variabel atau lebih. Bagaimana kita melakukannya harus kembali tergantung pada jenis variabel yang terlibat.
+
+## Kategorikal dan Kontinu
+
+Cara paling mudah untuk memvisualisasikan hubungan antara sebuah variabel kategorikal dengan variabel kontinu adalah dengan menggunakan boxplot. Boxplot merupakan sejenis ringkasan visual untuk distribusi nilai-nilai yang populer di kalangan ahli statistik. Setiap boxplot terdiri dari:
+
+* Sebuah kotak yang membentang dari persentil ke-25 dari distribusi ke persentil ke-75, jarak yang dikenal sebagai rentang interkuartil (IQR). Di tengah kotak adalah garis yang menampilkan median, yaitu persentil ke-50, dari distribusi. Ketiga baris ini memberi kita gambaran tentang distribusi dan apakah distribusinya simetris tentang median atau condong ke satu sisi.
+* Poin visual yang menampilkan pengamatan yang jatuh lebih dari 1,5 kali IQR dari kedua sisi kotak. Titik-titik *outlier* ini merupakan titik yang tidak biasa sehingga diplot secara individual.
+* Baris (atau kumis) yang memanjang dari setiap ujung kotak dan menuju ke
+titik non-outlier terjauh dalam distribusi.
+
+![sumber: Hadley, 2017](https://d33wubrfki0l68.cloudfront.net/153b9af53b33918353fda9b691ded68cd7f62f51/5b616/images/eda-boxplot.png)
+
+Mari kita coba visualisasikan hubungan antara variabel kategorikal (`continent`) dengan variabel kontinu (`lifeExp`).
+
+```{r}
+ggplot(gapminder) +
+  geom_boxplot(aes(x = continent, y = lifeExp))
+```
+
+Berdasarkan visualisasi yang ditampilkan dapat dilihat bahwa benua afrika memiliki median `lifeExp` yang paling rendah dibandingkan benua lainnya. Sedangkan median `lifeExp` pada benua eropa dan oceania relatif sama. Untuk mengetahui apakah nilai media antara satu benua dengan benua lainnya berbeda secara signifikan, kita dapat menambahkan *notch* pada boxplot yang menunjukkan nilai retang keyakinan dari median.
+
+```{r}
+ggplot(gapminder) +
+  geom_boxplot(aes(x = continent, y = lifeExp), notch = TRUE)
+```
+
+Dapat kita lihat, median `lifeExp` benua eropa dan oceania tidak berbeda secara signifikan yang ditunjukkan dengan rentang median yang saling overlap.
+
+Untuk memvisualisasikan beberapa variabel kontinu dengan sebuah variabel kategorikal dapat dilakukan dengan menggunakan metode yang telah dijelaskan pada subbab visualisasi distribusi data numerik.
+
+```{r}
+gapminder %>%
+  select(continent, lifeExp:gdpPercap) %>%
+  # lakukan transformasi logaritmik pada seluruh variabel numerik
+  mutate_if(is.numeric, log) %>%
+  pivot_longer(cols = lifeExp:gdpPercap, names_to = "variables", values_to = "values") %>%
+  ggplot() +
+  geom_boxplot(aes(x = continent, y = values)) +
+  coord_flip() +
+  facet_wrap(~variables, scales = "free", nrow = 3)
+```
+
+## Kategorikal dan Kategorikal
+
+Untuk melihat kovarian antara dua variabel kategorikal, kita dapat membuat tabulasi silang.
+
+```{r}
+gapminder %>%
+  group_by(country, continent) %>%
+  count()
+```
+
+Pada umumnya visualisasi hubungan antara 2 variabel kategroikal dapat dilakukan dengan menggunakan fungsi `geom_count` pada `ggplot`> Perlu dicatat bahwa variabel kategorikal yang divisualisasikan sebaikanya tidak lebih dari 5 atau 10.
+
+```{r}
+ggplot(gapminder) +
+  geom_count(aes(x = continent, y = country))
+```
+
+## Kontinu dan Kontinu
+
+Kovarian antara dua variabel kontinu dapat divisualisasikan dengan menggunakan scatterplot. Berikut adalah contoh visualisasi antara variabel `lifeExp` dan log `gdpPercap`.
+
+```{r}
+ggplot(gapminder) +
+  geom_point(aes(x = log(gdpPercap), y = lifeExp), alpha = 0.5)
 ```
 
 
+Berdasarkan visualisasi tersebut dapat kita cermati bahwa negara dengan `gdpPercap` tinggi cenderung memiliki `lifeExp` yang tinggi pula.
 
+Alternatif lainnya yang dapat digunakan untuk mevisualisasikan kovarian antara dua variabel numerik adalah dengan menggunakan heatmap. Berbeda dengan scatterplot, hetamap mevisualisasikan nilai koefisien korelasi anatar dua variabel.
+
+# Analisis Data Exploratif Menggunakan `DataExplorer`
+
+`DataExplorer` merupakan library alternatif yang dapat kita gunakan untuk melakukan otomasi pada proses EDA. Pada `DataExplorer` terdapat sejumlah fungsi yang dapat mereduksi waktu dan jumlah sintaks yang ditulis untuk melihat pola pada data. Berikut adalah contoh sintaks yang dapat kita gunakan:
+
+## Laporan
+
+Untuk memperoleh laporan terkait dataset `gapminder`, kita dapat menjalanakan funsgi `create_report`.
+
+```{r, eval=FALSE}
+create_report(gapminder)
+```
+
+Fungsi tersebut akan memberikan kita laporan dalam bentuk format `html` terkait ringkasan data dan visualisasi dari dataset `gapminder`. 
+
+## Visualisasi
+
+Dibanding menjalankan fungsi `create_report`, kita dapat menggunakan fungsi lainnya secara satu-persatu untuk menghasilkan output yang kita inginkan. Ini berguna ketika kita ingin meletakkan deskripsi pada temuan yang akan kita buat.
+
+```{r}
+# melihat deskripsi dasar dari dataset gapminder
+introduce(gapminder)
+```
+
+Fungsi berikut akan memberikan ringkasan terkait penggunaaan memori pada dataset `gapminder`.
+
+```{r}
+# visualisasi deskripsi dasar dataset `gapminder`
+plot_intro(gapminder)
+```
+
+Untuk melihat jumlah *missing value* pada data, jalankan fungsi `plot_missing`.
+
+```{r}
+plot_missing(gapminder)
+```
+
+Berdasarkan output yang dihasilkan, pada dataset `gapminder` tidak terdapat *missing value*.
+
+Untuk memvisualisasikan variasi pada dataset, kita dapat menggunakan fungsi `plot_bar` dan `plot_histogram`.
+
+```{r}
+plot_bar(gapminder)
+plot_histogram(gapminder)
+```
+
+Berdasrakan output yang dihasilkan, variabel `country` tidak divisualisasikan karena memiliki jumlah kategori lebih besar dari 50.
+
+Untuk mwmvisualisikan kovarian antara dua variabel, kita dapat menggunakan fungsi `plot_correlation`, `plot_boxplot`, dan `plot_scatterplot`.
+
+```{r}
+# heatmat korelasi
+gapminder %>%
+  mutate_if(is.numeric, log) %>%
+  plot_correlation()
+
+# kontinu vs kategorikal
+plot_boxplot(gapminder, by = "continent")
+
+# kontinu vs kontinu
+gapminder %>%
+  select(year:gdpPercap) %>%
+  plot_scatterplot(by = "lifeExp")
+```
+
+
+# Referensi
+
+* [R For Data Science](https://r4ds.had.co.nz/)
+* [DataExplorer](https://boxuancui.github.io/DataExplorer/)
+* [Tutorial R](https://environmental-data-modeling.netlify.app/tutorial/)
+* [Skimr](https://docs.ropensci.org/skimr/)
 
 
