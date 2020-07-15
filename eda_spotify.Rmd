@@ -77,7 +77,7 @@ spotify <- read_csv("data/___")
 Untuk mengecek 10 observasi awal dataset tersebut, jalankan sintaks berikut:
 
 ```{r}
-___
+spotify
 ```
 
 ## Data Cleaning
@@ -101,12 +101,23 @@ spotify <- spotify %>%
 
 ```{r}
 glimpse(___)
-summary(___)
-skim(___)
-plot_intro(___)
-plot_missing(___)
 ```
 
+```{r}
+summary(___)
+```
+
+```{r}
+skim(___)
+```
+
+```{r}
+plot_intro(___)
+```
+
+```{r}
+plot_missing(___)
+```
 
 # Variasi
 
@@ -146,33 +157,50 @@ plot_scatterplot(___ , by = "liveness")
 # Lagu Terpopuler Masing-Masing Artis
 
 ```{r}
+max <- spotify %>%
+  filter(popularity > 0) %>%
+  group_by(___) %>%
+  summarise(popularity = min(___))
+
 spotify %>%
-  group_by(artist) %>%
-  summarise(popularity = max(___))
+  right_join(max, by = c("artist", "popularity")) %>%
+  select(artist, popularity, name)
 ```
 
 # Lagu yang Paling Cocok untuk Berdansa pada Masing-Masing Artis
 
 ```{r}
-spotify %>%
-  group_by(artist) %>%
+dance <- spotify %>%
+  group_by(___) %>%
   summarise(danceability = max(___))
+
+spotify %>%
+  right_join(dance, by = c("artist", "danceability")) %>%
+  select(artist, danceability, name)
 ```
 
 # Lagu Paling Sedih pada Masing-Masing Artis
 
 ```{r}
-spotify %>%
-  group_by(artist) %>%
+val <- spotify %>%
+  group_by(___) %>%
   summarise(valence = max(___))
+
+spotify %>%
+  right_join(val, by = c("artist", "valence")) %>%
+  select(artist, valence, name)
 ```
 
 # Lagu dengan Durasi Terlama pada Masing-Masing Artis
 
 ```{r}
-spotify %>%
-  group_by(artist) %>%
+dur <- spotify %>%
+  group_by(___) %>%
   summarise(duration_ms = max(___))
+
+spotify %>%
+  right_join(dur, by = c("artist", "duration_ms")) %>%
+  select(artist, duration_ms, name)
 ```
 
 # Apakah Seluruh Track pada Data Spotify Direkam Secara Live
@@ -187,13 +215,15 @@ spotify %>%
 
 ```{r}
 spotify %>%
-  arrange(desc(___))
+  select(name, artist, loudness) %>%
+  arrange(___)
 ```
 
 # Lagu apa yang Paling Lambat Temponya?
 
 ```{r}
 spotify %>%
+  select(name, artist, tempo) %>%
   arrange(___)
 ```
 
