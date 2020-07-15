@@ -68,18 +68,31 @@ pokemon <- read_csv("data/___")
 Untuk mengecek 10 observasi awal dataset tersebut, jalankan sintaks berikut:
 
 ```{r}
-___
+pokemon
 ```
 
 # Ringkasan Data
 
 ```{r}
 glimpse(___)
+```
+
+```{r}
 summary(___)
+```
+
+```{r}
 skim(___)
+```
+
+```{r}
 plot_intro(___)
+```
+
+```{r}
 plot_missing(___)
 ```
+
 
 # Variasi
 
@@ -113,7 +126,7 @@ plot_boxplot(___, by = "type")
 ## Kontinu vs Kontinu
 
 ```{r}
-plot_scatterplot()
+plot_scatterplot(___, by = "total")
 ```
 
 
@@ -122,7 +135,8 @@ plot_scatterplot()
 ```{r}
 pokemon %>%
   ggplot() +
-  geom_boxplot(aes(x = "type", y = ___))
+  geom_boxplot(aes(x = type, y = ___)) +
+  coord_flip()
 ```
 
 
@@ -151,28 +165,34 @@ pokemon %>%
 # Pokemon Terkuat dari Tiap Jenisnya
 
 ```{r}
+max <- pokemon %>%
+  group_by(___) %>%
+  summarise(total = max(___)) 
+
 pokemon %>%
-  group_by(type) %>%
-  summarise(total = max(___))
-  arrange(desc(___))
+  right_join(max, by = c("type", "total"))
 ```
 
 # Pokemon dengan Tingkat Serangan Spesial Tertinggi tiap Jenisnya
 
 ```{r}
+max <- pokemon %>%
+  group_by(___) %>%
+  summarise(special_attack = max(___)) 
+
 pokemon %>%
-  group_by(type) %>%
-  summarise(special_attack = max(___))
-  arrange(desc(___))
+  right_join(max, by = c("type", "special_attack"))
 ```
 
 # Pokemon  dengan Tingkat Pertahanan Spesial Tertinggi tiap Jenisnya
 
 ```{r}
+max <- pokemon %>%
+  group_by(___) %>%
+  summarise(special_defense = max(___)) 
+
 pokemon %>%
-  group_by(type) %>%
-  summarise(special_defense = max(___))
-  arrange(desc(___))
+  right_join(max, by = c("type", "special_defense"))
 ```
 
 # Apakah Pokemon dengan Tingkat Serangan Spesial Tinggi akan Memiliki Tingkat Pertahanan yang Tinggi juga?
