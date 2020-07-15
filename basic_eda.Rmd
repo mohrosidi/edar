@@ -88,6 +88,174 @@ Untuk mengecek 10 observasi awal dataset tersebut, jalankan sintaks berikut:
 gapminder
 ```
 
+# Dasar-Dasar Tidyverse
+
+`Tidyverse` merupakan kumpulan paket yang dikhususkan bagi pengguna `R` yang ingin melakukan analisa data atau aktivitas *data science*. Paket dari `tidyverse` antara lain:
+
+1. **`ggplot2`**: paket yang digunakan untuk membuat visualisasi data yang menarik yang didasarkan pada sistem *Grammar of Graphics*.
+2. **`dplyr`**: berisi kumpulan fungsi yang digunakan untuk melakukan manipulasi pada data dengan nama fungsi dan output yang konsisten.
+3. **`tidyr`**: paket yang berisi kumpulan fungsi merapikan data atau membuat *pivot table* dari data.
+4. **`readr`**: paket yang berfungsi untuk membaca file format .csv, .txt, .tsv, dan .fwf.
+5. **`purrr`**: paket yang berguna untuk meningkatkan *fuctional programming* pada `R`. Fungsi ini telah penulis bahas secara garis besar pada Chapter 1.
+6. **`tibble`**: paket yang digunakan untuk mengubah dataframe menjadi format tibble (bentuk lain dataframe yang lebih konsisten).
+
+Selain paket-paket tersebut, masih terdapat banyak paket lain yang ada seperti `stringr`, `forcats`, dll. Untuk mempelajari *data science* menggunakan paket *tidyverse*, pembaca dapat pergi ke tautan *e-book* [R for Data Science](https://r4ds.had.co.nz/)
+
+## Readr
+
+`Readr` merupakan salah satu paket untuk import data pada paket `tidyverse`. `Readr` secara spesifik digunakan untuk mengimport data yang ada pada file dengan ekstensi `.txt` dan `.csv`. Terdapat beberapa fungsi yang ada pada paket ini, antara lain:
+
+- **`read.csv()`**: untuk membaca file dengan format *comma separated value*("`.csv`").
+- **`read.csv2()`**: varian yang digunakan jika pada file "`.csv`" yang akan dibaca mengandung koma (",") sebagai desimal dan semicolon (";") sebagai pemisah antar variabel atau kolom.
+- **`read.delim()`**: untuk membaca file dengan format *tab-separated value*(".txt").
+- **`read.delim2()`**: membaca file dengan format ".txt" dengan tanda koma (",") sebagai penujuk bilangan desimal.
+
+Masing-masing fungsi diatas dapat dituliskan kedalam `R` dengan format sebagai berikut:
+
+```{r, eval=FALSE}
+# Membaca tabular data pada  R
+read.table("<LOKASI FILE>", header = FALSE, sep = "", dec = ".")
+# Membaca"comma separated value" files (".csv")
+read.csv("<LOKASI FILE>", header = TRUE, sep = ",", dec = ".", ...)
+# atau gunakan read.csv2 jika tanda desimal 
+# pada data adalah "," dan pemisah kolom adalah ";"
+read.csv2("<LOKASI FILE>", header = TRUE, sep = ";", dec = ",", ...)
+# MembacaTAB delimited files
+read.delim("<LOKASI FILE>", header = TRUE, sep = "\t", dec = ".", ...)
+read.delim2("<LOKASI FILE>", header = TRUE, sep = "\t", dec = ",", ...)
+```
+
+Implementasi dari paket ini telah dijelaskan pada proses import dataset yang telah dilakukan.
+
+## Tidyr
+
+`Tidyr` merupakan sebuah paket yang digunakan untuk mentransformasi dataset dari bentuk *untidy* menjadi *tidy*. Secara umum *tidy* data merupakan data-data yang memegang prinsip-prinsip berikut:
+
+1. Setiap **variabel** harus memiliki **kolomnya** sendiri
+2. Setiap **observasi** harus memiliki **barisnya** sendiri
+3. Setiap **nilai** harus memiliki **selnya** sendiri
+
+Gambar berikut menggambarkan ketiga aturan tersebut.
+
+![ilustrasi tidy dataset (sumber: Wickham, 2017)](https://d33wubrfki0l68.cloudfront.net/6f1ddb544fc5c69a2478e444ab8112fb0eea23f8/91adc/images/tidy-1.png)
+
+Ketia aturan tersebut merupakan satu-kesatuan yang saling terkait karena tidak mungkin hanya memenuhi satu atau dua dari ketiga aturan tersebut. Sehingga, relasi antara ketiga aturan tersebut dapat diturunkan lagi kedalam dua buah aturan:
+
+1. Letakkan setiap **dataset** ke dalam* **tibble/dataframe**
+2. Letakkan setiap **variabel** ke dalam **kolom** 
+
+Kenapa kita perlu memastikan data yang kita miliki *tidy*:
+
+1. Secara umum terdapat keuntungan dalam mengambil sebuah bentuk yang konsisten dalam menyimpan data.  Jika kita memiliki sebuah bentuk data yang konsisten maka akan lebih mudah bagi kita mempelajari *tools* yang dapat bekerja dengan data tersebut. Sebagian besar *tools* untuk menganalisa data (SPSS, SAS, R, dll) bekerja dengan bentuk data yang seragam 
+2. Secara spesifik terdapat keuntungan apabila kita meletakkan sebuah variabel pada masing-masing kolom, dimana operasi vektorisasi akan lebih mudah dilakukan. Sebagian besar fungsi di R bekerja dalam bentuk yang tervektorisasi. Hal ini akan mempermudah dan mempercepat operasi pada data.
+
+
+Terdapat beberapa fungsi yang digunakan untuk untuk melakukan proses transformasi bentuk dataset, antara lain:
+
+* **`pivot_wider()`** : fungsi untuk merubah struktur memanjang menjadi struktur data melebar (menambah jumlah kolom dan mengurangi jumlah baris).
+* **`pivot_longer()`**: fungsi ini merupakan kebalikan dari fungsi `pivot_longer`, dimana dataset ditransformasi ke dalam bentuk memanjang (memiliki lebih sedikit kolom dan menambah jumlah baris)
+* **`separate()`** : fungsi untuk membuat memecah sebuah kolom menjadi beberapa kolom berdasarkan pemisah di dalam datanya.
+* **`unite()`** : fungsi untuk menggabungkan nilai dari beberapa kolom.
+
+Implementasi dari paket `tidyr` sebagian akan di bahas dalam tutorial kali ini. Jika pembaca ingin mengetahui lebih jauh contoh penerapan fungsi-fungsi tersebut, jalankan sintaks berikut:
+
+
+```{r, eval=FALSE}
+example(<NAMA FUNGSI>)
+```
+
+atau cek dokumentasi fungsi tersebut menggunakan sintaks berikut:
+
+```{r, eval=FALSE}
+vignette("pivot", package = "tidyr")
+```
+
+## Ggplot
+
+Paket `ggplot2` merupakan implementasi dari *The Grammar of Graphics* yang ditulis oleh **Leland Wilkinson**. `ggplot2` merupakan paket yang dikembangkan oleh **Hadley Wicham** ketika ia sedang menempuh kuliah di **Lowa State Universuty** dan masih dikembangkan hingga sekarang.
+
+Grafik `ggplot2` terdiri dari sejumlah komponen kunci. Berikut adalah sejumlah komponen kunci yang membentuk grafik `ggplot2`.
+
+- **data frame**: menyimpan semua data yang akan ditampilkan di plot.
+- **aesthetic mapping**: menggambarkan bagaimana data dipetakan ke warna, ukuran, bentuk, lokasi. Dalam plot diberikan pada fungsi `aes()`
+- **geoms**: objek geometris seperti titik, garis, bentuk.
+- **facets**: menjelaskan bagaimana plot bersyarat / panel harus dibangun.
+- **stats**: transformasi statistik seperti binning, quantiles, smoothing.
+- **scales**: skala apa yang digunakan oleh *aesthetic map* (contoh: pria = merah, wanita = biru).
+- **coordinate system**: menggambarkan sistem di mana lokasi geom akan digambarkan.
+
+![ilustrasi layer grammar of graphics (sumber: google images)](https://www.ericchowkokyew.com/wp-content/uploads/2019/07/image-2.png)
+
+Secara umum fungsi pembuatan grafik menggunakan paket `ggplot` dapat dituliskan sebagai berikut:
+
+```{r, eval=FALSE}
+# Data
+ggplot(data = <DATA>) +
+  
+  # Aesthetics
+  aes(<MAPPINGS>) +
+  
+  # Geometrics
+  <GEOM_FUNCTION>(
+     stat = <STAT>, 
+     position = <POSITION>
+  ) +
+  
+  # Coordinate
+  <COORDINATE_FUNCTION> +
+  
+  # Facet
+  <FACET_FUNCTION>
+```
+
+## Dplyr
+
+Data frame merupakan struktur data utama dalam statistik dan dalam `R`. Struktur dasar data frame ialah terdapat satu observasi tiap baris dan setiap kolom mewakili variabel. `R` memiliki implementasi internal data frame yang kemungkinan besar akan kita gunakan paling sering. Namun, ada paket di CRAN yang mengimplementasikan data frame layaknya basis data relasional yang memungkinkan kita untuk beroperasi pada data frame yang sangat besar.
+
+Mengingat pentingnya mengelola data frame, penting bagi kita untuk memiliki alat yang baik untuk melakukannya. `R` memiliki beberapa paket seperti fungsi `subset()` dan penggunaan operator "[" dan "$" untuk mengekstrak himpunan bagian dari frame data. Namun, operasi lain, seperti pemfilteran, pengurutan, dan pengelompokan data, seringkali dapat menjadi operasi yang membosankan di `R` yang sintaksisnya tidak terlalu intuitif. Library `dplyr` dari paket `tidyverse` dirancang untuk mengurangi banyak masalah ini dan menyediakan serangkaian rutinitas yang dioptimalkan secara khusus untuk menangani data frame.
+
+Paket `dplyr` dikembangkan oleh **Hadley Wickham** dari **RStudio** dan merupakan versi yang dioptimalkan dari paket `plyr`-nya. Library `dplyr` tidak menyediakan fungsionalitas baru untuk `R` sendiri, dalam arti bahwa semua yang dilakukan `dplyr` sudah dapat dilakukan dengan fungsi dasar `R`. Paket ini sangat menyederhanakan fungsi dasar yang telah ada di `R`.
+
+Salah satu kontribusi penting dari paket `dplyr` adalah ia menyediakan "*grammar*" (khususnya, kata kerja) untuk manipulasi data dan untuk beroperasi pada data frame. Melalui *grammar* ini, kita dapat berkomunikasi dengan cara yang masuk akal terhadap apa yang akan kita lakukan pada data frame. Melalui cara ini, sintaks yang kit buat akan lebih mudah pula dipahami orang lain (dengan asumsi mereka juga tahu *grammar*-nya). Hal ini berguna karena memberikan abstraksi untuk manipulasi data yang sebelumnya tidak ada. Kontribusi lain yang bermanfaat adalah bahwa fungsi `dplyr` sangat cepat, karena banyak operasi utama dikodekan dalam bahasa C++.
+
+Pada bagian ini pembaca akan belajar **6** fungsi utama yang ada pada paket `dplyr`. Fungsi tersebut antara lain:
+
+1. Mengambil sejumlah observasi berdasarkan nilainya (`filter()`).
+2. Mengurutkan kembali baris data frame berdasarkan nilai pada sebuah atau beberapa variabel (`arrange()`).
+3. Mengambil atau subset terhadap sebuah atau beberapa variabel berdasarkan nama variabel/kolom (`select()`).
+4. Membuat variabel baru atau menambahkan kolom baru (`mutate()`).
+5. Membuat ringkasan terhadap data frame (`summarize()`)
+6. Mengelompokkan operasi berdasarkan grup data (`group_by()`).
+
+Keseluruhan fungsi tersebut format fungsi yang seragam, yaitu:
+
+1. Argumen pertama adalah data frame.
+2. Argumen selanjutnya adalah deskripsi yang akan dilakukan terhadap data frame (filter, pengurutan kembali, membuat ringkasan, dll) menggunakan nama variabel (tanpa tanda kutip).
+3. Hasil operasi yang diperoleh adalah data frame baru.
+
+Seluruh fungsi dalam paket `tidyverse` dapat dikombinasikan dengan penggunaan operator pipa (`%>%`). Operator pipa (`%>%`) sangat berguna untuk merangkai bersama beberapa fungsi `dplyr` dalam suatu urutan operasi. Perhatikan contoh sebelumnya dimana setiap kali kita ingin menerapkan lebih dari satu fungsi, urutannya akan dimulai dalam urutan panggilan fungsi bersarang yang sulit dibaca. Secara ringkas dapat kita tulis sebagai berikut:
+
+```{r, eval=FALSE}
+# cara 1
+one <- first(x)
+two <- second(one)
+three <- third(two)
+
+# cara 2
+third(second(first(x)))
+```
+
+Jika dituliskan menggunakan operator pipa akan menghasilkan sintak berikut:
+
+```{r, eval=FALSE}
+# cara 3
+x %>%
+  first() %>%
+  second() %>%
+  third()
+```
+
+
 # Ringkasan Data
 
 Terdapat beberapa fungsi yang dapat digunakan untuk menampilkan ringkasan data pada dataset, antara lain:
