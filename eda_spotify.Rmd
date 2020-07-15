@@ -71,13 +71,13 @@ Terdapat tiga buah *library* yang diperlukan dalam tutorial ini, antara lain:
 Data yang kita miliki memiliki format `.csv`. Untuk megimport data tersebut, kita dapat menggunakan fungsi `read_csv` dari library `readr`.
 
 ```{r, warning=FALSE, message=FALSE}
-spotify <- read_csv("data/___")
+spotify <- read_csv("data/spotify.csv")
 ```
 
 Untuk mengecek 10 observasi awal dataset tersebut, jalankan sintaks berikut:
 
 ```{r}
-___
+spotify
 ```
 
 ## Data Cleaning
@@ -91,7 +91,7 @@ mode_labs = c('minor', 'major')
 
 spotify <- spotify %>%
   mutate(time_signature = factor(time_signature),
-         key = key = factor(key, labels = key_labs),
+         key = factor(key, labels = key_labs),
          mode = factor(mode, labels = mode_labs))
 
 ```
@@ -100,26 +100,37 @@ spotify <- spotify %>%
 # Ringkasan Data
 
 ```{r}
-glimpse(___)
-summary(___)
-skim(___)
-plot_intro(___)
-plot_missing(___)
+glimpse(spotify)
 ```
 
+```{r}
+summary(spotify)
+```
+
+```{r}
+skim(spotify)
+```
+
+```{r}
+plot_intro(spotify)
+```
+
+```{r}
+plot_missing(spotify)
+```
 
 # Variasi
 
 ## Data Kontinu
 
 ```{r}
-plot_histogram(___)
+plot_histogram(spotify)
 ```
 
 ## Data Kategorikal
 
 ```{r}
-plot_bar(___)
+plot_bar(spotify)
 ```
 
 
@@ -128,58 +139,75 @@ plot_bar(___)
 ## Koefisien Korelasi
 
 ```{r}
-plot_correlation(___)
+plot_correlation(spotify)
 ```
 
 ## Kategorikal vs Kontinu
 
 ```{r}
-plot_boxplot(___, by = "artist")
+plot_boxplot(spotify, by = "artist")
 ```
 
 ## Kontinu vs Kontinu
 
 ```{r}
-plot_scatterplot(___ , by = "liveness")
+plot_scatterplot(spotify , by = "liveness")
 ```
 
 # Lagu Terpopuler Masing-Masing Artis
 
 ```{r}
-spotify %>%
+max <- spotify %>%
+  filter(popularity > 0) %>%
   group_by(artist) %>%
-  summarise(popularity = max(___))
+  summarise(popularity = min(popularity))
+
+spotify %>%
+  right_join(max, by = c("artist", "popularity")) %>%
+  select(artist, popularity, name)
 ```
 
 # Lagu yang Paling Cocok untuk Berdansa pada Masing-Masing Artis
 
 ```{r}
-spotify %>%
+dance <- spotify %>%
   group_by(artist) %>%
-  summarise(danceability = max(___))
+  summarise(danceability = max(danceability))
+
+spotify %>%
+  right_join(dance, by = c("artist", "danceability")) %>%
+  select(artist, danceability, name)
 ```
 
 # Lagu Paling Sedih pada Masing-Masing Artis
 
 ```{r}
-spotify %>%
+val <- spotify %>%
   group_by(artist) %>%
-  summarise(valence = max(___))
+  summarise(valence = max(valence))
+
+spotify %>%
+  right_join(val, by = c("artist", "valence")) %>%
+  select(artist, valence, name)
 ```
 
 # Lagu dengan Durasi Terlama pada Masing-Masing Artis
 
 ```{r}
-spotify %>%
+dur <- spotify %>%
   group_by(artist) %>%
-  summarise(duration_ms = max(___))
+  summarise(duration_ms = max(duration_ms))
+
+spotify %>%
+  right_join(dur, by = c("artist", "duration_ms")) %>%
+  select(artist, duration_ms, name)
 ```
 
 # Apakah Seluruh Track pada Data Spotify Direkam Secara Live
 
 ```{r}
 spotify %>%
-  filter(liveness >= ___) %>%
+  filter(liveness >= 0.8) %>%
   count(artist)
 ```
 
@@ -187,14 +215,16 @@ spotify %>%
 
 ```{r}
 spotify %>%
-  arrange(desc(___))
+  select(name, artist, loudness) %>%
+  arrange(loudness)
 ```
 
 # Lagu apa yang Paling Lambat Temponya?
 
 ```{r}
 spotify %>%
-  arrange(___)
+  select(name, artist, tempo) %>%
+  arrange(tempo)
 ```
 
 
