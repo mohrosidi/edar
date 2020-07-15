@@ -99,7 +99,29 @@ gapminder
 5. **`purrr`**: paket yang berguna untuk meningkatkan *fuctional programming* pada `R`. Fungsi ini telah penulis bahas secara garis besar pada Chapter 1.
 6. **`tibble`**: paket yang digunakan untuk mengubah dataframe menjadi format tibble (bentuk lain dataframe yang lebih konsisten).
 
-Selain paket-paket tersebut, masih terdapat banyak paket lain yang ada seperti `stringr`, `forcats`, dll. Untuk mempelajari *data science* menggunakan paket *tidyverse*, pembaca dapat pergi ke tautan *e-book* [R for Data Science](https://r4ds.had.co.nz/)
+Selain paket-paket tersebut, masih terdapat banyak paket lain yang ada seperti `stringr`, `forcats`, dll. Untuk mempelajari *data science* menggunakan paket *tidyverse*, pembaca dapat pergi ke tautan *e-book* [R for Data Science](https://r4ds.had.co.nz/).
+
+Seluruh fungsi dalam paket `tidyverse` dapat dikombinasikan dengan penggunaan operator pipa (`%>%`). Operator pipa (`%>%`) sangat berguna untuk merangkai bersama beberapa fungsi `dplyr` dalam suatu urutan operasi. Perhatikan contoh sebelumnya dimana setiap kali kita ingin menerapkan lebih dari satu fungsi, urutannya akan dimulai dalam urutan panggilan fungsi bersarang yang sulit dibaca. Secara ringkas dapat kita tulis sebagai berikut:
+
+```{r, eval=FALSE}
+# cara 1
+one <- first(x)
+two <- second(one)
+three <- third(two)
+
+# cara 2
+third(second(first(x)))
+```
+
+Jika dituliskan menggunakan operator pipa akan menghasilkan sintak berikut:
+
+```{r, eval=FALSE}
+# cara 3
+x %>%
+  first() %>%
+  second() %>%
+  third()
+```
 
 ## Readr
 
@@ -233,27 +255,16 @@ Keseluruhan fungsi tersebut format fungsi yang seragam, yaitu:
 2. Argumen selanjutnya adalah deskripsi yang akan dilakukan terhadap data frame (filter, pengurutan kembali, membuat ringkasan, dll) menggunakan nama variabel (tanpa tanda kutip).
 3. Hasil operasi yang diperoleh adalah data frame baru.
 
-Seluruh fungsi dalam paket `tidyverse` dapat dikombinasikan dengan penggunaan operator pipa (`%>%`). Operator pipa (`%>%`) sangat berguna untuk merangkai bersama beberapa fungsi `dplyr` dalam suatu urutan operasi. Perhatikan contoh sebelumnya dimana setiap kali kita ingin menerapkan lebih dari satu fungsi, urutannya akan dimulai dalam urutan panggilan fungsi bersarang yang sulit dibaca. Secara ringkas dapat kita tulis sebagai berikut:
+Selain ke-6 fungsi utama tersebut, terdapat fungsi lainnya pada paket `dplyr`. Fungsi lainnya terkait dengan fungsi untuk melakukan *join* atau menggabungkan dua buah dataset. Secara umum, fungsi *join* dapat divisualisasikan berdasarkan gambar berikut:
 
-```{r, eval=FALSE}
-# cara 1
-one <- first(x)
-two <- second(one)
-three <- third(two)
+![Tipe join pada dua buah data(sumber: Wickham, 2017)](https://d33wubrfki0l68.cloudfront.net/aeab386461820b029b7e7606ccff1286f623bae1/ef0d4/diagrams/join-venn.png)
 
-# cara 2
-third(second(first(x)))
-```
+Fungsi join berdasarkan gambar tersebut dapat dijelaskan sebagai berikut:
 
-Jika dituliskan menggunakan operator pipa akan menghasilkan sintak berikut:
-
-```{r, eval=FALSE}
-# cara 3
-x %>%
-  first() %>%
-  second() %>%
-  third()
-```
+1. **`inner_join()`** : melakukan join hanya pada observasi dengan elemen kunci yang sama-sama ada pada kedua tabel.
+2. **`left_join()`** : menggabungkan seluruh baris pada tabel kiri dan sebagian baris pada tabel kanan yang elemen kuncinya cocok dengan tabel kiri.
+3. **`right_join()`** : kebalikan dari fungsi `left_join()`.
+4. **`full_join()`** : menggabungkan seluruh observasi pada kedua tabel melalui kolom elemen kunci.
 
 
 # Ringkasan Data
