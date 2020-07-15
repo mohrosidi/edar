@@ -62,37 +62,50 @@ Terdapat tiga buah *library* yang diperlukan dalam tutorial ini, antara lain:
 Data yang kita miliki memiliki format `.csv`. Untuk megimport data tersebut, kita dapat menggunakan fungsi `read_csv` dari library `readr`.
 
 ```{r, warning=FALSE, message=FALSE}
-pokemon <- read_csv("data/___")
+pokemon <- read_csv("data/pokemon.csv")
 ```
 
 Untuk mengecek 10 observasi awal dataset tersebut, jalankan sintaks berikut:
 
 ```{r}
-___
+pokemon
 ```
 
 # Ringkasan Data
 
 ```{r}
-glimpse(___)
-summary(___)
-skim(___)
-plot_intro(___)
-plot_missing(___)
+glimpse(pokemon)
 ```
+
+```{r}
+summary(pokemon)
+```
+
+```{r}
+skim(pokemon)
+```
+
+```{r}
+plot_intro(pokemon)
+```
+
+```{r}
+plot_missing(pokemon)
+```
+
 
 # Variasi
 
 ## Data Kontinu
 
 ```{r}
-plot_histogram(___)
+plot_histogram(pokemon)
 ```
 
 ## Data Kategorikal
 
 ```{r}
-plot_bar(___)
+plot_bar(pokemon)
 ```
 
 
@@ -101,19 +114,19 @@ plot_bar(___)
 ## Koefisien Korelasi
 
 ```{r}
-plot_correlation(___)
+plot_correlation(pokemon)
 ```
 
 ## Kategorikal vs Kontinu
 
 ```{r}
-plot_boxplot(___, by = "type")
+plot_boxplot(pokemon, by = "type")
 ```
 
 ## Kontinu vs Kontinu
 
 ```{r}
-plot_scatterplot()
+plot_scatterplot(pokemon, by = "total")
 ```
 
 
@@ -122,7 +135,8 @@ plot_scatterplot()
 ```{r}
 pokemon %>%
   ggplot() +
-  geom_boxplot(aes(x = "type", y = ___))
+  geom_boxplot(aes(x = type, y = total)) +
+  coord_flip()
 ```
 
 
@@ -130,7 +144,7 @@ pokemon %>%
 
 ```{r}
 pokemon %>%
-  arrange(desc(___))
+  arrange(desc(total))
 ```
 
 
@@ -138,47 +152,53 @@ pokemon %>%
 
 ```{r}
 pokemon %>%
-  arrange(___)
+  arrange(total)
 ```
 
 # Pokemon Tecepat
 
 ```{r}
 pokemon %>%
-  arrange(desc(___))
+  arrange(desc(speed))
 ```
 
 # Pokemon Terkuat dari Tiap Jenisnya
 
 ```{r}
-pokemon %>%
+max <- pokemon %>%
   group_by(type) %>%
-  summarise(total = max(___))
-  arrange(desc(___))
+  summarise(total = max(total)) 
+
+pokemon %>%
+  right_join(max, by = c("type", "total"))
 ```
 
 # Pokemon dengan Tingkat Serangan Spesial Tertinggi tiap Jenisnya
 
 ```{r}
-pokemon %>%
+max <- pokemon %>%
   group_by(type) %>%
-  summarise(special_attack = max(___))
-  arrange(desc(___))
+  summarise(special_attack = max(special_attack)) 
+
+pokemon %>%
+  right_join(max, by = c("type", "special_attack"))
 ```
 
 # Pokemon  dengan Tingkat Pertahanan Spesial Tertinggi tiap Jenisnya
 
 ```{r}
-pokemon %>%
+max <- pokemon %>%
   group_by(type) %>%
-  summarise(special_defense = max(___))
-  arrange(desc(___))
+  summarise(special_defense = max(special_defense)) 
+
+pokemon %>%
+  right_join(max, by = c("type", "special_defense"))
 ```
 
 # Apakah Pokemon dengan Tingkat Serangan Spesial Tinggi akan Memiliki Tingkat Pertahanan yang Tinggi juga?
 
 ```{r}
-ggplot(pokemon, aes(x = ___, y = ___)) +
+ggplot(pokemon, aes(x = special_attack, y = special_defense)) +
   geom_point() +
   geom_smooth()
 ```
