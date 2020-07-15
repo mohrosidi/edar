@@ -91,7 +91,7 @@ mode_labs = c('minor', 'major')
 
 spotify <- spotify %>%
   mutate(time_signature = factor(time_signature),
-         key = key = factor(key, labels = key_labs),
+         key = factor(key, labels = key_labs),
          mode = factor(mode, labels = mode_labs))
 
 ```
