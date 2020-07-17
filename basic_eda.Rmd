@@ -3,12 +3,16 @@ title: "Analisis Data Eksploratif Dataset Gapminder"
 author: "Moh. Rosidi"
 date: "7/8/2020"
 output:
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
+    latex_engine: xelatex
   html_document:
-    number_sections: true
-    toc: true
+    number_sections: yes
+    toc: yes
     toc_depth: 3
     toc_float:
-      collapsed: false
+      collapsed: no
     df_print: paged
     theme: yeti
     highlight: textmate
@@ -159,7 +163,7 @@ Implementasi dari paket ini telah dijelaskan pada proses import dataset yang tel
 
 Gambar berikut menggambarkan ketiga aturan tersebut.
 
-![ilustrasi tidy dataset (sumber: Wickham, 2017)](https://d33wubrfki0l68.cloudfront.net/6f1ddb544fc5c69a2478e444ab8112fb0eea23f8/91adc/images/tidy-1.png)
+![ilustrasi tidy dataset (sumber: Wickham, 2017)](assets/tidy-1.png)
 
 Ketia aturan tersebut merupakan satu-kesatuan yang saling terkait karena tidak mungkin hanya memenuhi satu atau dua dari ketiga aturan tersebut. Sehingga, relasi antara ketiga aturan tersebut dapat diturunkan lagi kedalam dua buah aturan:
 
@@ -206,7 +210,7 @@ Grafik `ggplot2` terdiri dari sejumlah komponen kunci. Berikut adalah sejumlah k
 - **scales**: skala apa yang digunakan oleh *aesthetic map* (contoh: pria = merah, wanita = biru).
 - **coordinate system**: menggambarkan sistem di mana lokasi geom akan digambarkan.
 
-![ilustrasi layer grammar of graphics (sumber: google images)](https://www.ericchowkokyew.com/wp-content/uploads/2019/07/image-2.png)
+![ilustrasi layer grammar of graphics (sumber: google images)](assets/image-2.png)
 
 Secara umum fungsi pembuatan grafik menggunakan paket `ggplot` dapat dituliskan sebagai berikut:
 
@@ -257,7 +261,7 @@ Keseluruhan fungsi tersebut format fungsi yang seragam, yaitu:
 
 Selain ke-6 fungsi utama tersebut, terdapat fungsi lainnya pada paket `dplyr`. Fungsi lainnya terkait dengan fungsi untuk melakukan *join* atau menggabungkan dua buah dataset. Secara umum, fungsi *join* dapat divisualisasikan berdasarkan gambar berikut:
 
-![Tipe join pada dua buah data(sumber: Wickham, 2017)](https://d33wubrfki0l68.cloudfront.net/aeab386461820b029b7e7606ccff1286f623bae1/ef0d4/diagrams/join-venn.png)
+![Tipe join pada dua buah data(sumber: Wickham, 2017)](assets/join-venn.png)
 
 Fungsi join berdasarkan gambar tersebut dapat dijelaskan sebagai berikut:
 
@@ -373,7 +377,7 @@ Cara paling mudah untuk memvisualisasikan hubungan antara sebuah variabel katego
 * Baris (atau kumis) yang memanjang dari setiap ujung kotak dan menuju ke
 titik non-outlier terjauh dalam distribusi.
 
-![sumber: Hadley, 2017](https://d33wubrfki0l68.cloudfront.net/153b9af53b33918353fda9b691ded68cd7f62f51/5b616/images/eda-boxplot.png)
+![sumber: Hadley, 2017](assets/eda-boxplot.png)
 
 Mari kita coba visualisasikan hubungan antara variabel kategorikal (`continent`) dengan variabel kontinu (`lifeExp`).
 
