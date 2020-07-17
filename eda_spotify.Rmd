@@ -184,7 +184,7 @@ spotify %>%
 ```{r}
 val <- spotify %>%
   group_by(___) %>%
-  summarise(valence = max(___))
+  summarise(valence = min(___))
 
 spotify %>%
   right_join(val, by = c("artist", "valence")) %>%
